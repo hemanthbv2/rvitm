@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "rvitm-chatbot",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/dashboard", "destination": "/dashboard/index.html" },
+    { "source": "/dashboard/login", "destination": "/dashboard/login.html" },
+    { "source": "/dashboard/interactions", "destination": "/dashboard/interactions.html" },
+    { "source": "/dashboard/sessions", "destination": "/dashboard/sessions.html" },
+    { "source": "/dashboard/analytics", "destination": "/dashboard/analytics.html" }
+  ]
+}

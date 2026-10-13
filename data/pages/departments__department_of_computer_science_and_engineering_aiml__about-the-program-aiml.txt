@@ -1,0 +1,95 @@
+URL: https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/about-the-program-aiml/
+TITLE: B.E. CSE (AI & ML) at RVITM Bengaluru
+
+•
+B.E. CSE (AI & ML) at RVITM Bengaluru
+•
+ABOUT THE PROGRAMME
+## B.E. in Computer Science and Engineering
+(Artificial Intelligence & Machine Learning)
+The B.E. in CSE – Artificial Intelligence and Machine Learning programme prepares students to develop intelligent systems capable of learning, reasoning and decision-making. The curriculum combines computer science fundamentals with advanced AI technologies.
+## Students gain strong foundations in:
+Programming and data structures
+Artificial intelligence
+Machine Learning
+Deep Learning
+Data Science
+Natural Language Processing
+Computer Vision
+Cloud Computing
+PROGRAMME OUTCOMES (POs)
+Read More
+## MESSAGE FROM HoD
+## Dr. Surbhi Agrawal
+## HoD, CSE (Artificial Intelligence & Machine Learning)
+Welcome to the Department of Computer Science and Engineering (Artificial Intelligence & Machine Learning). Artificial Intelligence is transforming every sector—from healthcare and education to industry and governance—and our department is committed to preparing students to be leaders in this rapidly evolving technological landscape.
+Our vision is to build a strong foundation in core computer science while equipping students with advanced knowledge in Artificial Intelligence, Machine Learning, Data Science, and emerging technologies. We emphasise experiential learning through hands-on laboratories, industry collaborations, research projects, hackathons, and innovation initiatives, enabling students to solve real-world problems using intelligent systems.
+The department fosters a culture of research, creativity, and continuous learning. Our dedicated faculty members actively engage in research, publications, and industry collaborations to ensure students receive a relevant, future-ready education. We also encourage students to develop interdisciplinary skills, ethical responsibility, and an innovative mindset aligned with the vision of Atmanirbhar Bharat.
+As a newly established department, we are committed to creating an ecosystem that nurtures academic excellence, innovation, and professional growth. We look forward to shaping competent engineers, researchers, and innovators who will contribute meaningfully to society and the global AI community.
+PROGRAMME OUTCOMES (POs)
+PO1
+## Engineering Knowledge
+Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems.
+PO2
+## Problem Analysis
+Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)
+PO3
+## Design/Development of Solutions
+Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)
+PO4
+## Conduct Investigations of Complex Problems
+Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8).
+PO5
+## Engineering Tool Usage
+Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)
+PO6
+## The Engineer and The World
+Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7).
+PO7
+## Ethics
+Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)
+PO8
+## Individual and Collaborative Team work
+Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams.
+PO9
+## Communication
+Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences
+PO10
+## Project Management and Finance
+Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments.
+PO11
+## Life-Long Learning
+Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)
+## Programme Educational Objectives(PEOs)
+## PEO1
+Impart strong foundation in solving hardware & software engineering problems and adapt to the changes in technology through continuous-learning.
+## PEO2
+Inculcate innovation in new technologies and systems in their key domains thus encouraging them to pursue higher education and research.
+## PEO3
+Disseminate their knowledge in advanced areas of Computer Science to become industry ready graduates or entrepreneurs.
+## PEO4
+Exhibit professional ethics & values, effective communication and team work with a multidisciplinary approach to meet the needs of the society.
+## Programme Specific Outcomes(PSO)
+## PSO1
+Analyse the core concepts by Computer Science Engineering for building intensive systems to improve efficiency with different algorithms and tools.
+## PSO2
+Able to use professional, managerial and interdisciplinary skills in identifying the research gaps to develop cost effective and innovative solutions leading to automation.
+## Aligned with VTU Curriculum
+Scheme & Syllabus
+Aligned with VTU Curriculum
+Sl. No
+First Year
+Second Year
+Third Year
+Fourth Year
+1.
+2023 – 2024- Scheme & Syllabus
+Download Brochure
+•
+
+--- DOCUMENTS ---
+Read More | https://rvitm.edu.in/wp-content/uploads/2026/05/PROGRAMME-OUTCOMES-POs.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/ecesch_3_4.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/5_ecesch.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/6ecesch.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/7_8_ecesch.pdf

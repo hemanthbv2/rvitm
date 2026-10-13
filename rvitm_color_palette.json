@@ -1,0 +1,317 @@
+{
+  "cssVars": [
+    {
+      "varName": "--wp--preset--color--black",
+      "value": "#000000"
+    },
+    {
+      "varName": "--wp--preset--color--cyan-bluish-gray",
+      "value": "#abb8c3"
+    },
+    {
+      "varName": "--wp--preset--color--white",
+      "value": "#ffffff"
+    },
+    {
+      "varName": "--wp--preset--color--pale-pink",
+      "value": "#f78da7"
+    },
+    {
+      "varName": "--wp--preset--color--vivid-red",
+      "value": "#cf2e2e"
+    },
+    {
+      "varName": "--wp--preset--color--luminous-vivid-orange",
+      "value": "#ff6900"
+    },
+    {
+      "varName": "--wp--preset--color--luminous-vivid-amber",
+      "value": "#fcb900"
+    },
+    {
+      "varName": "--wp--preset--color--light-green-cyan",
+      "value": "#7bdcb5"
+    },
+    {
+      "varName": "--wp--preset--color--vivid-green-cyan",
+      "value": "#00d084"
+    },
+    {
+      "varName": "--wp--preset--color--pale-cyan-blue",
+      "value": "#8ed1fc"
+    },
+    {
+      "varName": "--wp--preset--color--vivid-cyan-blue",
+      "value": "#0693e3"
+    },
+    {
+      "varName": "--wp--preset--color--vivid-purple",
+      "value": "#9b51e0"
+    },
+    {
+      "varName": "--border-color",
+      "value": "initial"
+    },
+    {
+      "varName": "--e-global-color-primary",
+      "value": "#6EC1E4"
+    },
+    {
+      "varName": "--e-global-color-secondary",
+      "value": "#54595F"
+    },
+    {
+      "varName": "--e-global-color-text",
+      "value": "#7A7A7A"
+    },
+    {
+      "varName": "--e-global-color-accent",
+      "value": "#61CE70"
+    },
+    {
+      "varName": "--e-global-typography-primary-font-family",
+      "value": "\"Roboto\""
+    },
+    {
+      "varName": "--e-global-typography-primary-font-weight",
+      "value": "600"
+    },
+    {
+      "varName": "--e-global-typography-secondary-font-family",
+      "value": "\"Roboto Slab\""
+    },
+    {
+      "varName": "--e-global-typography-secondary-font-weight",
+      "value": "400"
+    },
+    {
+      "varName": "--e-global-typography-accent-font-family",
+      "value": "\"Roboto\""
+    },
+    {
+      "varName": "--e-global-typography-accent-font-weight",
+      "value": "500"
+    }
+  ],
+  "elementorGlobals": [
+    {
+      "varName": "--e-global-color-primary",
+      "value": "#6EC1E4"
+    },
+    {
+      "varName": "--e-global-color-secondary",
+      "value": "#54595F"
+    },
+    {
+      "varName": "--e-global-color-text",
+      "value": "#7A7A7A"
+    },
+    {
+      "varName": "--e-global-color-accent",
+      "value": "#61CE70"
+    }
+  ],
+  "topHexColors": [
+    [
+      "#9aff77",
+      23
+    ],
+    [
+      "#6edf5d",
+      15
+    ],
+    [
+      "#1f443d",
+      12
+    ],
+    [
+      "#5eead4",
+      10
+    ],
+    [
+      "#0c2635",
+      9
+    ],
+    [
+      "#61ce70",
+      9
+    ],
+    [
+      "#69727d",
+      7
+    ],
+    [
+      "#d9534f",
+      6
+    ],
+    [
+      "#111111",
+      5
+    ],
+    [
+      "#9aff78",
+      4
+    ],
+    [
+      "#2b4357",
+      4
+    ],
+    [
+      "#f5f5f5",
+      4
+    ],
+    [
+      "#55595c",
+      4
+    ],
+    [
+      "#75c32c",
+      4
+    ],
+    [
+      "#79e65d",
+      3
+    ],
+    [
+      "#5cb85c",
+      3
+    ],
+    [
+      "#5d4fff",
+      2
+    ],
+    [
+      "#22c55e",
+      2
+    ],
+    [
+      "#ff4d8d",
+      2
+    ],
+    [
+      "#474747",
+      2
+    ],
+    [
+      "#5bc0de",
+      2
+    ],
+    [
+      "#f0ad4e",
+      2
+    ],
+    [
+      "#dddddd",
+      2
+    ],
+    [
+      "#999999",
+      2
+    ],
+    [
+      "#abb8c3",
+      1
+    ],
+    [
+      "#f78da7",
+      1
+    ],
+    [
+      "#cf2e2e",
+      1
+    ],
+    [
+      "#ff6900",
+      1
+    ],
+    [
+      "#fcb900",
+      1
+    ],
+    [
+      "#7bdcb5",
+      1
+    ]
+  ],
+  "topRgbColors": [
+    [
+      "rgba(0,0,0,0)",
+      4
+    ],
+    [
+      "rgba(255,255,255,0.15)",
+      3
+    ],
+    [
+      "rgba(255,255,255,0.12)",
+      3
+    ],
+    [
+      "rgba(0,0,0,.3)",
+      3
+    ],
+    [
+      "rgb(255,105,0)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.2)",
+      2
+    ],
+    [
+      "rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.1)",
+      2
+    ],
+    [
+      "rgb(6,147,227)",
+      1
+    ],
+    [
+      "rgb(155,81,224)",
+      1
+    ],
+    [
+      "rgb(122,220,180)",
+      1
+    ],
+    [
+      "rgb(0,208,130)",
+      1
+    ],
+    [
+      "rgb(252,185,0)",
+      1
+    ],
+    [
+      "rgb(207,46,46)",
+      1
+    ],
+    [
+      "rgb(238,238,238)",
+      1
+    ]
+  ],
+  "buttonColorRules": [
+    "background-color: #32373c;",
+    "color: #fff;",
+    "background-color: #5d4fff !important;",
+    "background-color:var( --e-global-color-accent );",
+    "color:#fff;",
+    "color:#79e65d;",
+    "color:#9AFF77;",
+    "border-color: #000000;",
+    "background: transparent;",
+    "color: #818a91;",
+    "border-color: inherit;",
+    "background-color: #d9534f;",
+    "color:#4d4848;",
+    "background-color: transparent;",
+    "background-color:#000000;",
+    "background-color: transparent !important;",
+    "background-color:#69727d;"
+  ]
+}

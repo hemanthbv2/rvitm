@@ -1,0 +1,716 @@
+[
+  {
+    "id": 15121,
+    "name": "Deepika D",
+    "slug": "deepika-d",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/deepika-d/"
+  },
+  {
+    "id": 15082,
+    "name": "Amit Kumar Mestri",
+    "slug": "amit-kumar-mestri",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/amit-kumar-mestri/"
+  },
+  {
+    "id": 15064,
+    "name": "Aishwarya P M",
+    "slug": "aishwarya-p-m",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/aishwarya-p-m/"
+  },
+  {
+    "id": 14636,
+    "name": "Ms. Agashini V Kumar",
+    "slug": "ms-agashini-v-kumar",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/ms-agashini-v-kumar/"
+  },
+  {
+    "id": 13407,
+    "name": "Dr. Prateek Dolas",
+    "slug": "dr-prateek-dolas",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr-prateek-dolas/"
+  },
+  {
+    "id": 8546,
+    "name": "B E Prasad",
+    "slug": "b_e_prasad",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/b_e_prasad/"
+  },
+  {
+    "id": 8533,
+    "name": "Samrat D",
+    "slug": "samrat_d",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/samrat_d/"
+  },
+  {
+    "id": 8524,
+    "name": "Rudresh Kumar KJ",
+    "slug": "rudresh_kumar_kj",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/rudresh_kumar_kj/"
+  },
+  {
+    "id": 8512,
+    "name": "Dr. Yashwanth V Naik",
+    "slug": "dr_yashwanth_v_naik",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_yashwanth_v_naik/"
+  },
+  {
+    "id": 8506,
+    "name": "Dr. S. Satyanarayana Reddy",
+    "slug": "dr_s_satyanarayana_reddy",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_s_satyanarayana_reddy/"
+  },
+  {
+    "id": 8491,
+    "name": "Dr. Srinatha N",
+    "slug": "dr_srinatha_n",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_srinatha_n/"
+  },
+  {
+    "id": 8478,
+    "name": "Dr. PAVITHRA K M",
+    "slug": "dr_pavithra_k_m",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_pavithra_k_m/"
+  },
+  {
+    "id": 8472,
+    "name": "Dr. Sushma M Puranik",
+    "slug": "dr_sushma_m_puranik",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_sushma_m_puranik/"
+  },
+  {
+    "id": 8466,
+    "name": "Dr. Nagabhushana P",
+    "slug": "dr_nagabhushana_p",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_nagabhushana_p/"
+  },
+  {
+    "id": 8460,
+    "name": "Dr. Sivasankar S",
+    "slug": "dr_sivasankar_s",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_sivasankar_s/"
+  },
+  {
+    "id": 8428,
+    "name": "Dr. Gangadharaiah Y H",
+    "slug": "dr_gangadharaiah_y_h",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_gangadharaiah_y_h/"
+  },
+  {
+    "id": 8381,
+    "name": "Dr Hema M S",
+    "slug": "dr_hema_m_s",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_hema_m_s/"
+  },
+  {
+    "id": 8351,
+    "name": "Mrs. Priyanka K R",
+    "slug": "mrs_priyanka_k_r",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_priyanka_k_r/"
+  },
+  {
+    "id": 8339,
+    "name": "Ms. Veda N",
+    "slug": "ms_veda_n",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/ms_veda_n/"
+  },
+  {
+    "id": 8327,
+    "name": "Mr. Murugan S",
+    "slug": "mr_murugan_s",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mr_murugan_s/"
+  },
+  {
+    "id": 8315,
+    "name": "Dr. Annie Sujith",
+    "slug": "dr_annie_sujith",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_annie_sujith/"
+  },
+  {
+    "id": 8303,
+    "name": "Dr. Prema",
+    "slug": "dr_prema",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_prema/"
+  },
+  {
+    "id": 8297,
+    "name": "Mrs Indu K S",
+    "slug": "mrs_indu_k_s",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_indu_k_s/"
+  },
+  {
+    "id": 8285,
+    "name": "Mrs. Madhuri H D",
+    "slug": "mrs_madhuri_h_d",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_madhuri_h_d/"
+  },
+  {
+    "id": 8267,
+    "name": "Mr. Manjunath K M",
+    "slug": "mr_manjunath_k_m",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mr_manjunath_k_m/"
+  },
+  {
+    "id": 8240,
+    "name": "Mrs. Nayana H J",
+    "slug": "mrs_nayana_h_j",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_nayana_h_j/"
+  },
+  {
+    "id": 8238,
+    "name": "Mrs. Manjusha Kulkarni",
+    "slug": "mrs_manjusha_kulkarni",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_manjusha_kulkarni/"
+  },
+  {
+    "id": 8213,
+    "name": "Mrs. Bhavya N Javagal",
+    "slug": "mrs_bhavya_n_javagal",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_bhavya_n_javagal/"
+  },
+  {
+    "id": 8211,
+    "name": "Mrs. Uppin Rashmi",
+    "slug": "mrs_uppin_rashmi",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_uppin_rashmi/"
+  },
+  {
+    "id": 8194,
+    "name": "Mrs. Padamasree N",
+    "slug": "mrs_padamasree_n",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_padamasree_n/"
+  },
+  {
+    "id": 8192,
+    "name": "Dr. Koushik S",
+    "slug": "dr_koushik_s",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_koushik_s/"
+  },
+  {
+    "id": 8183,
+    "name": "Dr. Prabhavathi K",
+    "slug": "dr_prabhavathi_k",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_prabhavathi_k/"
+  },
+  {
+    "id": 8174,
+    "name": "Dr. Shashidhar V",
+    "slug": "dr_shashidhar_v",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_shashidhar_v/"
+  },
+  {
+    "id": 8165,
+    "name": "Dr. Syeda Ayesha Unisa",
+    "slug": "dr_syeda_ayesha_unisa",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_syeda_ayesha_unisa/"
+  },
+  {
+    "id": 8149,
+    "name": "Dr. Nandita Bangera",
+    "slug": "dr_nandita_bangera",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_nandita_bangera/"
+  },
+  {
+    "id": 8140,
+    "name": "Dr. V R Srividhya",
+    "slug": "dr_v_r_srividhya",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_v_r_srividhya/"
+  },
+  {
+    "id": 8124,
+    "name": "Dr. Anil Kumar B",
+    "slug": "dr_anil_kumar_b",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_anil_kumar_b/"
+  },
+  {
+    "id": 8111,
+    "name": "Dr. Satish Basavaraj Basapur",
+    "slug": "dr_satish_basavaraj_basapur",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_satish_basavaraj_basapur/"
+  },
+  {
+    "id": 8096,
+    "name": "Dr. Mallanagouda Patil",
+    "slug": "dr_mallanagouda_patil",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_mallanagouda_patil/"
+  },
+  {
+    "id": 8075,
+    "name": "Dr. Savitha G",
+    "slug": "dr_savitha_g",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_savitha_g/"
+  },
+  {
+    "id": 8060,
+    "name": "Dr. Deepak N A",
+    "slug": "dr_deepak_n_a",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_deepak_n_a/"
+  },
+  {
+    "id": 8054,
+    "name": "Mr. Sudheendra B S",
+    "slug": "mr_sudheendra_b_s",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mr_sudheendra_b_s/"
+  },
+  {
+    "id": 8035,
+    "name": "Dr Shrishail",
+    "slug": "dr_shrishail",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_shrishail/"
+  },
+  {
+    "id": 8020,
+    "name": "Mrs. Nivedita S Desai",
+    "slug": "mrs_nivedita_s_desai",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/mrs_nivedita_s_desai/"
+  },
+  {
+    "id": 8005,
+    "name": "Dr. Divyashree M",
+    "slug": "dr_divyashree_m",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_divyashree_m/"
+  },
+  {
+    "id": 7993,
+    "name": "Dr. Venu Gopal B T",
+    "slug": "dr_venu_gopal_b_t",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_venu_gopal_b_t/"
+  },
+  {
+    "id": 7974,
+    "name": "Dr. Vikash Kumar",
+    "slug": "dr_vikash_kumar",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_vikash_kumar/"
+  },
+  {
+    "id": 7962,
+    "name": "Dr. Shalini Shravan",
+    "slug": "dr_shalini_shravan",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_shalini_shravan/"
+  },
+  {
+    "id": 7953,
+    "name": "Dr. Nagesh M",
+    "slug": "dr_nagesh_m",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_nagesh_m/"
+  },
+  {
+    "id": 7941,
+    "name": "Dr. Kavitha N",
+    "slug": "dr_kavitha_n",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_kavitha_n/"
+  },
+  {
+    "id": 7906,
+    "name": "Dr. Chethan K S",
+    "slug": "dr_chethan_k_s",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_chethan_k_s/"
+  },
+  {
+    "id": 7888,
+    "name": "Dr. Madhumathy P",
+    "slug": "dr_madhumathy_p",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_madhumathy_p/"
+  },
+  {
+    "id": 7872,
+    "name": "Dr. Nataraj V",
+    "slug": "dr_nataraj_v",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_nataraj_v/"
+  },
+  {
+    "id": 7854,
+    "name": "Dr. Prashant P Patavardhan",
+    "slug": "dr_prashant_p_patavardhan",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_prashant_p_patavardhan/"
+  },
+  {
+    "id": 7839,
+    "name": "Dr. Manjunatha Prasad R",
+    "slug": "dr_manjunatha_prasad_r",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_manjunatha_prasad_r/"
+  },
+  {
+    "id": 7813,
+    "name": "Mrs. Sunita",
+    "slug": "mrs_sunita",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_sunita/"
+  },
+  {
+    "id": 7788,
+    "name": "Mr. Abhaykumar S Inchal",
+    "slug": "mr_abhaykumar_s_inchal",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mr_abhaykumar_s_inchal/"
+  },
+  {
+    "id": 7773,
+    "name": "Mrs. Pallavi K N",
+    "slug": "mrs_pallavi_k_n",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_pallavi_k_n/"
+  },
+  {
+    "id": 7764,
+    "name": "Mrs. Namrata Brahamaprakash",
+    "slug": "mrs_namrata_brahamaprakash",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_namrata_brahamaprakash/"
+  },
+  {
+    "id": 7752,
+    "name": "Mrs. Nisha Wilvicta J",
+    "slug": "mrs_nisha_wilvicta_j",
+    "dept": "aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/mrs_nisha_wilvicta_j/"
+  },
+  {
+    "id": 7739,
+    "name": "Mr. Krupesha D",
+    "slug": "mr_krupesha_d",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mr_krupesha_d/"
+  },
+  {
+    "id": 7730,
+    "name": "Mr. Girish Kumar B C",
+    "slug": "mr_girish_kumar_b_c",
+    "dept": "aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/mr_girish_kumar_b_c/"
+  },
+  {
+    "id": 7694,
+    "name": "Mrs. Samatha R Swamy",
+    "slug": "mrs_samatha_r_swamy",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_samatha_r_swamy/"
+  },
+  {
+    "id": 7682,
+    "name": "Dr. Shruthi P",
+    "slug": "dr_shruthi_p",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_shruthi_p/"
+  },
+  {
+    "id": 7658,
+    "name": "Dr. Niharika P Kumar",
+    "slug": "dr_niharika_p_kumar",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_niharika_p_kumar/"
+  },
+  {
+    "id": 7642,
+    "name": "Dr. M. Dhanalakshmi",
+    "slug": "dr_m_dhanalakshmi",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_m_dhanalakshmi/"
+  },
+  {
+    "id": 7606,
+    "name": "Dr. Latha C A",
+    "slug": "dr_latha_c_a",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_latha_c_a/"
+  },
+  {
+    "id": 7583,
+    "name": "Dr. Vinoth Kumar M",
+    "slug": "dr_vinoth_kumar_m",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_vinoth_kumar_m/"
+  },
+  {
+    "id": 7266,
+    "name": "Mrs. K. Sravanthi",
+    "slug": "mrs-k-sravanthi",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mrs-k-sravanthi/"
+  },
+  {
+    "id": 7258,
+    "name": "Mr. Vasanth C Bhagawat",
+    "slug": "mr-vasanth-c-bhagawat",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mr-vasanth-c-bhagawat/"
+  },
+  {
+    "id": 7213,
+    "name": "Mr. Prashanth B",
+    "slug": "mr-prashanth-b",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mr-prashanth-b/"
+  },
+  {
+    "id": 7192,
+    "name": "Ms. Sangeetha K",
+    "slug": "ms-sangeetha-k",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/ms-sangeetha-k/"
+  },
+  {
+    "id": 7178,
+    "name": "Dr. B. Sathyabama",
+    "slug": "dr-b-sathyabama",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-b-sathyabama/"
+  },
+  {
+    "id": 7167,
+    "name": "Ms. Shreya Khodanpur",
+    "slug": "ms-shreya-khodanpur",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/ms-shreya-khodanpur/"
+  },
+  {
+    "id": 7156,
+    "name": "Dr. R. Saravanan",
+    "slug": "dr-r-saravanan",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-r-saravanan/"
+  },
+  {
+    "id": 7151,
+    "name": "Ms. Tamal Sarkar",
+    "slug": "ms-tamal-sarkar",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/ms-tamal-sarkar/"
+  },
+  {
+    "id": 7146,
+    "name": "Mrs. Shruthi M G",
+    "slug": "mrs-shruthi-m-g",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mrs-shruthi-m-g/"
+  },
+  {
+    "id": 7141,
+    "name": "Mr. Jayaramu M",
+    "slug": "mr-jayaramu-m",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mr-jayaramu-m/"
+  },
+  {
+    "id": 7133,
+    "name": "Dr. N. Kumaresh",
+    "slug": "dr-n-kumaresh",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-n-kumaresh/"
+  },
+  {
+    "id": 7125,
+    "name": "Dr. Chethan Venkatesh",
+    "slug": "dr-chethan-venkatesh",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-chethan-venkatesh/"
+  },
+  {
+    "id": 7120,
+    "name": "Dr. M. Mrunalini",
+    "slug": "dr-m-mrunalini",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-m-mrunalini/"
+  },
+  {
+    "id": 7071,
+    "name": "Ms. Arpitha J",
+    "slug": "ms-arpitha-j",
+    "dept": "aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/ms-arpitha-j/"
+  },
+  {
+    "id": 7062,
+    "name": "Mr Avinash Rao",
+    "slug": "mr-avinash-rao",
+    "dept": "aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/mr-avinash-rao/"
+  },
+  {
+    "id": 7037,
+    "name": "Dr Surabhi Agrawal",
+    "slug": "dr-surabhi-agrawal",
+    "dept": "aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/dr-surabhi-agrawal/"
+  },
+  {
+    "id": 6924,
+    "name": "Mr.Thejas C M",
+    "slug": "mr-thejas-c-m",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/mr-thejas-c-m/"
+  },
+  {
+    "id": 6906,
+    "name": "Dr. Manish Kumar",
+    "slug": "dr-manish-kumar",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-manish-kumar/"
+  },
+  {
+    "id": 6896,
+    "name": "Dr. Harish H",
+    "slug": "dr-harish-h",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-harish-h/"
+  },
+  {
+    "id": 6864,
+    "name": "Dr. Shanthala Kollur",
+    "slug": "dr-shanthala-kollur",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-shanthala-kollur/"
+  },
+  {
+    "id": 6851,
+    "name": "Dr. Gajanan M Naik.",
+    "slug": "dr-gajanan-m-naik",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-gajanan-m-naik/"
+  },
+  {
+    "id": 6830,
+    "name": "Dr. Ramesh S",
+    "slug": "dr-ramesh-s",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-ramesh-s/"
+  },
+  {
+    "id": 6813,
+    "name": "Dr. Lokesh P",
+    "slug": "dr-lokesh-p",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-lokesh-p/"
+  },
+  {
+    "id": 6802,
+    "name": "Dr. Durga Prasad C",
+    "slug": "dr-durga-prasad-c",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-durga-prasad-c/"
+  },
+  {
+    "id": 6791,
+    "name": "Dr. Raghavendra Reddy N V",
+    "slug": "dr-raghavendra-reddy-n-v",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-raghavendra-reddy-n-v/"
+  },
+  {
+    "id": 6187,
+    "name": "Faculties of Applied Science and Humanities",
+    "slug": "faculties_of_applied_science_and_humanities",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/"
+  },
+  {
+    "id": 6122,
+    "name": "Faculties of MCA",
+    "slug": "faculties-of-mca",
+    "dept": "mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/"
+  },
+  {
+    "id": 5713,
+    "name": "Faculties of CSE(AI/ML)",
+    "slug": "faculties_of_cse_ai_ml",
+    "dept": "aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/"
+  },
+  {
+    "id": 5701,
+    "name": "Faculties of ISE",
+    "slug": "faculties_of_ise",
+    "dept": "ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/"
+  },
+  {
+    "id": 5658,
+    "name": "Faculties of ECE",
+    "slug": "faculties_of_ece",
+    "dept": "ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/"
+  },
+  {
+    "id": 5324,
+    "name": "Dr. C. SOLAIMUTHU",
+    "slug": "dr-c-solaimuthu",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-c-solaimuthu/"
+  },
+  {
+    "id": 5312,
+    "name": "Faculties of Mechanical Engineering",
+    "slug": "faculty-of-mechanical-engineering",
+    "dept": "me",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/"
+  },
+  {
+    "id": 4855,
+    "name": "Faculty Achievements",
+    "slug": "faculty-achievements",
+    "dept": "general",
+    "link": "https://rvitm.edu.in/achievements/faculty-achievements/"
+  },
+  {
+    "id": 3789,
+    "name": "Faculties of CSE",
+    "slug": "faculties_of_cse",
+    "dept": "cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/"
+  }
+]

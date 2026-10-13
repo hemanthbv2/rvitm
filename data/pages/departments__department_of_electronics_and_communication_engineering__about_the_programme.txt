@@ -1,0 +1,56 @@
+URL: https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/about_the_programme/
+TITLE: ECE Program at RVITM | Electronics & Communication Engineering
+
+•
+ECE Program at RVITM | Electronics & Communication Engineering
+•
+ABOUT THE PROGRAMME
+## B.E. in Electronics and Communication Engineering (ECE)
+Electronics and Communication Engineering (ECE) is a vital and dynamic field focused on the design and development of electronic and communication systems. The curriculum covers subjects like circuit analysis, digital electronics, communication systems, signal processing, embedded systems, microcontrollers and programming. ECE is rapidly evolving and is crucial for advancing modern technology.
+## Core Areas Covered:
+Analogue & Digital Electronics
+Signals & Systems
+Microprocessors & Microcontrollers
+VLSI Design
+Communication Systems
+Control Systems
+Embedded Systems
+Wireless Communication
+PROGRAMME OUTCOMES (POs)
+Read More
+## Programme Educational Objectives(PEOs)
+## PEO1
+Apply fundamental knowledge of Electronics, Integrated Circuit Concepts,
+Communication Systems, Signal Processing, and Embedded Systems to solve real-
+world engineering problems and pursue advanced studies
+## PEO2
+Demonstrate the use of modern tools and multidisciplinary techniques for
+designing, comprehending and developing innovative solutions to real world
+problems.
+## PEO3
+Exhibit entrepreneurial skills, uphold ethical practices, and engage in
+lifelong learning for successful professional and societal growth.
+## Programme Specific Outcomes(PSO)
+## PSO1
+Apply electronic design and integrated circuit (IC) concepts for the analysis and synthesis of analog and digital circuit configurations.
+## PSO2
+Demonstrate technical competency in signal processing and communication systems, with exposure to Embedded Systems.
+## PSO3
+Possess application level knowledge in interdisciplinary domains.
+## Aligned with VTU Curriculum
+Scheme & SYLLABUS
+Sl. No
+First Year
+Second Year
+Third Year
+Fourth Year
+1.
+2023 – 2024- Scheme & Syllabus
+•
+
+--- DOCUMENTS ---
+Read More | https://rvitm.edu.in/wp-content/uploads/2026/05/PROGRAMME-OUTCOMES-POs.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/ecesch_3_4.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/5_ecesch.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/6ecesch.pdf
+2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/7_8_ecesch.pdf

@@ -1,0 +1,230 @@
+[
+  {
+    "id": 13524,
+    "title": "Computer Science and Engineering Cluster",
+    "slug": "computer-science-and-engineering-cluster",
+    "link": "https://rvitm.edu.in/departments/computer-science-and-engineering-cluster/"
+  },
+  {
+    "id": 11173,
+    "title": "Events ASH",
+    "slug": "events-ash",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/events-ash/"
+  },
+  {
+    "id": 11165,
+    "title": "Facilities ASH",
+    "slug": "facilities-ash",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/facilities-ash/"
+  },
+  {
+    "id": 11139,
+    "title": "Achievements",
+    "slug": "achievements-ash",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/achievements-ash/"
+  },
+  {
+    "id": 7080,
+    "title": "Facilities of Computer Science and Engineering",
+    "slug": "facilities_of_computer_science_and_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/facilities_of_computer_science_and_engineering/"
+  },
+  {
+    "id": 6789,
+    "title": "Events - CSE",
+    "slug": "events_cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/events_cse/"
+  },
+  {
+    "id": 6766,
+    "title": "Achievements - CSE",
+    "slug": "achievements_cse",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/achievements_cse/"
+  },
+  {
+    "id": 6578,
+    "title": "Achievements - ISE",
+    "slug": "achievements_ise",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/achievements_ise/"
+  },
+  {
+    "id": 6510,
+    "title": "Events - ECE",
+    "slug": "events_ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/events_ece/"
+  },
+  {
+    "id": 6463,
+    "title": "Achievements - ECE",
+    "slug": "achievements_ece",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/"
+  },
+  {
+    "id": 6139,
+    "title": "Facilities of MCA",
+    "slug": "facilities-of-mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/facilities-of-mca/"
+  },
+  {
+    "id": 6080,
+    "title": "Events - MCA",
+    "slug": "events-mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/events-mca/"
+  },
+  {
+    "id": 6072,
+    "title": "Achievements MCA",
+    "slug": "achievements-mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/achievements-mca/"
+  },
+  {
+    "id": 5873,
+    "title": "Department of Master of Computer Applications",
+    "slug": "department-of-master-of-computer-applications",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/"
+  },
+  {
+    "id": 5858,
+    "title": "Events of Department of Information Science and Engineering",
+    "slug": "events_of_department_of_information_science_and_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/events_of_department_of_information_science_and_engineering/"
+  },
+  {
+    "id": 5820,
+    "title": "Facilities - CSE AI/ML",
+    "slug": "facilities_cse_ai_ml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/facilities_cse_ai_ml/"
+  },
+  {
+    "id": 5812,
+    "title": "Achievements - CSE AI/ML",
+    "slug": "achievements_cse_ai_ml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/achievements_cse_ai_ml/"
+  },
+  {
+    "id": 5797,
+    "title": "Events of Department of Computer Science and Engineering (AI&amp;ML)",
+    "slug": "events_of_department_of_computer_science_and-engineering_aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/events_of_department_of_computer_science_and-engineering_aiml/"
+  },
+  {
+    "id": 5758,
+    "title": "Department of Computer Science and Engineering (AI&amp;ML)",
+    "slug": "department_of_computer_science_and_engineering_aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/"
+  },
+  {
+    "id": 5590,
+    "title": "Facilities of Information Science and Engineering",
+    "slug": "facilities_of_information_science_and_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/facilities_of_information_science_and_engineering/"
+  },
+  {
+    "id": 5528,
+    "title": "Achievements_Mechanical Engineering",
+    "slug": "achievements_mechanical-engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/achievements_mechanical-engineering/"
+  },
+  {
+    "id": 5526,
+    "title": "Facilities of Electronics and Communication Engineering",
+    "slug": "facilities_of_electronics_and_communication_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/facilities_of_electronics_and_communication_engineering/"
+  },
+  {
+    "id": 5444,
+    "title": "Events of Department of Mechanical Engineering",
+    "slug": "events-of-department-of-mechanical-engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/events-of-department-of-mechanical-engineering/"
+  },
+  {
+    "id": 5426,
+    "title": "SPORTS ACHIEVEMENTS",
+    "slug": "sports_achievements",
+    "link": "https://rvitm.edu.in/departments/department_of_physical_education/sports_achievements/"
+  },
+  {
+    "id": 5355,
+    "title": "Facilities of Mechanical Engineering",
+    "slug": "facilities-of-mechanical-engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/facilities-of-mechanical-engineering/"
+  },
+  {
+    "id": 5338,
+    "title": "Department of Physical Education",
+    "slug": "department_of_physical_education",
+    "link": "https://rvitm.edu.in/departments/department_of_physical_education/"
+  },
+  {
+    "id": 5230,
+    "title": "Department of Mechanical Engineering",
+    "slug": "department_of_mechanical_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/"
+  },
+  {
+    "id": 5218,
+    "title": "Department of Information Science and Engineering",
+    "slug": "department_of_information_science_and_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/"
+  },
+  {
+    "id": 5205,
+    "title": "Department of Applied Sciences and Humanities",
+    "slug": "department_of_applied_sciences_and_humanities",
+    "link": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/"
+  },
+  {
+    "id": 4773,
+    "title": "Research",
+    "slug": "research",
+    "link": "https://rvitm.edu.in/departments/research/"
+  },
+  {
+    "id": 4295,
+    "title": "Library",
+    "slug": "library-2",
+    "link": "https://rvitm.edu.in/departments/library-2/"
+  },
+  {
+    "id": 4093,
+    "title": "About the Program - MCA",
+    "slug": "about-the-program-mca",
+    "link": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/about-the-program-mca/"
+  },
+  {
+    "id": 4011,
+    "title": "About the Program - AIML",
+    "slug": "about-the-program-aiml",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/about-the-program-aiml/"
+  },
+  {
+    "id": 3799,
+    "title": "About the Program",
+    "slug": "about_the_program",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/about_the_program/"
+  },
+  {
+    "id": 1657,
+    "title": "About the Programme",
+    "slug": "about_the_programme",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/about_the_programme/"
+  },
+  {
+    "id": 1078,
+    "title": "Department of Electronics and Communication Engineering",
+    "slug": "department_of_electronics_and_communication_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/"
+  },
+  {
+    "id": 910,
+    "title": "Department of Computer Science and Engineering",
+    "slug": "department_of_computer_science_and_engineering",
+    "link": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/"
+  },
+  {
+    "id": 809,
+    "title": "Departments",
+    "slug": "departments",
+    "link": "https://rvitm.edu.in/departments/"
+  }
+]

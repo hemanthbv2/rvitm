@@ -1,0 +1,226 @@
+[
+  {
+    "url": "https://rvitm.edu.in/",
+    "slug": "home",
+    "title": "RVITM Bangalore | Top Engineering College & Admissions",
+    "status": 200,
+    "chars": 5807,
+    "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/know_rvitm/",
+    "slug": "know_rvitm",
+    "title": "Know RVITM | Engineering Excellence in Bangalore",
+    "status": 200,
+    "chars": 2657,
+    "docs": 2
+  },
+  {
+    "url": "https://rvitm.edu.in/key_executives/",
+    "slug": "key_executives",
+    "title": "RVITM Leadership Team | Key Executives",
+    "status": 200,
+    "chars": 794,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/leadership_and_governance/",
+    "slug": "leadership_and_governance",
+    "title": "RVITM Leadership & Governance | Academic Excellence",
+    "status": 200,
+    "chars": 1820,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/accreditations_affiliations/",
+    "slug": "accreditations_affiliations",
+    "title": "RVITM Accreditations & Affiliations | Approvals",
+    "status": 200,
+    "chars": 1547,
+    "docs": 23
+  },
+  {
+    "url": "https://rvitm.edu.in/achievements/",
+    "slug": "achievements",
+    "title": "RVITM Achievements | Awards, Rankings & Success",
+    "status": 200,
+    "chars": 4691,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/",
+    "slug": "departments",
+    "title": "Bangalore | RVITM Engineering Departments",
+    "status": 200,
+    "chars": 1938,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/library-2/",
+    "slug": "departments__library-2",
+    "title": "RVITM Digital Library | Learning Resources",
+    "status": 200,
+    "chars": 7180,
+    "docs": 1
+  },
+  {
+    "url": "https://rvitm.edu.in/circular_and_notifications/",
+    "slug": "circular_and_notifications",
+    "title": "RVITM Circulars & Notifications | Latest Updates",
+    "status": 200,
+    "chars": 680,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/admissions/",
+    "slug": "admissions",
+    "title": "Engineering Admissions at RVITM Bangalore",
+    "status": 200,
+    "chars": 5973,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/about_the_program/",
+    "slug": "departments__department_of_computer_science_and_engineering__about_the_program",
+    "title": "B.E. Computer Science Engineering | RVITM Bengaluru",
+    "status": 200,
+    "chars": 2639,
+    "docs": 2
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/about-the-program-aiml/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__about-the-program-aiml",
+    "title": "B.E. CSE (AI & ML) at RVITM Bengaluru",
+    "status": 200,
+    "chars": 6075,
+    "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/about_the_programme/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__about_the_programme",
+    "title": "ECE Program at RVITM | Electronics & Communication Engineering",
+    "status": 200,
+    "chars": 1861,
+    "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/about-the-program-mca/",
+    "slug": "departments__department-of-master-of-computer-applications__about-the-program-mca",
+    "title": "MCA Program at RVITM | Master of Computer Applications",
+    "status": 200,
+    "chars": 1603,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/placement/",
+    "slug": "placement",
+    "title": "RVITM Placements | Top Recruiters & Career Opportunities",
+    "status": 200,
+    "chars": 4608,
+    "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/clubs/",
+    "slug": "clubs",
+    "title": "RVITM Clubs | Technical, Cultural & Sports Activities",
+    "status": 200,
+    "chars": 2007,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/committee/",
+    "slug": "committee",
+    "title": "RVITM Committees | Academic & Administrative Bodies",
+    "status": 200,
+    "chars": 59198,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/events/",
+    "slug": "events",
+    "title": "RVITM Events | Technical, Cultural & Academic Activities",
+    "status": 200,
+    "chars": 2065,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/facilties/",
+    "slug": "facilties",
+    "title": "RVITM Infrastructure & Facilities | Bengaluru",
+    "status": 200,
+    "chars": 3067,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/alumni/",
+    "slug": "alumni",
+    "title": "RVITM Alumni Network | Connect, Mentor & Grow",
+    "status": 200,
+    "chars": 2080,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/contact_us/",
+    "slug": "contact_us",
+    "title": "Contact RVITM | Admissions, Address & Enquiries",
+    "status": 200,
+    "chars": 752,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/achievements_cse/",
+    "slug": "departments__department_of_computer_science_and_engineering__achievements_cse",
+    "title": "CSE Achievements at RVITM | Awards, Research & Innovation",
+    "status": 200,
+    "chars": 4508,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__achievements_ece",
+    "title": "ECE Achievements at RVITM | Awards, Research & Rankings",
+    "status": 200,
+    "chars": 16363,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/achievements_mechanical-engineering/",
+    "slug": "departments__department_of_mechanical_engineering__achievements_mechanical-engineering",
+    "title": "Mechanical Engineering Achievements | RVITM Bengaluru",
+    "status": 200,
+    "chars": 632,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/achievements-mca/",
+    "slug": "departments__department-of-master-of-computer-applications__achievements-mca",
+    "title": "MCA Achievements at RVITM | Research, Awards & Excellence",
+    "status": 200,
+    "chars": 645,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_physical_education/sports_achievements/",
+    "slug": "departments__department_of_physical_education__sports_achievements",
+    "title": "Sports Achievements at RVITM | Awards & Championships",
+    "status": 200,
+    "chars": 186,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/nss/",
+    "slug": "nss",
+    "title": "NSS -",
+    "status": 200,
+    "chars": 5935,
+    "docs": 0
+  },
+  {
+    "url": "https://rvitm.edu.in/policies/",
+    "slug": "policies",
+    "title": "Policies -",
+    "status": 200,
+    "chars": 53,
+    "docs": 2
+  }
+]

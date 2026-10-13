@@ -1,0 +1,103 @@
+URL: https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/
+TITLE: ECE Achievements at RVITM | Awards, Research & Rankings
+
+•
+ECE Achievements at RVITM | Awards, Research & Rankings
+•
+## Electronics and Communication Engineering
+## Achievements
+•
+2025
+•
+2024
+•
+2023
+•
+2022
+•
+2021
+•
+2020
+Student Achievements
+• The paper titled “IoT Integrated Smart Mirror for Continuous Health and Wellness Monitoring,” authored by Navyashree Ganpisetty, Charan Teja, Sneha Hugar, Sudhanva S., Divyabhavani, and Dr. Shalini J., received the Best Research Paper Award at the ICRIET-2025 International Conference held on May 9th–10th, 2025, at K.S. Institute of Technology and Management, Bengaluru. The work was an industry-connect project proposed by Prof. Jakkali, mentored by Dr. Shalini J., and funded by RVEI.
+• Janke Rishitha (4th Sem, ECE) secured the Bronze Medal at the VTU State-Level Taekwondo Women’s Championship held at Bangalore Institute of Technology on 16th–17th April 2025, bringing laurels to the institution.
+Students Publications
+• Navyashree Ganpisetty, Student of Electronics and Communication Engineering (ECE), secured VTU 1st Rank with an outstanding CGPA of 9.78, earning 11 Gold Medals, including the Sri. S. Nagappa Memorial Gold Medal for the highest scorer across all VTU UG Engineering streams and the VTU Gold Medal for ECE.
+• A. Kumar, P. K. Bhadra, S. Mandal, S. Kumar, and Venu Gopal. B. T, “A Review on Head Motion-Controlled Smart Wheelchairs for Hands-Free Mobility Assistance,” International Journal of Innovative Research in Science, Engineering and Technology (IJIRSET), vol. 14, no. 7, pp. –, July 2025.
+• S. Varshini, B. Sarvamangala, Shricharan M.S, and Dr. Vikash Kumar, “Architectural Innovations on Sense Amplifiers for High-Speed, Low-Power SRAM and CIM Applications” in Proc. International Conference on Digital Technology and Engineering (ICDTE-2025), Bengaluru, India, Oct. 16–17, 2025
+• Shriya Gomes, Vikash Kumar "Quantum Computing: Advancements, Architectures, and Applications in Electronics and Communication Engineering” in Proc. International Conference on Digital Technology and Engineering (ICDTE-2025), Bengaluru, India, Oct. 16–17, 2025
+• Shriya Gomes, Arkaprova Mitra, Debabrata Paul, Rupam Maiti, Nivedita S. Desai "A Comparative Analysis of 6T, 8T, and 10T SRAM Cells: Performance Evaluation and Robustness Assessment Proving 10T Superiority” in Proc. International Conference on Digital Technology and Engineering (ICDTE-2025), Bengaluru, India, Oct. 16–17, 2025
+• Tanushree, “Embedded System for Real-Time Facial Recognition: A Summary of Hardware Implementation and Architecture," Proceedings of the International Conference on Digital Technology and Engineering (ICDTE-2025), Bengaluru, India, Oct. 16–17, 2025.
+• N. Saravanan, V. Achar, S. Nagendra, and Shalini J, "Satellite Link Budget Analysis using QPSK Modulation in MATLAB," in Proc. Int. Conf. Digital Technology and Engineering (ICDTE), Bengaluru, India, Oct. 16–17, 2025, Paper ID: 396.
+• Sanjay A V, Sujan S, Sumukh Sharma, Vajramanasa Palguna H V, Nataraj V, Vikash Kumar, “A Comparative Study on Machine Learning Based Power Estimation Techniques in VLSI Design”, International Conference on Digital Technology and Engineering (ICDTE-2025), RVITM, Bangalore, 16th-17th Oct 2025.
+• Arunima Mehta, Pranav N Athreya, Nataraj Vijapur, Vineela K, Sahana S, “Leaf-Disease Detection Using Computer-Vision”, International Conference on Digital Technology and Engineering (ICDTE-2025), RVITM, Bangalore, 16th-17th Oct 2025.
+• Charan Teja, Bharat G, Dhanush, Vikash Kumar, Nataraj V, “Advanced Design and performance analysis of 64-bit 6T SRAM”, International Conference on Digital Technology and Engineering (ICDTE-2025), RVITM, Bangalore, 16th-17th Oct 2025.
+• Navyashree Ganpisetty, Charan Teja, Sneha Hugar, Sudhanva S, Divyabhavani, Shalini J, “IOT Integrated smart mirror for continuous health and wellness monitoring,”www.taylorfrancis.com/chapters/edit/10.1201/9781003685876-22/October 2025.
+• Usha B, Rakshith G, Greeshma, Kunjana, N. Kavitha, “YOLOv8- Based Visual pill Verification in IoT- Integrated Wearable Health Monitoring and Medicine Dispensing System”, ICDTE Springer Conference, 16th and 17th October 2025, RVITM.
+• Mallikarjun Hiremath, Mohammad Gouse M. Yandigeri, Divyashree M, L Sachin Naik, Danish Ali, “Smart Brain Tumor Analysis Using YOLOV8 and 3D-UNET with Treatment Planning”, International Conference on Digital Technology and Engineering (ICDTE-2025), RVITM, Bangalore, 16th-17th Oct 2025.
+• Tanushree M M, Usha B, Pragathi Kamate, Shalini J, “Empowering the Visually Impaired with Intelligent Navigation and Voice Assistance “, International Conference on Innovations in Materials Science, Technology, Engineering and Management for Sustainable Development (IMSTEM) – 2025 Jointly Organized by Department of Science, St. Joseph College of Engineering, OMR, Chennai, TamilNadu, India, and RSP Research Hub, Coimbatore, Tamil Nadu, India on 30th and 31st March 2025.
+• Navashree Ganpisetty, Shalini J, “A Comprehensive Literature Survey on Arrhythmia Detection Techniques: VLSI, Machine Learning, and Signal Processing Approaches”, International Journal for Research Trends and Innovation, Published in Volume 10 Issue 4, April 2025.
+• Shivam Kumar, Praveen K, Prajwal G S, Akheera Ajan, Shalini J,” AI-Based Predictive Battery Health Monitoring System”, International Journal of Advanced Research in Computer and Communication Engineering Impact Factor 8.102, Peer-reviewed &amp; Refereed Journal, Vol. 14, Issue 5, May 2025 DOI:10.17148/IJARCCE.2025.14503.
+• Usha B, Rakshith G, Greeshma, Kunjana, N. Kavitha, “YOLOv8- Based Visual pill Verification in IoT- Integrated Wearable Health Monitoring and Medicine Dispensing System”, ICDTE Springer Conference, 16th and 17th October 2025, RVITM.
+• Navyashree Ganpisetty, Charan Teja, Sneha Hugar, Sudhanva S, Divyabhavani, Shalini J, “IOT Integrated smart mirror for continuous health and wellness monitoring “, International conference on recent innovations in Engineering Science and Technology held on May 9th and 10th 2025, K S Institute of technology and Management, Bengaluru.
+• Adithi Sreenivas, Monisha M Reddy, Yashupradha B. S, Shalini J,” Performance Analysis of 5G mm Wave Communication in LEO”, in Proc. Int. Conf. Digital Technology and Engineering (ICDTE), Bengaluru, India, Oct. 16–17, 2025.
+• Medhya Parthakudi, Namratha V, Shalini J,” Adaptive Beam Steering in Optical Satellite Downlinks Using Weather- Aware Control Algorithms”, in Proc. Int. Conf. Digital Technology and Engineering (ICDTE), Bengaluru, India, Oct. 16–17, 2025.
+• Sathvik V.L.K.S Susarla, Vishwanath, Ravikiran, Manish Kumar K M, Chetan, Shalini J, ”Smart glasses using Raspberry Pi and VLMs”, in Proc. Int. Conf. Digital Technology and Engineering (ICDTE), Bengaluru, India, Oct. 16–17, 2025.
+• Sathvik V.L.K.S Susarla, Vishwanath, Ravikiran, Manish Kumar K M, Chetan, Shalini J,” Wearable Assistive Technology Using Embedded VLMs and Raspberry Pi”, in Proc. Int. Conf. Digital Technology and Engineering (ICDTE), Bengaluru, India, Oct. 16–17, 2025.
+Department Milestones
+• The Department of Electronics and Communication Engineering achieved academic distinction with its student securing VTU 1st Rank with a CGPA of 9.78 and winning 11 Gold Medals, including the Sri. S. Nagappa Memorial Gold Medal for the highest scorer across all VTU UG Engineering streams and the VTU Gold Medal for ECE, reflecting the department’s strong academic mentoring and performance.
+• MoU Signed between ECE Department and RV Skills for VLSI Training Initiatives in March, 2025
+• MoU Signed between ECE Department and MEVI Technologies for Advanced Technical Training on 5th August, 2025
+• MoU between RV Institute of Technology and Management, Bengaluru, and Shri Dharmasthala Manjunatheshwara University, Dharwad on 25th August 2025
+Student Achievements
+• Mohith R Achar and Issac Samuel Paul won 1st prize in Paper Presentation at VTU Technical Fest Yukti-24 State Level Event held on 13th Jan 2024 at VTU Belagavi Campus.
+• Navyashree Ganpisheet 1st prize in State Level Project Exhibition held on 22nd Dec 2024 at NIE Mysore
+• Mayuresh Pareek (6th Sem), Shreya Gangadhar (6th Sem), Roohi Gooty (6th Sem), and Soham Mandal (4th Sem), as part of a twelve-member student team, represented our institution at the E-Summit hosted by IIT Bombay and achieved remarkable success in the National Entrepreneurship Challenge (NEC), securing a position among the top 65 out of 1500+ colleges and advancing to the NEC Finals with an impressive All-India Rank of 17th.
+• Kalyani S.R. and Bharat S. Simha of VII Semester, ECE, attended the Special National Integration Camp (SNIC) of NCC held in Kakinada, Andhra Pradesh, from 2nd October to 11th October, where they represented the state of Karnataka as part of the Karnataka & Goa Directorate of NCC. They actively participated in various literary, cultural, and sports competitions conducted during the camp and secured 1st place in the state/directorate-wise group singing competition.
+• Barsha(1RF23EC019) from the 2nd semester ECE department won Gold medal -01 ( 50mtr Breast Stroke), and Bronze medal 03( 50 mtr, 100 mtr Back stroke, 100 mtrBreast Stroke) in the VTU state level Swimming Competition Men and Women2024-25 held at RVITM college (BAC- Basavanagudi Aquatic Centre) on 19th and 20th 2024.
+• Risheek, 3rd Sem ECE, and Shricharan, 3rd Sem ECE, won 1st Prize in the Line Follower Robot Competition in QuantumX-24 held at New Horizon College of Engineering.
+• Kaushik, Sumukh, Mridul, Ankush, Venu Gopal B.T. “Dynamic Deep Learning Algorithm in Medical Diagnosis and Detection” won the first prize in the National Conference on Digital Technology and Engineering (NCDTE-2024), RVITM Bengaluru, May 2, 2024
+• Project titled “Embedded Smart Shoes for the Visually Impaired”, along with students Jayanthi Pavan Sathvik, Ankit Param, Greeshma Bharath and Uma Guruprasad under the guidance of Dr. Nataraj V, was sponsored by KSCST, Bangalore
+Department Milestones
+• An MoU was signed between the Department of ECE and Sensesemi Technologies(P) Ltd. & Sumedha Design Systems Pvt. Ltd in 2024.
+Student Achievements
+• Amish Srinivasan S, Risheek G, Sai Disha J, and S Varshini have obtained 3rd Place in Arduitron conducted by AMC Engineering College on 20th January 2023.
+• Project titled “IoT and AI-based Smart Helmet for miners” carried out by Satya K, Vishweshwar Bhat, Ram Abhinav and Yogitha K under the guidance of Dr. Nataraj V Secured Second Place at the state level Project Exhibition ‘Protatva 2023’ conducted by RV Institute of Technology and Management on 27th April 2023.
+• Deepti, Harshitha, Mohan Kumar, Girisha, and Dr. Nataraj V presented a paper titled “Fruit disease prediction using deep learning algorithm-Survey Paper” in the National Conference on Digital Technology and Engineering, held at RVITM on 28th April 2023.
+• Satya K, Vishweshwar Bhat, Ram Abhinav, Yogitha K, and Dr. Nataraj V presented a paper titled “IOT and AI-based Smart Helmet for miners” in the National Conference on Digital Technology and Engineering, held at RVITM on 28th April 2023.
+• Abhay R S, T Aishwarya, P Hemasree, Remidi Sahith Reddy, Dr. Madhumathy P, presented a paper titled IoT-Based Telemedicine Health Analysis System – A Literature Survey in the National Conference on Digital Technology and Engineering, RVITM, 28th April 2023.
+• Manjunath N, Shishir A, Dr. Shalini J-Students hobby project Paper titled “Design of Street Light Controller using NPN Transistor and Light Dependent Resistor” presented in the 8th National Conference on Advanced Computing Technologies held on 25/3/23 at Velammal Engineering College, Chennai.
+• Sudhanva S H, Anuraag Prasanna S, Dr. Shalini J -Students' hobby project Paper titled “Object detection Robot using Arduino UNO and ultrasonic sensor” presented in 8th National Conference on Advanced Computing Technologies held on 25/3/23 at Velammal Engineering College, Chennai.
+• Navyashree Ganpisetty, Divyabhavani Ganpisetty, Dr. Shalini J –Students hobby Project paper titled “Food Safety Prediction Using Deep Learning”, presented in the International Conference ICIEICE23 held on 22/4/23 at Kongunadu College of Engineering and Technology (Autonomous), Trichy.
+• Dr. Shalini J, T Aishwarya, Harshitha P M -Students mini Project paper titled “Simulation On GSM Mobile jammer" presented in International Conference ICLTSET' 23 held on 6/5/2023 at Karpagam Institute of Technology, Coimbatore.
+• Sindhu R, Chinitha B, Brundha R, Gaurav Sateesh Rai, Kavitha N, Skin Lesion Classification using Raspberry Pi, IJRSEM, Vol. 7 Issue 05, May 2023
+• Karnataka State Council For Science And Technology (KSCST)" 46th Series Of Student Projects Programme: 2022 - 2023" sanctioned fund for the project titled “Design and Implementation of Turbo coder for 5G Technology” to VIII semester ECE students John Justina, Parvathi A, Rudramma Yandigeri, Jethin R Shankar, under the guidance of Dr. Hareesh Kumar.
+• Suraj Kumar Sharma, Deepak Patil, Chandan G T, Shoban V, Dr. Hareesh Kumar presented a paper titled "Smart wearable system for elderly people using IoT" and received the Best Paper award in the National Conference on Digital Technology & Engineering organised by RVITM, Bengaluru, on 28th & 29th April 2023.
+• John Justina, Parvathi A, Rudramma Yandigeri, Jethin R Shankar, Dr. Hareesh Kumar presented a paper titled “Design and Implementation of Turbocoder for 5G Technology” in the National Conference on Digital Technology &Engineering, organised by RVITM, Bengaluru, on 28th & 29th April 2023.
+• Kishan M, Veeresh J, Manoj G, Labhya S and Nagesh M “IOT-Based Automated waste segregation system”, TIJER-International Research Journal, NCDTE-EC-14, May 2023.
+• Shriya Gomes of the 1st sem received a certificate of participation of Online CERN- Solvey Education Programme.
+• Renuka S. U of 2nd sem has completed the Internship program on “Cyber Security” from Cyber Infotech in association with Technook from 01/05/2023 to 30/06/2023.
+• Sharon Solomon was part of one of the top teams in the Wadhwani Ideas Bootcamp 2023.
+Department Milestones
+• Department of Electronics and Communication Engineering organised International Conference on The Confluence of Advancements in Robotics, Vision and Interdisciplinary Technology Management IC-RVITM’23 on 28th & 29th November 2023
+• An MoU was signed between the Department of ECE and Sensesemi Technologies(P) Ltd in 2023.
+Student Achievements
+• T Aishwarya published a paper titled “Neural Network-based ADN Network” in GIS Science Journal, Volume 9, Issue 12, December 2022. DOI: 20.18001.GSJ
+Department Milestones
+• An MoU was signed between the Department of ECE and Indian Tech-Keys in 2022.
+Student Achievements
+• Adithya S, Arushi Sarkar, R Chandradhar Goud, Venkatavardhan S, Judith Varghese Qualified for the Grand finale in the 1st edition of Youth Zest Virtual Engineering Project Contest, organised by the Indian Institute of Projects Technology 2021.
+• Veeresh J participated in Suryathon 2021 and completed 516 Suryanamaskars as a part of the International Yoga Day Celebration, which helped in raising a fund of Rs. 5,160 to support the education of children who lost their parents due to Covid-19.
+• Chihnitha B has participated in "Hackathon Series 2", a state-level coding competition organised by ISTE- Karnataka Section held from 8th to 13th of June, 2021.
+• Jayanthi Pavan Sathvik participated in the technical quiz organised by the Quiz Club, dept. in mathematics, RVITM and scored 85%.
+• John Justina participated in the Guinness World Record event for the most users to take an online computer programming lesson in 24 hours, organised by GUVI in association with AICTE and Buddi.ai on 24th April 2021.
+• C.M. Sumanth, N Kaushik, Pavan Sathvik, Rahul N Revankar And Chirag R from the 2nd sem participated in the 3-day Python bootcamp conducted by the Phoenix Robotics club, RVITM, from 18th to 21st June 2021.
+• Shreya N, Aishwarya T and Veeresh J R from the 4th sem participated in the 3-day Python bootcamp conducted by the Phoenix Robotics club, RVITM, from 18th to 21st June 2021.
+Department Milestones
+• An MoU was signed between the Department of ECE and Advanced Electric Systems in 2020.
+• An MoU was signed between the Department of ECE and Loginware Softtec Pvt.Ltd. in 2020.
+• An MoU was signed between the Department of ECE and ABSTREAM Technologies in 2020.
+•
+
+--- DOCUMENTS ---
+
