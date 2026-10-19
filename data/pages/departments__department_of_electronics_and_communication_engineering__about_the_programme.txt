@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/about_the_programme/
 TITLE: ECE Program at RVITM | Electronics & Communication Engineering
+DESCRIPTION: Explore RVITM's ECE program with VLSI, embedded systems, IoT, communication technologies, AI integration and industry-ready training.
 
 •
 ECE Program at RVITM | Electronics & Communication Engineering
@@ -54,3 +55,6 @@ Read More | https://rvitm.edu.in/wp-content/uploads/2026/05/PROGRAMME-OUTCOMES-P
 2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/5_ecesch.pdf
 2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/6ecesch.pdf
 2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/7_8_ecesch.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

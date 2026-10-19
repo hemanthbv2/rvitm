@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/accreditations_affiliations/
 TITLE: RVITM Accreditations & Affiliations | Approvals
+DESCRIPTION: Learn about RVITM's affiliations, statutory approvals and academic recognitions supporting quality technical education.
 
 •
 RVITM Accreditations & Affiliations | Approvals
@@ -60,3 +61,6 @@ Affiliations from 2025-26 (Departments) | https://rvitm.edu.in/wp-content/upload
 Basic Science- Research Centre | https://rvitm.edu.in/wp-content/uploads/2026/03/Research-Centre-Basic-Science-Dept.pdf
 Basic Science R&D | https://rvitm.edu.in/wp-content/uploads/2026/03/Basic-Science-R-D.pdf
 VTU Nominee | https://rvitm.edu.in/wp-content/uploads/2026/06/VTU-Nominee.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/committee/
 TITLE: RVITM Committees | Academic & Administrative Bodies
+DESCRIPTION: Learn about RVITM committees that support academic excellence, student welfare, quality assurance and campus governance.
 
 •
 RVITM Committees | Academic & Administrative Bodies
@@ -1760,4 +1761,6 @@ Member
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

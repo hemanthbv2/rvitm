@@ -58,7 +58,7 @@
       quickChips.addEventListener('click', (e) => {
         const chip = e.target.closest('.suggestion-chip');
         if (chip && chip.dataset.query) {
-          sendQuery(chip.dataset.query);
+          sendQuery(chip.dataset.query, chip.textContent.trim());
         }
       });
     }
@@ -69,7 +69,7 @@
         const btn = e.target.closest('.act-btn');
         if (btn) {
           if (btn.dataset.act) {
-            sendQuery(btn.dataset.act);
+            sendQuery(btn.dataset.act, btn.textContent.trim());
           }
         }
       });
@@ -85,7 +85,7 @@
     if (msgs.children.length === 0) {
       const welcome = window.RVITM_Engine ? window.RVITM_Engine.getResponse('greet') : null;
       if (welcome) {
-        addBot(welcome.text, welcome.buttons);
+        addBot(welcome.text, welcome.buttons, welcome.url || 'https://rvitm.edu.in/');
       }
     }
   }
@@ -111,7 +111,7 @@
     msgs.innerHTML = '';
     const welcome = window.RVITM_Engine ? window.RVITM_Engine.getResponse('greet') : null;
     if (welcome) {
-      addBot(welcome.text, welcome.buttons);
+      addBot(welcome.text, welcome.buttons, welcome.url || 'https://rvitm.edu.in/');
     }
     if (window.RVITM_Telemetry) {
       window.RVITM_Telemetry.logMicroInteraction('clear_chat', 'Chat Cleared');
@@ -145,14 +145,14 @@
     sendQuery(text);
   }
 
-  function sendQuery(queryText) {
-    addUser(queryText);
+  function sendQuery(queryText, displayLabel = null) {
+    addUser(displayLabel || queryText);
     showTyping();
 
     setTimeout(() => {
       hideTyping();
       processBotResponse(queryText);
-    }, 450);
+    }, 400);
   }
 
   function processBotResponse(queryText) {
@@ -178,13 +178,13 @@
 
       // If multi-intent includes greeting alongside another query
       if (match.ids && match.ids.length > 1 && match.ids.includes('greet') && match.id !== 'greet') {
-        const greetResp = window.RVITM_Engine.getResponse('greet');
-        combinedText += greetResp.text + '<br><br>';
+        combinedText += '👋 **Hello!**<br><br>';
       }
 
       const resp = window.RVITM_Engine.getResponse(match.id);
       combinedText += resp.text;
       combinedButtons = (resp.buttons || []).slice();
+      const sourceUrl = resp.url || 'https://rvitm.edu.in/';
 
       // If multiple distinct queries were asked, render overflow buttons (RVCE Parity)
       if (match.overflow && match.overflow.length > 0) {
@@ -197,7 +197,7 @@
         });
       }
 
-      addBot(combinedText, combinedButtons);
+      addBot(combinedText, combinedButtons, sourceUrl);
       speakText(combinedText);
 
       if (window.RVITM_Telemetry) {
@@ -216,7 +216,7 @@
       });
 
       const fallbackText = "I couldn't find an exact match for that query. Did you mean one of these topics?";
-      addBot(fallbackText, fallbackButtons);
+      addBot(fallbackText, fallbackButtons, 'https://rvitm.edu.in/');
 
       if (window.RVITM_Telemetry) {
         window.RVITM_Telemetry.logInteraction(queryText, 'fallback', { suggestions: match.suggestions });
@@ -235,7 +235,7 @@
     scrollToBottom();
   }
 
-  function addBot(text, buttons = []) {
+  function addBot(text, buttons = [], sourceUrl = null) {
     const wrap = document.createElement('div');
     wrap.className = 'msg-wrapper bot';
 
@@ -255,8 +255,23 @@
       actionsHtml += '</div>';
     }
 
+    let sourceLinkHtml = '';
+    if (sourceUrl) {
+      const displayUrl = sourceUrl.replace(/^https?:\/\//i, '').replace(/\/$/, '');
+      sourceLinkHtml = `
+        <div class="msg-source-url">
+          <span class="source-tag">🌐 Official Page:</span>
+          <a href="${sourceUrl}" target="_blank" rel="noopener" class="source-link" title="Open official webpage">
+            <span class="source-text">${displayUrl}</span>
+            <span class="source-arrow">↗</span>
+          </a>
+        </div>
+      `;
+    }
+
     wrap.innerHTML = `
       <div class="msg-bubble">${formatMd(text)}${actionsHtml}</div>
+      ${sourceLinkHtml}
       <div class="msg-meta">RVITM Assistant • ${formatTime()}</div>
     `;
     msgs.appendChild(wrap);
@@ -297,7 +312,8 @@
   function formatMd(t) {
     return String(t)
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-      .replace(/`([^`]+)`/g, '<code style="background:rgba(154,255,120,0.1);padding:1px 5px;border-radius:4px;">$1</code>');
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color:var(--rv-accent-teal, #5eead4);text-decoration:underline;word-break:break-all;overflow-wrap:anywhere;">$1 ↗</a>')
+      .replace(/`([^`]+)`/g, '<code style="background:rgba(154,255,120,0.1);padding:1px 5px;border-radius:4px;word-break:break-word;overflow-wrap:anywhere;">$1</code>');
   }
 
   function escapeHtml(t) {
@@ -501,6 +517,8 @@
 
     function render() {
       ctx.clearRect(0, 0, w, h);
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+
       pts.forEach((p, i) => {
         p.x += p.vx;
         p.y += p.vy;
@@ -511,7 +529,7 @@
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(154, 255, 120, ${p.a})`;
+        ctx.fillStyle = isLight ? `rgba(16, 185, 129, ${p.a * 0.3})` : `rgba(154, 255, 120, ${p.a})`;
         ctx.fill();
 
         for (let j = i + 1; j < pts.length; j++) {
@@ -521,7 +539,9 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p2.x, p2.y);
-            ctx.strokeStyle = `rgba(94, 234, 212, ${0.15 * (1 - dist / 110)})`;
+            ctx.strokeStyle = isLight
+              ? `rgba(2, 132, 199, ${0.08 * (1 - dist / 110)})`
+              : `rgba(94, 234, 212, ${0.15 * (1 - dist / 110)})`;
             ctx.stroke();
           }
         }

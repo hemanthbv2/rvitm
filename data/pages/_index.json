@@ -1,35 +1,19 @@
 [
   {
     "url": "https://rvitm.edu.in/",
-    "slug": "home",
+    "slug": "elementor-hf__footer",
     "title": "RVITM Bangalore | Top Engineering College & Admissions",
     "status": 200,
     "chars": 5807,
-    "docs": 5
+    "docs": 8
   },
   {
-    "url": "https://rvitm.edu.in/know_rvitm/",
-    "slug": "know_rvitm",
-    "title": "Know RVITM | Engineering Excellence in Bangalore",
+    "url": "https://rvitm.edu.in/2026/01/20/hello-world/",
+    "slug": "2026__01__20__hello-world",
+    "title": "Hello world! -",
     "status": 200,
-    "chars": 2657,
-    "docs": 2
-  },
-  {
-    "url": "https://rvitm.edu.in/key_executives/",
-    "slug": "key_executives",
-    "title": "RVITM Leadership Team | Key Executives",
-    "status": 200,
-    "chars": 794,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/leadership_and_governance/",
-    "slug": "leadership_and_governance",
-    "title": "RVITM Leadership & Governance | Academic Excellence",
-    "status": 200,
-    "chars": 1820,
-    "docs": 0
+    "chars": 1040,
+    "docs": 3
   },
   {
     "url": "https://rvitm.edu.in/accreditations_affiliations/",
@@ -37,7 +21,7 @@
     "title": "RVITM Accreditations & Affiliations | Approvals",
     "status": 200,
     "chars": 1547,
-    "docs": 23
+    "docs": 26
   },
   {
     "url": "https://rvitm.edu.in/achievements/",
@@ -45,31 +29,23 @@
     "title": "RVITM Achievements | Awards, Rankings & Success",
     "status": 200,
     "chars": 4691,
-    "docs": 0
+    "docs": 3
   },
   {
-    "url": "https://rvitm.edu.in/departments/",
-    "slug": "departments",
-    "title": "Bangalore | RVITM Engineering Departments",
+    "url": "https://rvitm.edu.in/achievements/faculty-achievements/",
+    "slug": "achievements__faculty-achievements",
+    "title": "Faculty Achievements -",
     "status": 200,
-    "chars": 1938,
-    "docs": 0
+    "chars": 1601,
+    "docs": 3
   },
   {
-    "url": "https://rvitm.edu.in/departments/library-2/",
-    "slug": "departments__library-2",
-    "title": "RVITM Digital Library | Learning Resources",
+    "url": "https://rvitm.edu.in/achievements/sports-achievements/",
+    "slug": "achievements__sports-achievements",
+    "title": "Sports Achievements -",
     "status": 200,
-    "chars": 7180,
-    "docs": 1
-  },
-  {
-    "url": "https://rvitm.edu.in/circular_and_notifications/",
-    "slug": "circular_and_notifications",
-    "title": "RVITM Circulars & Notifications | Latest Updates",
-    "status": 200,
-    "chars": 680,
-    "docs": 0
+    "chars": 156,
+    "docs": 3
   },
   {
     "url": "https://rvitm.edu.in/admissions/",
@@ -77,15 +53,255 @@
     "title": "Engineering Admissions at RVITM Bangalore",
     "status": 200,
     "chars": 5973,
-    "docs": 0
+    "docs": 3
   },
   {
-    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/about_the_program/",
-    "slug": "departments__department_of_computer_science_and_engineering__about_the_program",
-    "title": "B.E. Computer Science Engineering | RVITM Bengaluru",
+    "url": "https://rvitm.edu.in/alumni/",
+    "slug": "alumni",
+    "title": "RVITM Alumni Network | Connect, Mentor & Grow",
     "status": 200,
-    "chars": 2639,
-    "docs": 2
+    "chars": 2080,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/category/uncategorized/",
+    "slug": "category__uncategorized",
+    "title": "Uncategorized Archives -",
+    "status": 200,
+    "chars": 159,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/circular_and_notifications/",
+    "slug": "circular_and_notifications",
+    "title": "RVITM Circulars & Notifications | Latest Updates",
+    "status": 200,
+    "chars": 680,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/circular_and_notifications/academic_calendar/",
+    "slug": "circular_and_notifications__academic_calendar",
+    "title": "Academic Calendar -",
+    "status": 200,
+    "chars": 712,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/circular_and_notifications/academic_circulars/",
+    "slug": "circular_and_notifications__academic_circulars",
+    "title": "Academic Circulars -",
+    "status": 200,
+    "chars": 361,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/circular_and_notifications/admission_circulars/",
+    "slug": "circular_and_notifications__admission_circulars",
+    "title": "Admission Circulars -",
+    "status": 200,
+    "chars": 758,
+    "docs": 16
+  },
+  {
+    "url": "https://rvitm.edu.in/circular_and_notifications/examination_circulars/",
+    "slug": "circular_and_notifications__examination_circulars",
+    "status": 200,
+    "title": "Examination circulars -",
+    "chars": 723,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/clubs/",
+    "slug": "clubs",
+    "status": 200,
+    "title": "RVITM Clubs | Technical, Cultural & Sports Activities",
+    "chars": 2007,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/clubs/ece_club_ecx/",
+    "slug": "clubs__ece_club_ecx",
+    "title": "RVITM ECE Club ECX | Technical Learning & Events",
+    "status": 200,
+    "chars": 1647,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/committee/",
+    "slug": "committee",
+    "title": "RVITM Committees | Academic & Administrative Bodies",
+    "status": 200,
+    "chars": 59198,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/contact_us/",
+    "slug": "contact_us",
+    "title": "Contact RVITM | Admissions, Address & Enquiries",
+    "status": 200,
+    "chars": 752,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/",
+    "slug": "departments",
+    "title": "Bangalore | RVITM Engineering Departments",
+    "status": 200,
+    "chars": 1938,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/computer-science-and-engineering-cluster/",
+    "slug": "departments__computer-science-and-engineering-cluster",
+    "title": "CSE Program at RVITM | Computer Science Engineering",
+    "status": 200,
+    "chars": 2098,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/",
+    "slug": "departments__department_of_applied_sciences_and_humanities",
+    "title": "Applied Sciences & Humanities at RVITM Bengaluru",
+    "status": 200,
+    "chars": 6789,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/achievements-ash/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__achievements-ash",
+    "title": "Achievements -",
+    "status": 200,
+    "chars": 613,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/events-ash/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__events-ash",
+    "title": "ASH Events at RVITM | Workshops, Seminars & Activities",
+    "status": 200,
+    "chars": 10785,
+    "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/facilities-ash/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__facilities-ash",
+    "title": "Facilities ASH -",
+    "status": 200,
+    "chars": 97,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities",
+    "title": "RVITM Faculty | Applied Sciences & Humanities Department",
+    "status": 200,
+    "chars": 739,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/aishwarya-p-m/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__aishwarya-p-m",
+    "title": "Aishwarya P M -",
+    "status": 200,
+    "chars": 469,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/b_e_prasad/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__b_e_prasad",
+    "title": "B E Prasad -",
+    "status": 200,
+    "chars": 323,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_gangadharaiah_y_h/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_gangadharaiah_y_h",
+    "title": "Dr. Gangadharaiah Y H -",
+    "status": 200,
+    "chars": 411,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_nagabhushana_p/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_nagabhushana_p",
+    "title": "Dr. Nagabhushana P -",
+    "status": 200,
+    "chars": 406,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_pavithra_k_m/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_pavithra_k_m",
+    "title": "Dr. PAVITHRA K M -",
+    "status": 200,
+    "chars": 375,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_s_satyanarayana_reddy/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_s_satyanarayana_reddy",
+    "title": "Dr. S. Satyanarayana Reddy -",
+    "status": 200,
+    "chars": 398,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_sivasankar_s/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_sivasankar_s",
+    "title": "Dr. Sivasankar S -",
+    "status": 200,
+    "chars": 486,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_srinatha_n/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_srinatha_n",
+    "status": 200,
+    "title": "Dr. Srinatha N -",
+    "chars": 378,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_sushma_m_puranik/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_sushma_m_puranik",
+    "title": "Dr. Sushma M Puranik -",
+    "status": 200,
+    "chars": 302,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/dr_yashwanth_v_naik/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__dr_yashwanth_v_naik",
+    "title": "Dr. Yashwanth V Naik -",
+    "status": 200,
+    "chars": 310,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/rudresh_kumar_kj/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__rudresh_kumar_kj",
+    "title": "Rudresh Kumar KJ -",
+    "status": 200,
+    "chars": 376,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/faculties_of_applied_science_and_humanities/samrat_d/",
+    "slug": "departments__department_of_applied_sciences_and_humanities__faculties_of_applied_science_and_humanities__samrat_d",
+    "title": "Samrat D -",
+    "status": 200,
+    "chars": 386,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml",
+    "title": "CSE (AI & ML) Program at RVITM | Bengaluru",
+    "status": 200,
+    "chars": 5413,
+    "docs": 4
   },
   {
     "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/about-the-program-aiml/",
@@ -93,7 +309,375 @@
     "title": "B.E. CSE (AI & ML) at RVITM Bengaluru",
     "status": 200,
     "chars": 6075,
+    "docs": 8
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/achievements_cse_ai_ml/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__achievements_cse_ai_ml",
+    "title": "Achievements - CSE AI/ML -",
+    "status": 200,
+    "chars": 103,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/events_of_department_of_computer_science_and-engineering_aiml/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__events_of_department_of_computer_science_and-engineering_aiml",
+    "title": "AI & ML Events at RVITM | Workshops, Hackathons & Seminars",
+    "status": 200,
+    "chars": 3314,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/facilities_cse_ai_ml/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__facilities_cse_ai_ml",
+    "title": "Facilities - CSE AI/ML -",
+    "status": 200,
+    "chars": 131,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__faculties_of_cse_ai_ml",
+    "title": "RVITM AI & ML Faculty | Researchers & Educators",
+    "status": 200,
+    "chars": 476,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/dr-surabhi-agrawal/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__faculties_of_cse_ai_ml__dr-surabhi-agrawal",
+    "title": "Dr Surabhi Agrawal -",
+    "status": 200,
+    "chars": 445,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/mr_girish_kumar_b_c/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__faculties_of_cse_ai_ml__mr_girish_kumar_b_c",
+    "title": "Mr. Girish Kumar B C -",
+    "status": 200,
+    "chars": 333,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/mr-avinash-rao/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__faculties_of_cse_ai_ml__mr-avinash-rao",
+    "title": "Mr Avinash Rao -",
+    "status": 200,
+    "chars": 291,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/mrs_nisha_wilvicta_j/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__faculties_of_cse_ai_ml__mrs_nisha_wilvicta_j",
+    "title": "Mrs. Nisha Wilvicta J -",
+    "status": 200,
+    "chars": 378,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/faculties_of_cse_ai_ml/ms-arpitha-j/",
+    "slug": "departments__department_of_computer_science_and_engineering_aiml__faculties_of_cse_ai_ml__ms-arpitha-j",
+    "title": "Ms. Arpitha J -",
+    "status": 200,
+    "chars": 401,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/",
+    "slug": "departments__department_of_computer_science_and_engineering",
+    "title": "CSE Program at RVITM | Computer Science Engineering",
+    "status": 200,
+    "chars": 5640,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/about_the_program/",
+    "slug": "departments__department_of_computer_science_and_engineering__about_the_program",
+    "title": "B.E. Computer Science Engineering | RVITM Bengaluru",
+    "status": 200,
+    "chars": 2639,
     "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/achievements_cse/",
+    "slug": "departments__department_of_computer_science_and_engineering__achievements_cse",
+    "title": "CSE Achievements at RVITM | Awards, Research & Innovation",
+    "status": 200,
+    "chars": 4508,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/events_cse/",
+    "slug": "departments__department_of_computer_science_and_engineering__events_cse",
+    "title": "CSE Events at RVITM | Workshops, Hackathons & Seminars",
+    "status": 200,
+    "chars": 8996,
+    "docs": 36
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/facilities_of_computer_science_and_engineering/",
+    "slug": "departments__department_of_computer_science_and_engineering__facilities_of_computer_science_and_engineering",
+    "title": "CSE Facilities & Laboratories at RVITM | Modern Labs",
+    "status": 200,
+    "chars": 10483,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse",
+    "title": "CSE Faculty at RVITM | Expert Computer Science Educators",
+    "status": 200,
+    "chars": 1653,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/amit-kumar-mestri/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__amit-kumar-mestri",
+    "title": "Amit Kumar Mestri -",
+    "status": 200,
+    "chars": 376,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/deepika-d/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__deepika-d",
+    "title": "Deepika D -",
+    "status": 200,
+    "chars": 354,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_anil_kumar_b/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_anil_kumar_b",
+    "title": "Dr. Anil Kumar B -",
+    "status": 200,
+    "chars": 430,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_annie_sujith/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_annie_sujith",
+    "title": "Dr. Annie Sujith -",
+    "status": 200,
+    "chars": 343,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_deepak_n_a/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_deepak_n_a",
+    "title": "Dr. Deepak N A -",
+    "status": 200,
+    "chars": 368,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_hema_m_s/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_hema_m_s",
+    "title": "Dr Hema M S -",
+    "status": 200,
+    "chars": 385,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_koushik_s/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_koushik_s",
+    "title": "Dr. Koushik S -",
+    "status": 200,
+    "chars": 293,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_mallanagouda_patil/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_mallanagouda_patil",
+    "title": "Dr. Mallanagouda Patil -",
+    "status": 200,
+    "chars": 310,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_nandita_bangera/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_nandita_bangera",
+    "title": "Dr. Nandita Bangera -",
+    "status": 200,
+    "chars": 466,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_prabhavathi_k/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_prabhavathi_k",
+    "title": "Dr. Prabhavathi K -",
+    "status": 200,
+    "chars": 364,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_prema/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_prema",
+    "title": "Dr. Prema -",
+    "status": 200,
+    "chars": 346,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_satish_basavaraj_basapur/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_satish_basavaraj_basapur",
+    "title": "Dr. Satish Basavaraj Basapur -",
+    "status": 200,
+    "chars": 438,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_savitha_g/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_savitha_g",
+    "title": "Dr. Savitha G -",
+    "status": 200,
+    "chars": 339,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_shashidhar_v/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_shashidhar_v",
+    "title": "Dr. Shashidhar V -",
+    "status": 200,
+    "chars": 365,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_shrishail/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_shrishail",
+    "title": "Dr Shrishail -",
+    "status": 200,
+    "chars": 305,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_syeda_ayesha_unisa/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_syeda_ayesha_unisa",
+    "title": "Dr. Syeda Ayesha Unisa -",
+    "status": 200,
+    "chars": 384,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/dr_v_r_srividhya/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__dr_v_r_srividhya",
+    "title": "Dr. V R Srividhya -",
+    "status": 200,
+    "chars": 389,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mr_manjunath_k_m/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mr_manjunath_k_m",
+    "title": "Mr. Manjunath K M -",
+    "status": 200,
+    "chars": 235,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mr_murugan_s/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mr_murugan_s",
+    "title": "Mr. Murugan S -",
+    "status": 200,
+    "chars": 340,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mr_sudheendra_b_s/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mr_sudheendra_b_s",
+    "title": "Mr. Sudheendra B S -",
+    "status": 200,
+    "chars": 297,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_bhavya_n_javagal/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_bhavya_n_javagal",
+    "title": "Mrs. Bhavya N Javagal -",
+    "status": 200,
+    "chars": 377,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_indu_k_s/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_indu_k_s",
+    "title": "Mrs Indu K S -",
+    "status": 200,
+    "chars": 292,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_madhuri_h_d/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_madhuri_h_d",
+    "title": "Mrs. Madhuri H D -",
+    "status": 200,
+    "chars": 233,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_manjusha_kulkarni/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_manjusha_kulkarni",
+    "title": "Mrs. Manjusha Kulkarni -",
+    "status": 200,
+    "chars": 384,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_nayana_h_j/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_nayana_h_j",
+    "title": "Mrs. Nayana H J -",
+    "status": 200,
+    "chars": 316,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_padamasree_n/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_padamasree_n",
+    "title": "Mrs. Padamasree N -",
+    "status": 200,
+    "chars": 353,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_priyanka_k_r/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_priyanka_k_r",
+    "title": "Mrs. Priyanka K R -",
+    "status": 200,
+    "chars": 345,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/mrs_uppin_rashmi/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__mrs_uppin_rashmi",
+    "title": "Mrs. Uppin Rashmi -",
+    "status": 200,
+    "chars": 309,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/ms_veda_n/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__ms_veda_n",
+    "title": "Ms. Veda N -",
+    "status": 200,
+    "chars": 275,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/faculties_of_cse/ms-agashini-v-kumar/",
+    "slug": "departments__department_of_computer_science_and_engineering__faculties_of_cse__ms-agashini-v-kumar",
+    "title": "Ms. Agashini V Kumar -",
+    "status": 200,
+    "chars": 358,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/",
+    "slug": "departments__department_of_electronics_and_communication_engineering",
+    "title": "ECE Program at RVITM | Electronics & Communication",
+    "status": 200,
+    "chars": 6841,
+    "docs": 4
   },
   {
     "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/about_the_programme/",
@@ -101,7 +685,415 @@
     "title": "ECE Program at RVITM | Electronics & Communication Engineering",
     "status": 200,
     "chars": 1861,
+    "docs": 8
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__achievements_ece",
+    "title": "ECE Achievements at RVITM | Awards, Research & Rankings",
+    "status": 200,
+    "chars": 16363,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/events_ece/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__events_ece",
+    "title": "Events - ECE -",
+    "status": 200,
+    "chars": 5328,
+    "docs": 34
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/facilities_of_electronics_and_communication_engineering/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__facilities_of_electronics_and_communication_engineering",
+    "title": "ECE Facilities & Laboratories at RVITM | Advanced Labs",
+    "status": 200,
+    "chars": 10198,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece",
+    "title": "ECE Faculty at RVITM | Expert Electronics & Communication Faculty",
+    "status": 200,
+    "chars": 975,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_chethan_k_s/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_chethan_k_s",
+    "title": "Dr. Chethan K S -",
+    "status": 200,
+    "chars": 338,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_divyashree_m/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_divyashree_m",
+    "title": "Dr. Divyashree M -",
+    "status": 200,
+    "chars": 439,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_kavitha_n/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_kavitha_n",
+    "title": "Dr. Kavitha N -",
+    "status": 200,
+    "chars": 366,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_madhumathy_p/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_madhumathy_p",
+    "title": "Dr. Madhumathy P -",
+    "status": 200,
+    "chars": 372,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_manjunatha_prasad_r/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_manjunatha_prasad_r",
+    "title": "Dr. Manjunatha Prasad R -",
+    "status": 200,
+    "chars": 420,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_nagesh_m/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_nagesh_m",
+    "title": "Dr. Nagesh M -",
+    "status": 200,
+    "chars": 494,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_nataraj_v/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_nataraj_v",
+    "title": "Dr. Nataraj V -",
+    "status": 200,
+    "chars": 376,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_prashant_p_patavardhan/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_prashant_p_patavardhan",
+    "title": "Dr. Prashant P Patavardhan -",
+    "status": 200,
+    "chars": 487,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_shalini_shravan/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_shalini_shravan",
+    "title": "Dr. Shalini Shravan -",
+    "status": 200,
+    "chars": 401,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_venu_gopal_b_t/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_venu_gopal_b_t",
+    "title": "Dr. Venu Gopal B T -",
+    "status": 200,
+    "chars": 437,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr_vikash_kumar/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr_vikash_kumar",
+    "title": "Dr. Vikash Kumar -",
+    "status": 200,
+    "chars": 383,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/dr-prateek-dolas/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__dr-prateek-dolas",
+    "title": "Dr. Prateek Dolas -",
+    "status": 200,
+    "chars": 318,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/faculties_of_ece/mrs_nivedita_s_desai/",
+    "slug": "departments__department_of_electronics_and_communication_engineering__faculties_of_ece__mrs_nivedita_s_desai",
+    "title": "Mrs. Nivedita S Desai -",
+    "status": 200,
+    "chars": 185,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/",
+    "slug": "departments__department_of_information_science_and_engineering",
+    "title": "Information Science & Engineering at RVITM | ISE Program",
+    "status": 200,
+    "chars": 5279,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/achievements_ise/",
+    "slug": "departments__department_of_information_science_and_engineering__achievements_ise",
+    "title": "Achievements - ISE -",
+    "status": 200,
+    "chars": 92,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/events_of_department_of_information_science_and_engineering/",
+    "slug": "departments__department_of_information_science_and_engineering__events_of_department_of_information_science_and_engineering",
+    "title": "ISE Events at RVITM | Workshops, Hackathons & Tech Talks",
+    "status": 200,
+    "chars": 6600,
     "docs": 5
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/facilities_of_information_science_and_engineering/",
+    "slug": "departments__department_of_information_science_and_engineering__facilities_of_information_science_and_engineering",
+    "title": "Facilities of Information Science and Engineering -",
+    "status": 200,
+    "chars": 11600,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise",
+    "title": "ISE Faculty at RVITM | Expert Information Science Faculty",
+    "status": 200,
+    "chars": 697,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_latha_c_a/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__dr_latha_c_a",
+    "title": "Dr. Latha C A -",
+    "status": 200,
+    "chars": 358,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_m_dhanalakshmi/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__dr_m_dhanalakshmi",
+    "title": "Dr. M. Dhanalakshmi -",
+    "status": 200,
+    "chars": 341,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_niharika_p_kumar/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__dr_niharika_p_kumar",
+    "title": "Dr. Niharika P Kumar -",
+    "status": 200,
+    "chars": 447,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_shruthi_p/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__dr_shruthi_p",
+    "title": "Dr. Shruthi P -",
+    "status": 200,
+    "chars": 364,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/dr_vinoth_kumar_m/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__dr_vinoth_kumar_m",
+    "title": "Dr. Vinoth Kumar M -",
+    "status": 200,
+    "chars": 420,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mr_abhaykumar_s_inchal/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__mr_abhaykumar_s_inchal",
+    "title": "Mr. Abhaykumar S Inchal -",
+    "status": 200,
+    "chars": 304,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mr_krupesha_d/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__mr_krupesha_d",
+    "title": "Mr. Krupesha D -",
+    "status": 200,
+    "chars": 310,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_namrata_brahamaprakash/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__mrs_namrata_brahamaprakash",
+    "status": 200,
+    "title": "Mrs. Namrata Brahamaprakash -",
+    "chars": 427,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_pallavi_k_n/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__mrs_pallavi_k_n",
+    "title": "Mrs. Pallavi K N -",
+    "status": 200,
+    "chars": 371,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_samatha_r_swamy/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__mrs_samatha_r_swamy",
+    "title": "Mrs. Samatha R Swamy -",
+    "status": 200,
+    "chars": 435,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_information_science_and_engineering/faculties_of_ise/mrs_sunita/",
+    "slug": "departments__department_of_information_science_and_engineering__faculties_of_ise__mrs_sunita",
+    "title": "Mrs. Sunita -",
+    "status": 200,
+    "chars": 328,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/",
+    "slug": "departments__department_of_mechanical_engineering",
+    "title": "Department of Mechanical Engineering -",
+    "status": 200,
+    "chars": 5559,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/achievements_mechanical-engineering/",
+    "slug": "departments__department-of-mechanical-engineering__achievements_mechanical-engineering",
+    "title": "Mechanical Engineering Achievements | RVITM Bengaluru",
+    "status": 200,
+    "chars": 632,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/events-of-department-of-mechanical-engineering/",
+    "slug": "departments__department-of-mechanical-engineering__events-of-department-of-mechanical-engineering",
+    "title": "Events of Department of Mechanical Engineering -",
+    "status": 200,
+    "chars": 833,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/facilities-of-mechanical-engineering/",
+    "slug": "department-of-mechanical-engineering__facilities-of-mechanical-engineering",
+    "title": "Facilities of Mechanical Engineering -",
+    "status": 200,
+    "chars": 1219,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/",
+    "slug": "department-of-mechanical-engineering__faculty-of-mechanical-engineering",
+    "title": "Faculties of Mechanical Engineering -",
+    "status": 200,
+    "chars": 719,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-c-solaimuthu/",
+    "slug": "department-of-mechanical-engineering__faculty-of-mechanical-engineering__dr-c-solaimuthu",
+    "title": "Dr. C. SOLAIMUTHU -",
+    "status": 200,
+    "chars": 433,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-durga-prasad-c/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-durga-prasad-c",
+    "title": "Dr. Durga Prasad C -",
+    "status": 200,
+    "chars": 707,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-gajanan-m-naik/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-gajanan-m-naik",
+    "title": "Dr. Gajanan M Naik. -",
+    "status": 200,
+    "chars": 996,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-harish-h/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-harish-h",
+    "title": "Dr. Harish H -",
+    "status": 200,
+    "chars": 1032,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-lokesh-p/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-lokesh-p",
+    "title": "Dr. Lokesh P -",
+    "status": 200,
+    "chars": 362,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-manish-kumar/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-manish-kumar",
+    "title": "Dr. Manish Kumar -",
+    "status": 200,
+    "chars": 407,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-raghavendra-reddy-n-v/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-raghavendra-reddy-n-v",
+    "title": "Dr. Raghavendra Reddy N V -",
+    "status": 200,
+    "chars": 395,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-ramesh-s/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-ramesh-s",
+    "title": "Dr. Ramesh S -",
+    "status": 200,
+    "chars": 891,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/dr-shanthala-kollur/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__dr-shanthala-kollur",
+    "title": "Dr. Shanthala Kollur -",
+    "status": 200,
+    "chars": 440,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/faculty-of-mechanical-engineering/mr-thejas-c-m/",
+    "slug": "departments__department_of_mechanical_engineering__faculty-of-mechanical-engineering__mr-thejas-c-m",
+    "title": "Mr.Thejas C M -",
+    "status": 200,
+    "chars": 317,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_physical_education/",
+    "slug": "departments__department_of_physical_education",
+    "title": "Department of Physical Education -",
+    "status": 200,
+    "chars": 2850,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department_of_physical_education/sports_achievements/",
+    "slug": "departments__department_of_physical_education__sports_achievements",
+    "title": "Sports Achievements at RVITM | Awards & Championships",
+    "status": 200,
+    "chars": 186,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/",
+    "slug": "departments__department-of-master-of-computer-applications",
+    "title": "MCA Program at RVITM | Master of Computer Applications",
+    "status": 200,
+    "chars": 7211,
+    "docs": 4
   },
   {
     "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/about-the-program-mca/",
@@ -109,6 +1101,262 @@
     "title": "MCA Program at RVITM | Master of Computer Applications",
     "status": 200,
     "chars": 1603,
+    "docs": 6
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/achievements-mca/",
+    "slug": "departments__department-of-master-of-computer-applications__achievements-mca",
+    "title": "MCA Achievements at RVITM | Research, Awards & Excellence",
+    "status": 200,
+    "chars": 645,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/events-mca/",
+    "slug": "departments__department-of-master-of-computer-applications__events-mca",
+    "title": "MCA Events at RVITM | Workshops, AI & Technical Seminars",
+    "status": 200,
+    "chars": 549,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/facilities-of-mca/",
+    "slug": "departments__department-of-master-of-computer-applications__facilities-of-mca",
+    "title": "RVITM MCA Labs & Infrastructure | Modern Facilities",
+    "status": 200,
+    "chars": 6069,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca",
+    "title": "Faculties of MCA -",
+    "status": 200,
+    "chars": 753,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-b-sathyabama/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__dr-b-sathyabama",
+    "title": "Dr. B. Sathyabama -",
+    "status": 200,
+    "chars": 381,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-chethan-venkatesh/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__dr-chethan-venkatesh",
+    "title": "Dr. Chethan Venkatesh -",
+    "status": 200,
+    "chars": 419,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-m-mrunalini/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__dr-m-mrunalini",
+    "title": "Dr. M. Mrunalini -",
+    "status": 200,
+    "chars": 380,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-n-kumaresh/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__dr-n-kumaresh",
+    "title": "Dr. N. Kumaresh -",
+    "status": 200,
+    "chars": 436,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/dr-r-saravanan/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__dr-r-saravanan",
+    "title": "Dr. R. Saravanan -",
+    "status": 200,
+    "chars": 364,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mr-jayaramu-m/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__mr-jayaramu-m",
+    "title": "Mr. Jayaramu M -",
+    "status": 200,
+    "chars": 171,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mr-prashanth-b/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__mr-prashanth-b",
+    "status": 200,
+    "title": "Mr. Prashanth B -",
+    "chars": 226,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mr-vasanth-c-bhagawat/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__mr-vasanth-c-bhagawat",
+    "status": 200,
+    "title": "Mr. Vasanth C Bhagawat -",
+    "chars": 318,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mrs-k-sravanthi/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__mrs-k-sravanthi",
+    "status": 200,
+    "title": "Mrs. K. Sravanthi -",
+    "chars": 298,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/mrs-shruthi-m-g/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__mrs-shruthi-m-g",
+    "title": "Mrs. Shruthi M G -",
+    "status": 200,
+    "chars": 299,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/ms-sangeetha-k/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__ms-sangeetha-k",
+    "title": "Ms. Sangeetha K -",
+    "status": 200,
+    "chars": 324,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/ms-shreya-khodanpur/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__ms-shreya-khodanpur",
+    "title": "Ms. Shreya Khodanpur -",
+    "status": 200,
+    "chars": 322,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/faculties-of-mca/ms-tamal-sarkar/",
+    "slug": "departments__department-of-master-of-computer-applications__faculties-of-mca__ms-tamal-sarkar",
+    "title": "Ms. Tamal Sarkar -",
+    "status": 200,
+    "chars": 256,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/library-2/",
+    "slug": "departments__library-2",
+    "title": "RVITM Digital Library | Learning Resources",
+    "status": 200,
+    "chars": 7180,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/departments/research/",
+    "slug": "departments__research",
+    "title": "Research -",
+    "status": 200,
+    "chars": 40,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/dummy/",
+    "slug": "dummy",
+    "title": "Dummy -",
+    "status": 200,
+    "chars": 11232,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/events/",
+    "slug": "events",
+    "title": "RVITM Events | Technical, Cultural & Academic Activities",
+    "status": 200,
+    "chars": 2065,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/events/institutional-events-2026/",
+    "slug": "events__institutional-events-2026",
+    "title": "institutional Events 2026 -",
+    "status": 200,
+    "chars": 1110,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/facilties/",
+    "slug": "facilties",
+    "title": "RVITM Infrastructure & Facilities | Bengaluru",
+    "status": 200,
+    "chars": 3067,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/inventx/",
+    "slug": "inventx",
+    "title": "InventX -",
+    "status": 200,
+    "chars": 1417,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/key_executives/",
+    "slug": "key_executives",
+    "title": "RVITM Leadership Team | Key Executives",
+    "status": 200,
+    "chars": 794,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/know_rvitm/",
+    "slug": "know_rvitm",
+    "title": "Know RVITM | Engineering Excellence in Bangalore",
+    "status": 200,
+    "chars": 2657,
+    "docs": 4
+  },
+  {
+    "url": "https://rvitm.edu.in/know_rvitm/dr_nagashettappa_biradar/",
+    "slug": "dr_nagashettappa_biradar",
+    "title": "Dr. Nagashettappa Biradar -",
+    "status": 200,
+    "chars": 2327,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/know_rvitm/dr-h-c-a-v-s-murthy/",
+    "slug": "know_rvitm__dr-h-c-a-v-s-murthy",
+    "title": "Dr.(h.c.) A.V.S. Murthy -",
+    "status": 200,
+    "chars": 1119,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/know_rvitm/dr-m-p-shyam/",
+    "slug": "know_rvitm__dr-m-p-shyam",
+    "status": 200,
+    "title": "Dr. M.P. Shyam -",
+    "chars": 1205,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/know_rvitm/mr-d-p-nagaraj/",
+    "slug": "know_rvitm__mr-d-p-nagaraj",
+    "title": "Mr. D.P. Nagaraj -",
+    "status": 200,
+    "chars": 1128,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/leadership_and_governance/",
+    "slug": "leadership_and_governance",
+    "title": "RVITM Leadership & Governance | Academic Excellence",
+    "status": 200,
+    "chars": 1820,
+    "docs": 3
+  },
+  {
+    "url": "https://rvitm.edu.in/nss/",
+    "slug": "nss",
+    "title": "NSS -",
+    "status": 200,
+    "chars": 5935,
     "docs": 3
   },
   {
@@ -117,103 +1365,7 @@
     "title": "RVITM Placements | Top Recruiters & Career Opportunities",
     "status": 200,
     "chars": 4608,
-    "docs": 5
-  },
-  {
-    "url": "https://rvitm.edu.in/clubs/",
-    "slug": "clubs",
-    "title": "RVITM Clubs | Technical, Cultural & Sports Activities",
-    "status": 200,
-    "chars": 2007,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/committee/",
-    "slug": "committee",
-    "title": "RVITM Committees | Academic & Administrative Bodies",
-    "status": 200,
-    "chars": 59198,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/events/",
-    "slug": "events",
-    "title": "RVITM Events | Technical, Cultural & Academic Activities",
-    "status": 200,
-    "chars": 2065,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/facilties/",
-    "slug": "facilties",
-    "title": "RVITM Infrastructure & Facilities | Bengaluru",
-    "status": 200,
-    "chars": 3067,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/alumni/",
-    "slug": "alumni",
-    "title": "RVITM Alumni Network | Connect, Mentor & Grow",
-    "status": 200,
-    "chars": 2080,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/contact_us/",
-    "slug": "contact_us",
-    "title": "Contact RVITM | Admissions, Address & Enquiries",
-    "status": 200,
-    "chars": 752,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/achievements_cse/",
-    "slug": "departments__department_of_computer_science_and_engineering__achievements_cse",
-    "title": "CSE Achievements at RVITM | Awards, Research & Innovation",
-    "status": 200,
-    "chars": 4508,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/",
-    "slug": "departments__department_of_electronics_and_communication_engineering__achievements_ece",
-    "title": "ECE Achievements at RVITM | Awards, Research & Rankings",
-    "status": 200,
-    "chars": 16363,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/departments/department_of_mechanical_engineering/achievements_mechanical-engineering/",
-    "slug": "departments__department_of_mechanical_engineering__achievements_mechanical-engineering",
-    "title": "Mechanical Engineering Achievements | RVITM Bengaluru",
-    "status": 200,
-    "chars": 632,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/departments/department-of-master-of-computer-applications/achievements-mca/",
-    "slug": "departments__department-of-master-of-computer-applications__achievements-mca",
-    "title": "MCA Achievements at RVITM | Research, Awards & Excellence",
-    "status": 200,
-    "chars": 645,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/departments/department_of_physical_education/sports_achievements/",
-    "slug": "departments__department_of_physical_education__sports_achievements",
-    "title": "Sports Achievements at RVITM | Awards & Championships",
-    "status": 200,
-    "chars": 186,
-    "docs": 0
-  },
-  {
-    "url": "https://rvitm.edu.in/nss/",
-    "slug": "nss",
-    "title": "NSS -",
-    "status": 200,
-    "chars": 5935,
-    "docs": 0
+    "docs": 8
   },
   {
     "url": "https://rvitm.edu.in/policies/",
@@ -221,6 +1373,6 @@
     "title": "Policies -",
     "status": 200,
     "chars": 53,
-    "docs": 2
+    "docs": 5
   }
 ]

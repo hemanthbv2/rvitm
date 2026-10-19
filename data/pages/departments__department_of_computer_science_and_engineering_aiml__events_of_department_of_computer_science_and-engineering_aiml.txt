@@ -1,0 +1,50 @@
+URL: https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/events_of_department_of_computer_science_and-engineering_aiml/
+TITLE: AI & ML Events at RVITM | Workshops, Hackathons & Seminars
+DESCRIPTION: Explore technical events, industry interactions, AI workshops, coding activities and student engagement programs at RVITM
+
+•
+AI & ML Events at RVITM | Workshops, Hackathons & Seminars
+•
+## Computer Science and Engineering (AI&ML)
+## Events
+•
+2024 - 25
+Advaya 2025 – Advaya an Intercollegiate Tech Showdown organized by the Department of MCA was a dynamic two-day intercollegiate tech fest.
+Date: 11.03.2025 to 12.03.2025
+Coordinator: Dr. Chethan Venkatesh , Dr. N .Kumaresh
+Two-Day workshop WEB DESIGN UNLEASHED: A DEEP DIVE INTO REACT, ADVANCED JAVASCRIPT AND DESIGN TOOLS
+Date: 21.02.2025 to 22.02.2025
+Coordinator: Mrs. Shruthi M G,Mrs. Sowmya V
+Five-Day Student Develpment Programme on "Next-Gen Cloud Skills: Dive into Google Cloud Platform"
+Date: 03.02.2025 to 07.02.2025
+Coordinator: Dr. Chethan Venkatesh , Dr. N .Kumaresh, Mr. Tamal Sarkar
+Workshop on "Writing Efficient Programs"
+Date: 11.01.2025
+Coordinator: Dr. Chethan Venkatesh
+MCA students from RVITM conducted an Outreach Activity on Cybersecurity Awareness at RV School, educating students on online safety, phishing, password security, and safe internet practices empowering students with essential knowledge to navigate the digital world securely. The event aimed to raise awareness about cybersecurity and promote responsible digital behavior
+Date: 24.10.2024
+Coordinator: Dr. Chethan Venkatesh
+In Collaboration with AI & ML Club, named "KRONOS," from the ISE Department, IBM Skill Build program for 2nd Semester MCA Students was organized on August 2024 offering students hands-on training in cutting-edge technologies and industry- relevant skills. The event provided valuable insights into IBM tools and platforms, empowering participants to enhance their technical expertise and career readiness.
+Date: 28.08.2024 to 30.08.2024
+Coordinator: Mrs. Shruthi M G
+Workshop on "Machine Learning Techniques Using Python," offering students hands-on experience with ML concepts, algorithms, and real-world applications. Participants gained practical skills to build predictive models and explore the field of machine learning.
+Date: 01.08.2024 to 06.08.2024
+Coordinator: Dr. N. Kumaresh, Mrs. Shruthi M G
+"Building Your Professional Profile" workshop, guiding students on crafting impactful resumes, optimising LinkedIn profiles, and showcasing their skills effectively. The session empowered participants to strengthen their professional presence and career prospects.
+Date: 26.07.2024
+Coordinator: Dr. N. Kumaresh
+"Ask Me Anything" session on open-source projects and GitHub contributions, offering students valuable insights into open-source practices and collaboration. The event motivated participants to contribute to global projects and build their coding portfolios.
+Date: 03.06.2024
+Coordinator: Dr. N. Kumaresh
+The CodeXplorers Club at RVITM was inaugurated with enthusiasm, aiming to inspire students in coding and technology. The event featured insightful talks and set the stage for workshops, hackathons and innovative projects, fostering creativity and collaboration
+Date: 03.06.2024
+Coordinator: Dr. N. Kumaresh
+"Writing Efficient Programs" event, where students learned techniques to optimize code for better performance and reliability. The session focused on best practices, algorithm efficiency, and practical problem-solving skills, inspiring participants to write cleaner and more effective code.
+Date: 20.04.2024
+Coordinator: Dr. Chethan Venkatesh
+•
+
+--- DOCUMENTS ---
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

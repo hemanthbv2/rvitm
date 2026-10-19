@@ -18,11 +18,13 @@
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) {
     const KB = require('./rvitm-knowledge-base.js');
-    module.exports = factory(KB);
+    let PAGES = null;
+    try { PAGES = require('./rvitm-pages-index.js'); } catch (e) {}
+    module.exports = factory(KB, PAGES);
   } else {
-    root.RVITM_Engine = factory(root.RVITM_KB);
+    root.RVITM_Engine = factory(root.RVITM_KB, root.RVITM_PAGES);
   }
-}(typeof self !== 'undefined' ? self : this, function (KB) {
+}(typeof self !== 'undefined' ? self : this, function (KB, PAGES) {
   'use strict';
 
   let tone = 'pro'; // 'pro' | 'funny'
@@ -176,9 +178,9 @@
     // P0.3: Broad Campus & Institutional Comprehensive Overview
     { k: ['campus overview', 'college overview', 'show everything', 'tell me everything', 'what and all it contains', 'what does it contain', 'show about cources admissions facilities contact us', 'show about courses admissions facilities contact us', 'overview of everything', 'all details', 'explore rvitm', 'what does rvitm have', 'what is available at rvitm', 'show all sections', 'full overview', 'complete details'], id: 'campus_overview', p: 0.3 },
 
-    // P5: Greet & Farewell
-    { k: ['hi', 'hello', 'hey', 'hii', 'hola', 'good morning', 'good evening', 'good afternoon', 'namaste', 'yo', 'sup', 'howdy', 'namaskara', 'rvitm bot', 'start'], id: 'greet', p: 5 },
-    { k: ['bye', 'goodbye', 'thank you', 'thanks', 'thats all', 'see you', 'cya', 'take care', 'ok bye', 'okay bye', 'good night', 'tata', 'thanks a lot', 'exit'], id: 'bye', p: 5 },
+    // P0.4: Greet & Farewell
+    { k: ['hi', 'hello', 'hey', 'hii', 'hola', 'good morning', 'good evening', 'good afternoon', 'namaste', 'yo', 'sup', 'howdy', 'namaskara', 'rvitm bot', 'start'], id: 'greet', p: 0.4 },
+    { k: ['bye', 'goodbye', 'thank you', 'thanks', 'thats all', 'see you', 'cya', 'take care', 'ok bye', 'okay bye', 'good night', 'tata', 'thanks a lot', 'exit', 'thank you bye'], id: 'bye', p: 0.4 },
 
     // Core Institutional Topics
     { k: ['about', 'show about', 'about rvitm', 'about the college', 'about college', 'overview', 'know rvitm', 'college info', 'tell me about rvitm', 'what is rvitm', 'history', 'established', 'rv institute of technology and management', 'introduction', 'trust', 'rsst', 'rvei', 'about us', 'about institution'], id: 'about', p: 1.0 },
@@ -206,23 +208,35 @@
     { k: ['syllabus', 'curriculum', 'vtu scheme', 'subjects', 'course structure', 'academic syllabus', 'download syllabus', 'syllabus pdf', 'mca syllabus', 'ece scheme', 'cse syllabus', 'download syllabus mca ece'], id: 'syllabus', p: 0.7 },
 
     // Campus Facilities & Life (High Priority 0.6)
-    { k: ['facility', 'facilities', 'facilties', 'infrastructure', 'campus facilities', 'amenities', 'what facilities', 'smart classrooms', 'labs', 'auditorium', 'campus'], id: 'facilities', p: 0.6 },
+    { k: ['facility', 'facilities', 'facilties', 'infrastructure', 'campus facilities', 'amenities', 'what facilities', 'smart classrooms', 'labs', 'auditorium'], id: 'facilities', p: 0.6 },
     { k: ['hostel', 'hostels', 'accommodation', 'boys hostel', 'girls hostel', 'hostel fee', 'dormitory', 'stay at rvitm', 'hostel facility', 'hostel food', 'mess'], id: 'hostels', p: 0.6 },
     { k: ['library', 'central library', 'books', 'digital library', 'ieee xplore', 'vtu consortium', 'reading room', 'libsoft', 'turnitin', 'drillbit', 'library timings', 'library rules'], id: 'library', p: 0.6 },
     { k: ['sports', 'gym', 'gymnasium', 'badminton', 'games', 'vtu sports award', 'physical education', 'cricket', 'football'], id: 'sports', p: 0.7 },
-    { k: ['canteen', 'cafeteria', 'food', 'food court', 'snacks', 'lunch', 'mess food'], id: 'canteen', p: 0.7 },
+    { k: ['canteen', 'cafeteria', 'food', 'food court', 'snacks', 'lunch', 'mess food', 'campus cafeteria and food', 'campus cafeteria', 'campus food'], id: 'canteen', p: 0.45 },
     { k: ['mental health', 'cadabams', 'helpline', 'counselling', 'student wellbeing', 'psychological support', 'cadabams hospital'], id: 'mental_health', p: 0.6 },
     { k: ['club', 'clubs', 'student clubs', 'extracurricular', 'ecx', 'robotics club', 'phoenix robotics', 'coding club', 'aegis', 'e-cell', 'rudra', 'kannada sangha', 'activities'], id: 'clubs', p: 0.7 },
-    { k: ['transport', 'bus', 'bmtc', 'how to reach', 'route', 'metro', 'nearest metro', 'location', 'directions', 'address', 'jp nagar'], id: 'transport', p: 0.7 },
+    { k: ['phoenix robotics', 'robotics club', 'combat robots', 'robotics'], id: 'club_robotics', p: 0.5 },
+    { k: ['coding club', 'aegis', 'competitive programming', 'cybersecurity club', 'hackathons'], id: 'club_coding', p: 0.5 },
+    { k: ['cultural club', 'rudra', 'theatre club', 'dramatics', 'dance club'], id: 'club_cultural', p: 0.5 },
+    { k: ['e-cell', 'ecell', 'entrepreneurship cell', 'startup club'], id: 'club_ecell', p: 0.5 },
+    { k: ['kannada sangha', 'kannada club', 'rajyotsava'], id: 'club_kannada', p: 0.5 },
+    { k: ['ecx', 'ece club', 'ecx club', 'electronics club'], id: 'club_ecx', p: 0.5 },
+    { k: ['adventure club', 'adventure activities club', 'trekking club'], id: 'club_adventure', p: 0.5 },
+    { k: ['science club', 'astronomy club', 'physics club'], id: 'club_science', p: 0.5 },
+    { k: ['magazine club', 'college magazine', 'editorial club'], id: 'club_magazine', p: 0.5 },
+    { k: ['research', 'innovation', 'vtu research', 'research centres', 'icdte', 'breakthrough innovation'], id: 'research', p: 0.6 },
+    { k: ['vtu research centre', 'vtu research centres', 'phd research centres'], id: 'vtu_research', p: 0.5 },
+    { k: ['research awards', 'patents', 'student patents', 'springer conference'], id: 'research_awards', p: 0.5 },
+    { k: ['transport', 'bus', 'bmtc', 'how to reach', 'route', 'metro', 'nearest metro', 'location', 'directions', 'address', 'jp nagar', 'campus location and transport in jp nagar', 'campus location', 'transport in jp nagar'], id: 'transport', p: 0.45 },
     { k: ['contact', 'contact us', 'phone', 'email', 'phone number', 'helpline', 'address', 'enquiry', 'office', 'landline', 'office hours', 'how to contact', 'reach out', 'call'], id: 'contact', p: 0.6 },
 
     // Statutory Bodies, Governance & Approvals
     { k: ['aicte', 'affiliation', 'vtu affiliation', 'aicte approval', 'accreditation', 'accreditations', 'approvals', 'eoa', 'gok order', 'recognition'], id: 'accreditations', p: 0.8 },
-    { k: ['circular', 'circulars', 'notification', 'notifications', 'academic calendar', 'exam circular', 'time table', 'latest updates', 'notices'], id: 'circulars', p: 0.8 },
+    { k: ['circular', 'circulars', 'notification', 'notifications', 'academic calendar', 'exam circular', 'time table', 'latest updates', 'notices', 'latest circulars and academic calendar', 'latest circulars'], id: 'circulars', p: 0.45 },
     { k: ['committee', 'committees', 'statutory committee', 'discipline committee', 'dac', 'mpcc', 'governance'], id: 'committees', p: 0.8 },
     { k: ['anti ragging', 'ragging', 'ragging complaint', 'anti ragging squad', 'ragging helpline', 'anti ragging committee', 'arc', 'ars', 'zero tolerance anti ragging committee', 'zero tolerance'], id: 'antiragging', p: 0.7 },
     { k: ['grievance', 'grievance cell', 'grievance redressal', 'complaint', 'student grievance', 'posh', 'icc', 'women cell', 'harassment', 'online grievance redressal', 'aicte clause 1', 'online grievance redressal aicte clause 1'], id: 'grievance', p: 0.7 },
-    { k: ['nss', 'national service scheme', 'nss unit', 'nss recruitment', 'nss unit recruitment', 'social service', 'lokesh p', 'abhaykumar inchal'], id: 'nss', p: 0.7 },
+    { k: ['nss', 'national service scheme', 'nss unit', 'nss recruitment', 'nss unit recruitment', 'social service', 'lokesh p', 'abhaykumar inchal', 'nss unit recruitment august'], id: 'nss', p: 0.45 },
     { k: ['alumni', 'alumni network', 'alumni association', 'graduates', 'alumni portal'], id: 'alumni', p: 0.8 }
   ];
 
@@ -254,8 +268,9 @@
     if (b.c === 'is') kws.push('ise', 'information science', 'info science');
     if (b.c === 'ec') kws.push('ece', 'electronics', 'electronics and communication');
     if (b.c === 'me') kws.push('mechanical', 'mech', 'mechanical engineering');
+    if (b.c === 'mca') kws.push('mca', 'mca program', 'mca program details', 'mca details', 'mca course', 'mca branch');
 
-    QA.push({ k: kws, id: `dept_${b.c}`, p: 0.9 });
+    QA.push({ k: kws, id: `dept_${b.c}`, p: 0.45 });
   });
 
   // 2. Branch HOD Intents
@@ -315,8 +330,8 @@
     'admissions': '🎓 Admissions & Eligibility',
     'cutoffs': '📊 CET & COMEDK Cutoffs',
     'management_quota': '🏛️ Management Quota Seats',
-    'fees': '💳 Fee Structure & Online Payment',
-    'placements': '💼 Placement Statistics (₹41.5 LPA)',
+    'fees': '💳 Fee Structure',
+    'placements': '💼 Placements',
     'facilities': '🏢 Campus Infrastructure & Labs',
     'hostels': '🛏️ Hostels & Accommodation',
     'library': '📖 Central Library & E-Resources',
@@ -338,7 +353,20 @@
     'grievance': '📝 Online Grievance Redressal & POSH',
     'nss': '🤝 National Service Scheme (NSS Unit)',
     'alumni': '🌐 RVITM Alumni Network',
-    'barch': '🏛️ Architecture (B.Arch RVCA)'
+    'barch': '🏛️ Architecture (B.Arch RVCA)',
+    'research': '🔬 Research & Innovation',
+    'vtu_research': '🏛️ VTU Recognized Research Centres',
+    'research_awards': '🏆 Research Awards & Publications',
+    'club_robotics': '🤖 Phoenix Robotics Club',
+    'club_coding': '💻 Coding Club & Aegis',
+    'club_cultural': '🎭 Cultural Club & Rudra',
+    'club_ecell': '💡 E-Cell (Startups)',
+    'club_kannada': '💛 Kannada Sangha',
+    'club_ecx': '⚡ ECE Club (ECX)',
+    'club_adventure': '🧗 Adventure Activities Club',
+    'club_science': '🔬 Science Club',
+    'club_magazine': '📰 Magazine Club',
+    'page_search_result': '📄 Website Page Result'
   };
 
   allBranches.forEach(b => {
@@ -359,51 +387,166 @@
     });
   }
 
-  /* =========================================================================
-     6. DYNAMIC FACULTY DETECTIVE
+    /* =========================================================================
+     6. DYNAMIC FACULTY DETECTIVE WITH ALIAS MAPPING
      ========================================================================= */
+  const FACULTY_ALIASES = {
+    'surbhi': 'surabhi',
+    'surbhiagrawal': 'drsurabhiagrawal',
+    'surabhiagrawal': 'drsurabhiagrawal',
+    'manjunathaprasad': 'drmanjunathaprasadr',
+    'manjunathaprasadr': 'drmanjunathaprasadr',
+    'latha': 'drlathaca',
+    'lathaca': 'drlathaca',
+    'hemams': 'drhemams',
+    'hema': 'drhemams',
+    'vinothkumar': 'drvinothkumarm',
+    'vinoth': 'drvinothkumarm',
+    'solaimuthu': 'drcsolaimuthu',
+    'csolaimuthu': 'drcsolaimuthu',
+    'mrunalini': 'drmmrunalini',
+    'mmrunalini': 'drmmrunalini',
+    'patavardhan': 'drprashantppatavardhan',
+    'prashantpatavardhan': 'drprashantppatavardhan',
+    'gangadharaiah': 'drgangadharaiahyh',
+    'nagashettappa': 'drnagashettappabiradar',
+    'biradar': 'drnagashettappabiradar',
+    'malinipatil': 'drmalinimpatil',
+    'malini': 'drmalinimpatil'
+  };
+
+  function normalize(s) {
+    return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
   function findFacultyMatch(input) {
     if (!input || !KB.faculty) return null;
-    const sInput = sanitize(input).toLowerCase().replace(/[^a-z]/g, '');
-    if (sInput.length < 4) return null;
+    const rawClean = input.toLowerCase().replace(/dr\.|prof\.|mr\.|mrs\.|ms\./gi, ' ').replace(/[^a-z0-9\s]/g, ' ');
+    const blacklist = [
+      'who', 'is', 'the', 'tell', 'about', 'details', 'info', 'professor', 'faculty', 'teacher',
+      'thank', 'thanks', 'bye', 'goodbye', 'hello', 'hey', 'unit', 'recruitment', 'august',
+      'food', 'cafeteria', 'location', 'transport', 'calendar', 'circulars', 'programs',
+      'program', 'engineering', 'branch', 'department', 'admission', 'fee', 'hostel'
+    ];
+    const tokens = rawClean.split(/\s+/).filter(w => w.length >= 3 && !blacklist.includes(w));
+    const fullNorm = normalize(input);
 
-    let bestMatch = null;
-    let bestMatchLength = 0;
-
-    for (const deptKey in KB.faculty) {
-      for (const fac of KB.faculty[deptKey]) {
-        const fSlug = (fac.slug || fac.n).toLowerCase().replace(/[^a-z]/g, '');
-        const pSlug = fac.n.replace(/Dr\.|Prof\.|Mr\.|Mrs\.|Ms\./gi, '').toLowerCase().replace(/[^a-z]/g, '');
-
-        if (sInput === fSlug || sInput === pSlug) {
-          return `fac_${fac.slug || fSlug}`;
-        }
-        if (sInput.length > 5 && (sInput.includes(fSlug) || sInput.includes(pSlug))) {
-          const matchLen = sInput.includes(fSlug) ? fSlug.length : pSlug.length;
-          if (matchLen > bestMatchLength) {
-            bestMatch = `fac_${fac.slug || fSlug}`;
-            bestMatchLength = matchLen;
+    // 1. Direct Alias Check
+    for (const alias in FACULTY_ALIASES) {
+      if (fullNorm.includes(alias)) {
+        const targetSlug = FACULTY_ALIASES[alias];
+        for (const dept in KB.faculty) {
+          for (const f of KB.faculty[dept]) {
+            const fSlugNorm = normalize(f.slug || f.n);
+            if (fSlugNorm.includes(targetSlug) || targetSlug.includes(fSlugNorm)) {
+              return 'fac_' + (f.slug || f.n);
+            }
           }
         }
       }
     }
+
+    if (tokens.length === 0) return null;
+
+    // 2. Token overlap score
+    let bestMatch = null;
+    let highestScore = 0;
+
+    for (const dept in KB.faculty) {
+      for (const f of KB.faculty[dept]) {
+        const fPlain = f.n.toLowerCase().replace(/dr\.|prof\.|mr\.|mrs\.|ms\./gi, ' ').replace(/[^a-z0-9\s]/g, ' ');
+        const fTokens = fPlain.split(/\s+/).filter(w => w.length >= 2);
+
+        let score = 0;
+        let matchedDirectToken = false;
+        for (const t of tokens) {
+          if (fTokens.includes(t)) {
+            score += t.length * 3;
+            matchedDirectToken = true;
+          } else if (fTokens.some(ft => ft.length >= 4 && ft.startsWith(t) && t.length >= 4)) {
+            score += t.length * 2;
+            matchedDirectToken = true;
+          }
+        }
+
+        if (matchedDirectToken && score > highestScore && score >= 5) {
+          highestScore = score;
+          bestMatch = 'fac_' + (f.slug || f.n);
+        }
+      }
+    }
+
     return bestMatch;
   }
 
   function findFacultyBySlug(slug) {
     if (!KB.faculty) return null;
-    for (const deptKey in KB.faculty) {
-      for (const fac of KB.faculty[deptKey]) {
-        const facSlug = (fac.slug || fac.n).toLowerCase().replace(/[^a-z0-9]/g, '');
-        if (facSlug === slug || fac.slug === slug) {
-          return { fac, dept: deptKey };
-        }
+    const cleanSlug = normalize(slug);
+    for (const dept in KB.faculty) {
+      for (const f of KB.faculty[dept]) {
+        const fSlug = normalize(f.slug || f.n);
+        if (fSlug === cleanSlug) return { fac: f, dept: dept };
       }
     }
     return null;
   }
 
   /* =========================================================================
+     6.5 SITE-WIDE PAGE SEARCH & CONTENT RETRIEVAL (RVITM.EDU.IN)
+     ========================================================================= */
+  function searchWebsitePages(query) {
+    const pagesData = PAGES || (typeof self !== 'undefined' && self.RVITM_PAGES) || (typeof window !== 'undefined' && window.RVITM_PAGES);
+    if (!pagesData || !pagesData.chunks || !pagesData.chunks.length) return null;
+    const clean = (query || '').toLowerCase().replace(/[^a-z0-9\s]/g, ' ').trim();
+    const tokens = clean.split(/\s+/).filter(w => w.length >= 3 && !['what', 'who', 'tell', 'about', 'how', 'when', 'where', 'which', 'can', 'the', 'and', 'for', 'with', 'details', 'give', 'show', 'provide'].includes(w));
+    if (!tokens.length) return null;
+
+    let bestChunk = null;
+    let bestScore = 0;
+
+    for (const chunk of pagesData.chunks) {
+      const page = pagesData.pages[chunk.p];
+      if (!page || (page.u && page.u.includes('dummy'))) continue;
+
+      const xLower = chunk.x.toLowerCase();
+      const hLower = (chunk.h || '').toLowerCase();
+      const tLower = (page.t || '').toLowerCase();
+
+      let score = 0;
+
+      // Exact phrase match in body or heading
+      if (clean.length >= 5) {
+        if (xLower.includes(clean)) score += 15;
+        if (hLower.includes(clean)) score += 20;
+      }
+
+      // Token overlap
+      for (const t of tokens) {
+        if (hLower.includes(t)) score += t.length * 4;
+        if (tLower.includes(t)) score += t.length * 2;
+        if (xLower.includes(t)) score += t.length * 1.5;
+      }
+
+      if (score > bestScore) {
+        bestScore = score;
+        bestChunk = { chunk, page, score };
+      }
+    }
+
+    if (bestScore >= 12 && bestChunk) {
+      return {
+        title: bestChunk.chunk.h || bestChunk.page.t,
+        pageTitle: bestChunk.page.t,
+        pageUrl: bestChunk.page.u,
+        text: bestChunk.chunk.x,
+        docs: bestChunk.page.docs || [],
+        score: bestScore
+      };
+    }
+    return null;
+  }
+
+/* =========================================================================
      7. INTENT CLASSIFICATION & COMPOSITE RESOLUTION
      ========================================================================= */
   function classifyIntent(input) {
@@ -437,7 +580,12 @@
     ];
     strippedInput = cleanInput.split(' ').filter(w => !stopWords.includes(w)).join(' ');
 
-    // 0. Abbreviation Check
+    // 0. Direct Intent ID Bypass (0ms latency for clicked action buttons)
+    if (INTENT_LABELS[cleanInput] || cleanInput.startsWith('fac_') || cleanInput.startsWith('dept_') || cleanInput.startsWith('hod_') || cleanInput.startsWith('plcmt_')) {
+      return { type: 'exact', id: cleanInput, suggestions: [] };
+    }
+
+    // 0.5 Abbreviation Check
     if (ABBR[cleanInput]) {
       return { type: 'exact', id: ABBR[cleanInput], suggestions: [] };
     }
@@ -601,7 +749,14 @@
       return { type: 'keyword', id: best, suggestions: [] };
     }
 
-    // 5. Fallback Suggestions via Levenshtein on Topics
+    // 5. Site-Wide Page Search (Searches across all crawled pages of rvitm.edu.in)
+    const pageMatch = searchWebsitePages(cleanInput);
+    if (pageMatch) {
+      SESSION.lastPageResult = pageMatch;
+      return { type: 'page_search', id: 'page_search_result', pageResult: pageMatch, suggestions: [] };
+    }
+
+    // 6. Fallback Suggestions via Levenshtein on Topics
     const suggestions = findSuggestions(cleanInput);
     return { type: null, id: null, suggestions };
   }
@@ -640,30 +795,35 @@
 
   const INTENT_URLS = {
     'campus_overview': 'https://rvitm.edu.in/',
-    'greet': 'https://rvitm.edu.in/',
-    'bye': 'https://rvitm.edu.in/',
-    'about': 'https://rvitm.edu.in/about-us/',
-    'principal': 'https://rvitm.edu.in/about-us/',
-    'vice_principal': 'https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/',
-    'leadership': 'https://rvitm.edu.in/about-us/',
-    'vision': 'https://rvitm.edu.in/about-us/',
+    'about': 'https://rvitm.edu.in/know_rvitm/',
+    'principal': 'https://rvitm.edu.in/key_executives/',
+    'vice_principal': 'https://rvitm.edu.in/key_executives/',
+    'leadership': 'https://rvitm.edu.in/leadership_and_governance/',
+    'vision': 'https://rvitm.edu.in/know_rvitm/',
     'departments': 'https://rvitm.edu.in/departments/',
     'barch': 'https://rvca.edu.in/b-arch/',
     'admissions': 'https://rvitm.edu.in/admissions/',
     'cutoffs': 'https://rvitm.edu.in/admissions/',
     'management_quota': 'https://rvitm.edu.in/admissions/',
     'fees': 'https://rvitm.edu.in/admissions/',
-    'fees_online': 'https://wds-prd.rvei.edu.in:4430/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html',
     'placements': 'https://rvitm.edu.in/placement/',
-    'facilities': 'https://rvitm.edu.in/',
-    'hostels': 'https://rvitm.edu.in/',
+    'facilities': 'https://rvitm.edu.in/facilties/',
+    'hostels': 'https://rvitm.edu.in/facilties/',
     'library': 'https://rvitm.edu.in/departments/library-2/',
-    'sports': 'https://rvitm.edu.in/',
-    'canteen': 'https://rvitm.edu.in/',
-    'mental_health': 'https://rvitm.edu.in/',
-    'clubs': 'https://rvitm.edu.in/',
-    'transport': 'https://rvitm.edu.in/contact-us/',
-    'contact': 'https://rvitm.edu.in/contact-us/',
+    'sports': 'https://rvitm.edu.in/departments/department_of_physical_education/sports_achievements/',
+    'canteen': 'https://rvitm.edu.in/facilties/',
+    'mental_health': 'https://rvitm.edu.in/know_rvitm/',
+    'clubs': 'https://rvitm.edu.in/clubs/',
+    'club_robotics': 'https://rvitm.edu.in/clubs/',
+    'club_coding': 'https://rvitm.edu.in/clubs/',
+    'club_cultural': 'https://rvitm.edu.in/clubs/',
+    'club_ecell': 'https://rvitm.edu.in/clubs/',
+    'club_kannada': 'https://rvitm.edu.in/clubs/',
+    'research': 'https://rvitm.edu.in/achievements/',
+    'vtu_research': 'https://rvitm.edu.in/accreditations_affiliations/',
+    'research_awards': 'https://rvitm.edu.in/achievements/',
+    'transport': 'https://rvitm.edu.in/contact_us/',
+    'contact': 'https://rvitm.edu.in/contact_us/',
     'placement_reports': 'https://rvitm.edu.in/placement/',
     'placement_team': 'https://rvitm.edu.in/placement/',
     'syllabus': 'https://rvitm.edu.in/departments/',
@@ -679,15 +839,19 @@
   };
 
   function getResponse(id) {
-    if (!id) {
+    if (!id || id === 'menu') {
       return {
-        text: `Hello! 👋 I'm your **RVITM Assistant**. How can I help you today? You can ask me anything about our **Courses Offered**, **Admissions 2026**, **Campus Facilities**, **Placements (₹41.5 LPA)**, or **Contact Information**!`,
+        text: "Hello! 👋 Welcome to **RV Institute of Technology & Management (RVITM)**. How can I assist you today? Choose any topic below or ask me directly!",
         url: 'https://rvitm.edu.in/',
         buttons: [
           { text: "🏛️ About RVITM", act: "about" },
-          { text: "📚 Courses Offered", act: "departments" },
           { text: "🎓 Admissions 2026", act: "admissions" },
-          { text: "🏢 Campus Facilities", act: "facilities" },
+          { text: "📚 Courses Offered", act: "departments" },
+          { text: "💼 Placements", act: "placements" },
+          { text: "👨‍🏫 Faculty Directory", act: "faculty_list" },
+          { text: "🔬 Research & Innovation", act: "research" },
+          { text: "🚀 Student Clubs", act: "clubs" },
+          { text: "🏢 Hostels & Facilities", act: "facilities" },
           { text: "📞 Contact Us", act: "contact" }
         ]
       };
@@ -704,50 +868,95 @@
   }
 
   function getResponseInternal(id) {
-    // Dynamic Faculty Detail Intent
+    // 0. Dynamic Website Page Search Result (Concise summary of source page)
+    if (id === 'page_search_result' && SESSION.lastPageResult) {
+      const pr = SESSION.lastPageResult;
+      const cleanLines = (pr.text || '')
+        .split('\n')
+        .map(s => s.trim().replace(/^•\s*/, ''))
+        .filter(s => s.length > 20 && !s.includes('©') && !s.includes('http') && !s.includes('rights reserved'))
+        .slice(0, 3);
+
+      let text = `📄 **${pr.title || pr.pageTitle}**<br><br>` +
+                 (cleanLines.length ? cleanLines.map(l => `• ${l}`).join('<br>') + '<br><br>' : '') +
+                 `🌐 **Source:** [${pr.pageTitle || 'Official Webpage'}](${pr.pageUrl})`;
+
+      if (pr.docs && pr.docs.length > 0) {
+        text += '<br><br>📑 **Downloads:**<br>' +
+                pr.docs.slice(0, 2).map(d => `• 🔗 [${d.t}](${d.u})`).join('<br>');
+      }
+
+      const buttons = [
+        { text: "🌐 View Official Page", url: pr.pageUrl },
+        { text: "📚 Courses Offered", act: "departments" },
+        { text: "🏛️ Main Menu", act: "menu" }
+      ];
+
+      return { text, buttons, url: pr.pageUrl };
+    }
+
+    const deptCodeMap = {
+      'cs': 'cse', 'cse': 'cse',
+      'aiml': 'aiml', 'ai': 'aiml',
+      'is': 'ise', 'ise': 'ise',
+      'ec': 'ece', 'ece': 'ece',
+      'me': 'me', 'mech': 'me',
+      'mca': 'mca',
+      'ash': 'ash'
+    };
+
+    // 1. Dynamic Faculty Detail Intent & Department Roster
     if (id.startsWith('fac_')) {
       const slug = id.replace('fac_', '');
+      const mappedDept = deptCodeMap[slug];
+      if (mappedDept && KB.faculty && KB.faculty[mappedDept]) {
+        return renderDeptFacultyList(mappedDept);
+      }
       const match = findFacultyBySlug(slug);
       if (match) {
         return renderFacultyCard(match.fac, match.dept);
       }
     }
 
-    // Dynamic Department Overview Intent
+    // 2. Dynamic Department Overview Intent
     if (id.startsWith('dept_')) {
       const branchCode = id.replace('dept_', '');
-      const branch = allBranches.find(b => b.c === branchCode);
       const ugData = KB.departments.ug.find(b => b.c === branchCode) ||
                      KB.departments.pg.find(b => b.c === branchCode) ||
-                     KB.departments.foundational.find(b => b.c === branchCode);
+                     KB.departments.foundational?.find(b => b.c === branchCode);
       if (ugData) {
         return renderDepartmentCard(ugData);
       }
     }
 
-    // Dynamic Branch HOD Intent
+    // 3. Dynamic Branch HOD Intent
     if (id.startsWith('hod_')) {
       const branchCode = id.replace('hod_', '');
       const ugData = KB.departments.ug.find(b => b.c === branchCode) ||
                      KB.departments.pg.find(b => b.c === branchCode) ||
-                     KB.departments.foundational.find(b => b.c === branchCode);
+                     KB.departments.foundational?.find(b => b.c === branchCode);
       if (ugData) {
         return renderHODCard(ugData);
       }
     }
 
-    // Dynamic Branch Placement Intent
+    // 4. Dynamic Branch Placement Intent
     if (id.startsWith('plcmt_')) {
       const branchCode = id.replace('plcmt_', '');
       const branch = allBranches.find(b => b.c === branchCode);
       if (branch) {
         const s = KB.placements.stats;
         return {
-          text: `💼 **${branch.code} — Placement Information**<br><br>• **Institute Highest Package:** ${s.highestPackage}<br>• **Institute Average Package:** ${s.averagePackage}<br>• **Placement Rate:** ${s.placementRate}<br><br>Branch-wise figures are published in the batch-wise placement reports (2020–24, 2021–25, 2022–26) on the official placement page. RVITM students also share centralized placement opportunities with RVCE!`,
+          text: "💼 **" + branch.code + " — Placements** (Centralized with RVCE)<br><br>" +
+                "• **Highest Package:** " + s.highestPackage + "<br>" +
+                "• **Average Package:** " + s.averagePackage + "<br>" +
+                "• **Placement Rate:** " + s.placementRate + "<br>" +
+                "• **Top Recruiters:** Amazon, Oracle, Cisco, Walmart, PhonePe, Nutanix, Qualcomm, Samsung",
           buttons: [
-            { text: "📊 Overall Placements", act: "placements" },
-            { text: "🌐 Placement Reports", url: KB.placements.placementPage },
-            { text: "📘 Dept Overview", act: `dept_${branchCode}` }
+            { text: "💼 Overall Placements", act: "placements" },
+            { text: "📑 Batch Reports (PDF)", act: "placement_reports" },
+            { text: "📘 " + branch.code + " Course Info", act: "dept_" + branchCode },
+            { text: "👨‍🏫 " + branch.code + " Faculty", act: "fac_" + branchCode }
           ]
         };
       }
@@ -755,57 +964,54 @@
 
     // Core Curated Responses
     switch (id) {
-      case 'campus_overview':
-        return {
-          text: `🏛️ **Complete Institutional Overview — RVITM**<br><br>Here is a complete look at everything RVITM has to offer across our core pillars:<br><br>• 🏛️ **About RVITM:** Established in 2019 under the 80+ year legacy of **Rashtreeya Sikshana Samithi Trust (RSST)**. Approved by AICTE, affiliated to VTU Belagavi, and shares a centralized placement synergy with RVCE (Highest: ₹41.5 LPA, Avg: ₹12.27 LPA).<br><br>• 📚 **Academic Courses (B.E. & MCA):** Five premier engineering branches—**Computer Science (CSE)**, **AI & Machine Learning (AI&ML)**, **Information Science (ISE)**, **Electronics & Communication (ECE)**, and **Mechanical Engineering (ME)**—plus **Master of Computer Applications (MCA)**.<br><br>• 🎓 **Admissions & Eligibility:** Transparent entry routes via **KCET** (KEA state counselling), **COMED-K** (All India merit exam), and merit-based **Management Quota**. Eligibility: 10+2 PCM (min 45% aggregate, 40% for reserved categories).<br><br>• 🏢 **World-Class Campus Facilities:** High-tech digital library (Turnitin, IEEE Xplore, ScienceDirect), separate Boys & Girls hostels, sports fitness gym (VTU award winners), cafeteria, and our signature **24/7 Cadabams Mental Health Helpline**.<br><br>• 📞 **Contact Us:** Campus located in Chaithanya Layout, JP Nagar 8th Phase, Bengaluru. Direct admissions mobile: **+91 8951758140** | Campus landlines: **080-35095100 to 104** | Email: \`admissions.rvitm@rvei.edu.in\`<br><br>Tap any topic below to dive into the specifics!`,
-          url: "https://rvitm.edu.in/",
-          buttons: [
-            { text: "📚 Explore Courses", act: "departments" },
-            { text: "🎓 Admissions 2026", act: "admissions" },
-            { text: "🏢 Campus Facilities", act: "facilities" },
-            { text: "💼 Placements (₹41.5 LPA)", act: "placements" },
-            { text: "📞 Contact Directory", act: "contact" }
-          ]
-        };
-
       case 'greet':
         return {
-          text: `Welcome to **RVITM Official Assistant** (RV Institute of Technology and Management, Bengaluru)! 👋<br><br>I'm here to provide you with verified answers on admissions, courses, placements, leadership, faculty, and campus life. How may I help you today?`,
+          text: "Hello! 👋 Welcome to **RVITM Assistant**. How can I help you today? Choose any topic below or ask me directly!",
+          url: 'https://rvitm.edu.in/',
           buttons: [
-            { text: "🏛️ Campus Overview", act: "campus_overview" },
-            { text: "💼 Placements (₹41.5 LPA)", act: "placements" },
-            { text: "🎓 Admissions 2026", act: "admissions" },
+            { text: "🏛️ About RVITM", act: "about" },
             { text: "📚 Courses Offered", act: "departments" },
-            { text: "🏢 Campus Facilities", act: "facilities" }
+            { text: "🎓 Admissions 2026", act: "admissions" },
+            { text: "💼 Placements", act: "placements" },
+            { text: "👨‍🏫 Faculty Directory", act: "faculty_list" },
+            { text: "🔬 Research & Clubs", act: "research" }
           ]
         };
 
       case 'bye':
         return {
-          text: `Thank you for contacting RVITM! 🚀 Wishing you the very best in your academic journey. If you ever have more questions, feel free to reopen our chat anytime! ✨`,
+          text: "Thank you for visiting RVITM! 🙌 Feel free to return anytime. Best wishes on your engineering journey!",
           buttons: [
-            { text: "📋 Main Menu", act: "greet" }
+            { text: "🌐 Visit Official Website", url: "https://rvitm.edu.in/" },
+            { text: "📋 Main Menu", act: "menu" }
           ]
         };
 
+      case 'campus_overview':
       case 'about':
         return {
-          text: `🏛️ **Welcome to RVITM — RV Institute of Technology & Management**<br><br>RVITM was established in 2019 under the prestigious banner of **Rashtreeya Sikshana Samithi Trust (RSST)**, carrying an illustrious 80+ year heritage of over 27 educational institutions and 24,000+ students.<br><br>• 📍 **Urban High-Tech Campus:** Chaithanya Layout, 8th Phase, J.P. Nagar, Bengaluru – 560076.<br>• 📜 **Accreditation & Approvals:** Approved by AICTE, affiliated with Visvesvaraya Technological University (VTU), Belagavi, and recognized by the Government of Karnataka.<br>• 👨‍💼 **Leadership:** Led by visionary Principal **Dr. Nagashettappa Biradar** and Vice Principal **Dr. Manjunatha Prasad R**.<br>• 🎯 **Vision:** Imparting world-class technical education with global competence, societal commitment, and breakthrough innovations.<br>• 💡 **The RV Advantage:** RVITM students enjoy centralized placement drives alongside RVCE, unlocking dream offers up to **₹41.5 LPA**!`,
+          text: "🏛️ **RVITM, Bengaluru** (RSST Trust, Est. 2019)<br><br>" +
+                "• 📍 **Location:** JP Nagar 8th Phase, Bengaluru<br>" +
+                "• 📜 **Affiliation:** VTU Belagavi & AICTE Approved<br>" +
+                "• 👨‍💼 **Leadership:** Dr. Nagashettappa Biradar (Principal)<br>" +
+                "• 💼 **Placements:** Centralized with RVCE (Highest: **₹41.5 LPA** | Avg: **₹12.27 LPA**)<br>" +
+                "• 🧠 **Student Care:** 24/7 mental health counseling (Cadabams)",
+          url: "https://rvitm.edu.in/know_rvitm/",
           buttons: [
-            { text: "👨‍💼 Leadership", act: "leadership" },
             { text: "📚 Courses Offered", act: "departments" },
             { text: "🎓 Admissions 2026", act: "admissions" },
-            { text: "💼 Placements (₹41.5 LPA)", act: "placements" },
-            { text: "📞 Contact Us", act: "contact" }
+            { text: "💼 Placements", act: "placements" },
+            { text: "👨‍🏫 Faculty Directory", act: "faculty_list" },
+            { text: "🏢 Campus Facilities", act: "facilities" }
           ]
         };
 
       case 'principal':
         return {
-          text: T(
-            `👨‍💼 **Meet the Captain of the Ship!**<br>Our Principal is **Dr. Nagashettappa Biradar**! A veteran visionary driving RVITM's cutting-edge labs, research initiatives, and stellar student achievements! 🎓`,
-            `👨‍💼 **Principal — RVITM**<br><br>**Dr. Nagashettappa Biradar**<br>Principal, RV Institute of Technology and Management<br>• **Focus:** Academic excellence, experiential learning, industry immersion, and innovation.<br>• **Email:** \`principal.rvitm@rvei.edu.in\`<br>• **Office:** Principal's Secretariat, Administrative Block, RVITM Campus.`
-          ),
+          text: "👨‍💼 **Principal — RVITM**<br><br>" +
+                "**Dr. Nagashettappa Biradar**<br>" +
+                "• 📧 **Email:** `principal.rvitm@rvei.edu.in`<br>" +
+                "• 📍 **Office:** Principal's Secretariat, RVITM Campus, Bengaluru",
           buttons: [
             { text: "👨‍💼 Vice Principal", act: "vice_principal" },
             { text: "👥 RSST Leadership", act: "leadership" },
@@ -815,10 +1021,10 @@
 
       case 'vice_principal':
         return {
-          text: T(
-            `👨‍💼 **Vice Principal & ECE Dynamo!**<br>**Dr. Manjunatha Prasad R** is our Vice Principal as well as Professor & Head of Electronics & Communication Engineering! ⚡`,
-            `👨‍💼 **Vice Principal — RVITM**<br><br>**Dr. Manjunatha Prasad R**<br>Vice Principal, Professor & Head of ECE<br>• **Department:** Electronics & Communication Engineering<br>• **Role:** Oversees academic administration, student mentoring, and departmental growth.`
-          ),
+          text: "👨‍💼 **Vice Principal — RVITM**<br><br>" +
+                "**Dr. Manjunatha Prasad R**<br>" +
+                "• 👔 **Designation:** Vice Principal, Professor & Head of ECE<br>" +
+                "• 🔬 **Expertise:** VLSI Design & Embedded IoT Systems",
           buttons: [
             { text: "👨‍💼 Principal", act: "principal" },
             { text: "📘 ECE Department", act: "dept_ec" },
@@ -828,182 +1034,219 @@
 
       case 'leadership':
         return {
-          text: T(
-            `👥 **The Visionaries behind RVITM (RSST Trust):**<br><br>• **President:** Dr. M. P. Shyam<br>• **Hon. Secretary:** Dr. (h.c.) A. V. S. Murthy<br>• **Hon. Joint Secretary:** Mr. D. P. Nagaraj<br>• **Principal:** Dr. Nagashettappa Biradar<br>• **Vice Principal:** Dr. Manjunatha Prasad R<br><br>Guided by Gandhian ethics and futuristic engineering vision! 🎯`,
-            `👥 **Leadership & Governance — RSST / RVITM**<br><br>• **President (RSST):** Dr. M. P. Shyam<br>• **Hon. Secretary (RSST):** Dr. (h.c.) A. V. S. Murthy<br>• **Hon. Joint Secretary (RSST):** Mr. D. P. Nagaraj<br>• **Principal (RVITM):** Dr. Nagashettappa Biradar<br>• **Vice Principal:** Dr. Manjunatha Prasad R<br><br>Governed under the aegis of Rashtreeya Sikshana Samithi Trust (founded in 1940).`
-          ),
+          text: "👥 **RSST & RVITM Leadership**<br><br>" +
+                "• **President (RSST):** Dr. M. P. Shyam<br>" +
+                "• **Hon. Secretary (RSST):** Dr. (h.c.) A. V. S. Murthy<br>" +
+                "• **Hon. Joint Secretary:** Mr. D. P. Nagaraj<br>" +
+                "• **Principal (RVITM):** Dr. Nagashettappa Biradar<br>" +
+                "• **Vice Principal:** Dr. Manjunatha Prasad R",
           buttons: [
             { text: "👨‍💼 Principal", act: "principal" },
             { text: "🎯 Vision & Mission", act: "vision" },
-            { text: "🏛️ About College", act: "about" }
+            { text: "🏛️ About RVITM", act: "about" }
           ]
         };
 
       case 'vision':
         return {
-          text: T(
-            `🎯 **Vision**: To impart top-quality technical education with global competence and societal commitment, leading to breakthrough innovations!<br><br>🚀 **Mission**: To nurture passionate engineers through experiential learning, cutting-edge labs, and ICT-powered pedagogy!`,
-            `🎯 **Vision of RVITM**<br>To impart top-quality technical education with global competence and societal commitment, leading to breakthrough innovations.<br><br>🌱 **Mission of RVITM**<br>Our mission is to nurture passionate engineers through experiential learning by providing state-of-the-art infrastructure and ICT-enabled education.`
-          ),
+          text: "🎯 **Vision & Mission — RVITM**<br><br>" +
+                "• **Vision:** Top-quality technical education with global competence and breakthrough innovations.<br>" +
+                "• **Mission:** Nurturing passionate engineers through experiential learning, ICT, and modern labs.",
           buttons: [
-            { text: "📚 Academic Branches", act: "departments" },
+            { text: "📚 Academic Courses", act: "departments" },
             { text: "🏛️ About RVITM", act: "about" }
           ]
         };
 
       case 'departments':
         return {
-          text: `📚 **Academic Programmes & Courses Offered at RVITM**<br><br>We offer high-demand undergraduate (B.E.) and postgraduate (MCA) engineering programmes under VTU Belagavi:<br><br>• 💻 **B.E. Computer Science and Engineering (CSE):** Led by Dr. Hema M S. Specializations in Cloud Computing, Full-Stack, AI, and High-Performance Systems with smart labs.<br>• 🤖 **B.E. CSE — Artificial Intelligence & Machine Learning (AI&ML):** Led by Dr. Surbhi Agrawal. Dedicated high-end GPU computing clusters, neural network simulation, computer vision, and autonomous robotics.<br>• 🌐 **B.E. Information Science and Engineering (ISE):** Led by Dr. Vinoth Kumar M. Big data analytics, enterprise software, cloud infrastructure, and cybersecurity.<br>• ⚡ **B.E. Electronics and Communication Engineering (ECE):** Led by Dr. Manjunatha Prasad R (Vice Principal). VLSI design suites, embedded IoT systems, robotics, and communication labs.<br>• ⚙️ **B.E. Mechanical Engineering (ME):** Led by Dr. C. Solaimuthu. Smart manufacturing, CAD/CAM automation, 3D printing, and thermal systems.<br>• 📱 **Master of Computer Applications (MCA):** Led by Dr. M. Mrunalini. 2-year premier PG programme in enterprise software architecture and full-stack software development.<br>• 🔬 **Applied Sciences & Humanities (ASH):** Led by Dr. Gangadharaiah Y H. Foundational Physics, Chemistry, Mathematics, and Humanities departments.<br><br>Which course would you like to explore in detail?`,
+          text: "📚 **Programmes Offered at RVITM** (VTU & AICTE Approved)<br><br>" +
+                "• 💻 **B.E. Computer Science & Engg (CSE)** — HOD: Dr. Hema M S<br>" +
+                "• 🤖 **B.E. CSE (AI & Machine Learning)** — HOD: Dr. Surabhi Agrawal<br>" +
+                "• 🌐 **B.E. Information Science (ISE)** — HOD: Dr. Vinoth Kumar M<br>" +
+                "• ⚡ **B.E. Electronics & Communication (ECE)** — HOD: Dr. Manjunatha Prasad R<br>" +
+                "• ⚙️ **B.E. Mechanical Engineering (ME)** — HOD: Dr. C. Solaimuthu<br>" +
+                "• 📱 **MCA (Postgraduate, 2 Yrs)** — HOD: Dr. M. Mrunalini<br>" +
+                "• 🔬 **Applied Sciences & Humanities (ASH)** — HOD: Dr. Gangadharaiah Y H",
           url: "https://rvitm.edu.in/departments/",
           buttons: [
-            { text: "💻 CSE Details", act: "dept_cs" },
-            { text: "🤖 AI & ML Details", act: "dept_aiml" },
-            { text: "🌐 ISE Details", act: "dept_is" },
-            { text: "⚡ ECE Details", act: "dept_ec" },
-            { text: "⚙️ ME Details", act: "dept_me" },
-            { text: "📱 MCA Details", act: "dept_mca" },
-            { text: "🏛️ B.Arch (RVCA)", act: "barch" }
+            { text: "💻 Computer Science (CSE)", act: "dept_cs" },
+            { text: "🤖 AI & Machine Learning", act: "dept_aiml" },
+            { text: "🌐 Information Science (ISE)", act: "dept_is" },
+            { text: "⚡ Electronics & Comm (ECE)", act: "dept_ec" },
+            { text: "⚙️ Mechanical Engineering", act: "dept_me" },
+            { text: "📱 MCA (Postgraduate)", act: "dept_mca" },
+            { text: "🏛️ B.Arch (RVCA)", act: "barch" },
+            { text: "💼 Placements", act: "placements" }
           ]
         };
 
       case 'barch':
         return {
-          text: `🏛️ **Architecture Programmes (B.Arch & M.Arch) — RSST Family**<br><br>` +
-                `• **RVITM Engineering Focus:** RVITM (J.P. Nagar) specializes in B.E. Technology & MCA programmes: Computer Science (CSE), AI & Machine Learning, Information Science (ISE), Electronics & Communication (ECE), Mechanical Engineering (ME), and MCA.<br><br>` +
-                `• **B.Arch at RVCA (Sister Institution):** Architecture degrees under our parent trust **Rashtreeya Sikshana Samithi Trust (RSST)** are hosted at our premier sister institution, **RV College of Architecture (RVCA)**, located on Mysore Road, Bengaluru.<br><br>` +
-                `• 📐 **Degrees Offered:**<br>` +
-                `  - **B.Arch (Bachelor of Architecture):** 5-Year Full-time Degree (VTU Belagavi & Council of Architecture - COA approved).<br>` +
-                `  - **M.Arch (Urban Design):** 2-Year Master of Architecture.<br>` +
-                `• 🎯 **Admission Eligibility:** 10+2 with Physics, Chemistry & Mathematics (min 50% aggregate) + qualifying score in **NATA (National Aptitude Test in Architecture)** or JEE Main Paper-2.<br><br>` +
-                `You can explore complete B.Arch curriculum, faculty, studios, and admissions on the official RVCA portal!`,
+          text: "🏛️ **B.Arch & M.Arch — RVCA (Sister Institution)**<br><br>" +
+                "• **Campus:** RV College of Architecture, Mysore Road, Bengaluru (RSST trust)<br>" +
+                "• **Degrees:** 5-Year B.Arch & 2-Year M.Arch (VTU & COA approved)<br>" +
+                "• **Eligibility:** 10+2 PCM (min 50%) + valid NATA / JEE Main Paper-2 score<br>" +
+                "*(Note: RVITM campus specializes in B.E. Engineering & MCA)*",
           url: "https://rvca.edu.in/b-arch/",
           buttons: [
-            { text: "🏛️ RVCA B.Arch Portal", url: "https://rvca.edu.in/b-arch/" },
+            { text: "🌐 RVCA Official Portal", url: "https://rvca.edu.in/b-arch/" },
             { text: "📚 RVITM Engineering Courses", act: "departments" },
-            { text: "🎓 RVITM Admissions 2026", act: "admissions" },
-            { text: "📞 Contact Admissions Desk", act: "contact" }
+            { text: "🎓 Admissions 2026", act: "admissions" }
           ]
         };
 
       case 'admissions':
         return {
-          text: `🎓 **Admissions 2026 — Pathways, Eligibility & Fees at RVITM**<br><br>Admissions to RVITM are transparent, merit-driven, and accessible through three official channels:<br><br>• 🏛️ **KCET (KEA Quota):** Karnataka domicile candidates apply via Karnataka Examinations Authority state counselling.<br>• 🌐 **COMED-K Quota:** All-India candidates apply through the COMED-K entrance examination and central counselling.<br>• 🎖️ **Management Quota (Institutional Seats):** Direct institutional seats based on 10+2 merit & qualifying scores, administered centralized by RSST.<br>• 📱 **Postgraduate (MCA):** Via PGCET (KEA) or KMAT entrance examinations.<br><br>📋 **Undergraduate (B.E.) Eligibility Criteria:**<br>10+2 or equivalent (PUC) passed with Physics and Mathematics as compulsory subjects, plus Chemistry / Bio-Tech / Computer Science / Electronics (minimum 45% aggregate marks; 40% for SC/ST/OBC category).<br><br>💳 **Online Fees:** Secure tuition payment available anytime through the official RVEI SAP Fiori payment gateway!`,
+          text: "🎓 **Admissions 2026 — RVITM**<br><br>" +
+                "• 🏛️ **KCET (CET Code: E273):** State counseling based on rank<br>" +
+                "• 📝 **COMED-K:** All-India entrance test for open merit seats<br>" +
+                "• 👔 **Management Quota:** Merit-based institutional admission via RSST<br>" +
+                "• 📋 **Eligibility:** 10+2 with min 45% in PCM (40% for SC/ST/OBC)<br>" +
+                "• 📞 **Helpline:** **+91 8951758140** | `admissions.rvitm@rvei.edu.in`",
           buttons: [
-            { text: "📊 Cutoffs & Counselling", act: "cutoffs" },
-            { text: "💳 Fee Structure", act: "fees" },
+            { text: "📊 CET & COMEDK Cutoffs", act: "cutoffs" },
             { text: "🏛️ Management Quota", act: "management_quota" },
-            { text: "📞 Contact Admissions Desk", act: "contact" }
+            { text: "💳 Fee Structure", act: "fees" },
+            { text: "📚 Courses Offered", act: "departments" }
           ]
         };
 
       case 'cutoffs':
         return {
-          text: T(
-            `📊 **Cutoff Insights!**<br>Cutoff ranks change every counselling round, so check the official KEA and COMED-K portals for this year's numbers. You can also call the college on 080-35095100.`,
-            `📊 **Cutoff Ranks & Counseling Information**<br><br>• **Admitting Authorities:** Karnataka Examinations Authority (KEA) & COMED-K Board.<br><br>Exact closing cutoffs vary per counseling round. Refer to official KEA (cetonline.karnataka.gov.in) and COMED-K portals.`
-          ),
+          text: "📊 **KCET & COMED-K Cutoffs — RVITM**<br><br>" +
+                "• **Trend:** CSE, AI&ML, and ISE close in top ranks, followed by ECE and ME.<br>" +
+                "• Cutoffs vary by round and category (GM, OBC, 371J).<br>" +
+                "• 📞 To check your rank eligibility: **+91 8951758140**",
           buttons: [
-            { text: "🎓 Admission Routes", act: "admissions" },
-            { text: "💳 Fees Structure", act: "fees" },
-            { text: "💼 Placements", act: "placements" }
+            { text: "🎓 Admissions 2026", act: "admissions" },
+            { text: "🏛️ Management Quota", act: "management_quota" },
+            { text: "💳 Fee Structure", act: "fees" },
+            { text: "📞 Contact Desk", act: "contact" }
           ]
         };
 
       case 'management_quota':
         return {
-          text: T(
-            `🏛️ **Management Quota Admissions**:<br>Institutional direct admissions are processed transparently on merit through the **RSST Central Admissions Office**. Early registration is strongly recommended as seats for CSE, AIML, and ISE are limited!`,
-            `🏛️ **Management Quota (Institutional Admission)**<br><br>• Available for B.E. and MCA programmes based on qualifying marks and entrance performance.<br>• Managed centralized by the **Rashtreeya Sikshana Samithi Trust (RSST)**.<br>• **Helpline:** 080-35095100 / \`info.rvitm@rvei.edu.in\`<br>• **Campus Location:** Chaithanya Layout, JP Nagar 8th Phase, Bengaluru.`
-          ),
+          text: "🏛️ **Management Quota Admissions 2026 — RSST**<br><br>" +
+                "• **Administered By:** Central Admissions Office, RSST<br>" +
+                "• **Eligibility:** 10+2 PCM (min 45%) + valid KCET/COMEDK/JEE rank<br>" +
+                "• 📞 **Contact:** **+91 8951758140** / 080-35095100<br>" +
+                "• ✉️ **Email:** `admissions.rvitm@rvei.edu.in`",
           buttons: [
-            { text: "💳 Fee Details", act: "fees" },
-            { text: "📞 Contact Admissions", act: "contact" },
-            { text: "💼 Placements Overview", act: "placements" }
+            { text: "🎓 Admission Routes", act: "admissions" },
+            { text: "💳 Fee Structure", act: "fees" },
+            { text: "📞 Contact Admissions", act: "contact" }
           ]
         };
 
       case 'fees':
         return {
-          text: T(
-            `💳 **RVITM Fees & Payments**:<br>Fees depend on your entry channel (KCET Government quota has regulated university rates, while COMED-K and Management seats have standard consortium slabs).<br>Convenient **Online Fee Payment** is available directly via the official RVEI SAP Fiori payment gateway! 🏦`,
-            `💳 **Fee Structure & Payment Modes — RVITM**<br><br>• **Fee Categorization:**<br>  - **KCET Quota:** Prescribed statutory fees by Government of Karnataka / KEA.<br>  - **COMED-K Quota:** Prescribed statutory fees by COMED-K consortium.<br>  - **Management Quota:** Contact RSST Central Office for branch-specific annual fee structures.<br><br>• **Online Payment Portal:** Secure online fee gateway accessible through the official RVEI SAP Fiori portal.`
-          ),
+          text: "💳 **Fee Structure Guidelines — RVITM**<br><br>" +
+                "• 🏛️ **KCET:** Statutory tuition fee fixed annually by KEA/Govt of Karnataka<br>" +
+                "• 📝 **COMED-K:** Statutory fees fixed by COMED-K consortium<br>" +
+                "• 👔 **Management Quota:** Institutional fees established by RSST<br>" +
+                "• 📞 For latest fee circulars: **+91 8951758140** | `admissions.rvitm@rvei.edu.in`",
           buttons: [
-            { text: "🔗 Online Payment", act: "fees_online" },
-            { text: "🎓 Admission Routes", act: "admissions" },
-            { text: "🛏️ Hostel Fees", act: "hostels" }
-          ]
-        };
-
-      case 'fees_online':
-        return {
-          text: `🔗 You can pay tuition and examination fees online via the official RVEI SAP Fiori payment portal: <a href="https://wds-prd.rvei.edu.in:4430/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html" target="_blank" rel="noopener" style="color: #9aff78; font-weight: 600; text-decoration: underline;">Open RVEI Online Fee Portal ↗</a>`,
-          buttons: [
-            { text: "💳 Fee Overview", act: "fees" },
-            { text: "📞 Contact Accounts", act: "contact" }
+            { text: "🎓 Admissions 2026", act: "admissions" },
+            { text: "📞 Contact Admissions", act: "contact" },
+            { text: "💼 Placements", act: "placements" },
+            { text: "📚 Courses Offered", act: "departments" }
           ]
         };
 
       case 'placements':
         return {
-          text: T(
-            `💼 **Placement Heavyweights!** 💥<br><br>• 🏆 **Highest Package:** **₹41.5 LPA**<br>• 📈 **Average Package:** **₹12.27 LPA**<br>• 🎯 **Placement Rate:** **80%+**<br>• 🏢 **Companies Annually:** **200+**<br><br>🔥 **The Big Advantage:** RVITM shares a centralized placement ecosystem with RVCE! Dream recruiters like Amazon, Oracle, Walmart, Cisco, Qualcomm, Samsung, PhonePe, and JPMorgan hire right on campus!`,
-            `💼 **Career & Placement Overview — RVITM**<br><br>• **Highest Package:** **₹41.5 LPA**<br>• **Average Package:** **₹12.27 LPA**<br>• **Placement Percentage:** **80%+**<br>• **Recruiting Companies:** **200+ Organizations**<br><br>⭐ **Strategic RV Synergy:**<br>RVITM students benefit from a joint, centralized placement ecosystem with RVCE, providing access to premier multinational corporations.<br><br>• **Top Recruiters:** Amazon, Oracle, Walmart, Cisco, PhonePe, Nutanix, Qualcomm, Samsung Semiconductors, Philips, JPMorgan Chase, Deutsche Bank, Infosys, Wipro, Accenture.`
-          ),
+          text: "💼 **Placements at RVITM** (Centralized with RVCE)<br><br>" +
+                "• 🏆 **Highest Package:** **₹41.5 LPA**<br>" +
+                "• 📈 **Average Package:** **₹12.27 LPA**<br>" +
+                "• 🎯 **Placement Rate:** **80%+** (200+ Recruiting Companies)<br>" +
+                "• 🏢 **Top Recruiters:** Amazon, Cisco, Oracle, Walmart, PhonePe, Nutanix, Qualcomm, Samsung, Infosys, TCS, Wipro",
+          url: "https://rvitm.edu.in/placement/",
           buttons: [
-            { text: "💻 CSE Placements", act: "plcmt_cs" },
-            { text: "🤖 AI&ML Placements", act: "plcmt_aiml" },
-            { text: "🌐 ISE Placements", act: "plcmt_is" },
-            { text: "⚡ ECE Placements", act: "plcmt_ec" },
-            { text: "⚙️ ME Placements", act: "plcmt_me" }
+            { text: "📑 Batch Placement Reports", act: "placement_reports" },
+            { text: "💼 Training & Placement Team", act: "placement_team" },
+            { text: "📚 Courses Offered", act: "departments" },
+            { text: "🌐 Official Placement Portal", url: "https://rvitm.edu.in/placement/" }
+          ]
+        };
+
+      case 'placement_reports':
+        return {
+          text: "📑 **Batch Placement Records — RVITM**<br><br>" +
+                "• 📄 **2022–2026 Batch:** 202 Candidates Placed (Ongoing)<br>" +
+                "• 📄 **2021–2025 Batch:** 172 Candidates Placed<br>" +
+                "• 📄 **2020–2024 Batch:** 181 Candidates Placed",
+          buttons: [
+            { text: "📄 2026 Batch Report (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/09/RVITM_SelectionList_2026-Batch_15thSept_2026_202_Candidates.pdf" },
+            { text: "📄 2025 Batch Report (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/07/RVITM_SelectionList_2025-Batch.pdf" },
+            { text: "💼 Placement Overview", act: "placements" }
+          ]
+        };
+
+      case 'placement_team':
+        return {
+          text: "💼 **Placement Cell Leadership — RVITM**<br><br>" +
+                "• 👨‍💼 **Placement Officer:** Mr. Ataullah<br>" +
+                "• 👔 **Advisory Board:** Dr. Malini M. Patil & Dr. Manjunatha Prasad R<br>" +
+                "• 🎯 **Training:** Coding bootcamps, mock interviews, and hackathons",
+          buttons: [
+            { text: "💼 Placement Statistics", act: "placements" },
+            { text: "📑 Batch Reports (PDF)", act: "placement_reports" }
           ]
         };
 
       case 'facilities':
         return {
-          text: `🏢 **Campus Facilities & Student Life — RVITM**<br><br>Our modern campus in JP Nagar 8th Phase is built to empower learning, innovation, and holistic wellbeing:<br><br>• 📖 **Central Digital Library & Information Centre:** Working hours 9:00 AM – 5:00 PM. Automated by LIBSOFT LMS with RFID checkout, Turnitin & DrillBit plagiarism tools, and access to IEEE Xplore, ScienceDirect, and VTU Consortium.<br>• 🧠 **24/7 Cadabams Mental Health Helpline:** Official collaboration with Cadabams Hospital providing round-the-clock confidential mental health and psychological counseling.<br>• 🛏️ **Hostel Accommodation:** Separate Boys & Girls residences with 24/7 biometric security, continuous Wi-Fi, power backup, study rooms, and hygienic dining serving both North & South Indian meals.<br>• 🏆 **Sports & Modern Gym:** Badminton courts, table tennis, outdoor fields, fitness gym, and proud recipient of the **VTU Institutional Sports Achievement Award**!<br>• ☕ **Cafeteria:** Vibrant student food court serving fresh, hygienic vegetarian meals, breakfast, and refreshments.<br>• 🚀 **Student Clubs & Activities:** Phoenix Robotics Club, ECX Hardware, Aegis Cybersecurity, Coding Club, E-Cell Startups, Rudra Dramatics, Kannada Sangha, and active NSS Social Service Unit.<br>• 🛡️ **Campus Safety Cells:** Zero-Tolerance Anti-Ragging Committee and Online Grievance Redressal Committee.`,
+          text: "🏢 **Campus Facilities — RVITM**<br><br>" +
+                "• 📖 **Digital Library:** Automated LIBSOFT, RFID, 10 research terminals, IEEE/Springer e-resources<br>" +
+                "• 🛏️ **Hostels:** Separate boys & girls accommodation with 24/7 security, Wi-Fi & dining<br>" +
+                "• 🏆 **Sports:** Indoor badminton, gym, table tennis & sports grounds (VTU Award winner)<br>" +
+                "• ☕ **Cafeteria:** Hygienic food court serving daily meals & snacks<br>" +
+                "• 🧠 **Health & Counseling:** 24/7 Cadabams mental health support",
           buttons: [
-            { text: "📖 Central Library", act: "library" },
-            { text: "🧠 Cadabams Helpline", act: "mental_health" },
-            { text: "🛏️ Hostels Info", act: "hostels" },
+            { text: "📖 Digital Library", act: "library" },
+            { text: "🛏️ Hostels", act: "hostels" },
             { text: "🏆 Sports Achievements", act: "sports" },
-            { text: "🚀 Student Clubs", act: "clubs" }
+            { text: "🧠 Mental Health Support", act: "mental_health" }
           ]
         };
 
       case 'hostels':
         return {
-          text: T(
-            `🛏️ **Home Away From Home!**<br>Separate on-campus and proximate Boys & Girls hostels with biometric security, high-speed Wi-Fi, power backup, study rooms, and hygienic dining serving both North & South Indian meals! 🍛`,
-            `🛏️ **Hostel & Residential Facilities — RVITM**<br><br>• **Accommodation:** Dedicated Boys and Girls hostels near the campus.<br>• **Amenities:** High-speed internet/Wi-Fi, 24/7 biometric security, continuous water & power backup.<br>• **Mess:** Hygienic dining hall providing nutritious vegetarian meals (North and South Indian menus).<br>• **Recreation:** Common rooms with indoor games, reading space, and warden oversight.`
-          ),
+          text: "🛏️ **Hostels — RVITM**<br><br>" +
+                "• **Facilities:** Separate boys & girls hostels near campus<br>" +
+                "• **Amenities:** Wi-Fi, RO water, 24/7 CCTV, biometric access, wardens<br>" +
+                "• **Mess:** Hygienic vegetarian food<br>" +
+                "• 📞 **Enquiries:** 080-35095100 | `info.rvitm@rvei.edu.in`",
           buttons: [
-            { text: "🏢 All Facilities", act: "facilities" },
-            { text: "💳 Fee Information", act: "fees" },
-            { text: "📞 Contact Hostel Office", act: "contact" }
+            { text: "🏢 Campus Facilities", act: "facilities" },
+            { text: "☕ Cafeteria", act: "canteen" },
+            { text: "📞 Contact Office", act: "contact" }
           ]
         };
 
       case 'library':
         return {
-          text: T(
-            `📖 **RVITM Hybrid Library & Digital Hub!** 📚<br><br>• 🕒 **Timings:** 9:00 AM – 5:00 PM on all working days<br>• 🤖 **Automation:** LIBSOFT LMS with RFID checkout & OPAC<br>• 💻 **Digital Lab:** 10 computer terminals + high-speed Wi-Fi<br>• 🔍 **Plagiarism Tools:** Turnitin & DrillBit available for students<br>• 🌐 **E-Resources:** IEEE Xplore, ScienceDirect, Springer, Taylor & Francis, Emerald Insight<br>• 👨‍💼 **Librarian:** Dr. A. Nagaraja (Ph.D.)`,
-            `📖 **Central Digital Library & Information Centre — RVITM**<br><br>• **Working Hours:** 9:00 AM to 5:00 PM on all working days.<br>• **Automation:** LIBSOFT Library Management System with RFID surveillance & circulation.<br>• **Terminals:** 10 dedicated multimedia computer terminals for digital library & research access.<br>• **Plagiarism Services:** Turnitin & DrillBit tools deployed for student & faculty academic integrity.<br>• **Subscribed E-Journals:** IEEE Xplore, ScienceDirect (Elsevier), Springer Link, Taylor & Francis, Emerald Insight.<br>• **E-Books & MOOCs:** Cambridge Univ Press, Elsevier, Packt, Swayam, NPTEL, Coursera.<br>• **Librarian:** Dr. A. Nagaraja (B.Sc., M.L.I.Sc., Ph.D.)`
-          ),
+          text: "📖 **Central Library — RVITM**<br><br>" +
+                "• **Timings:** 9:00 AM – 5:00 PM (Working days)<br>" +
+                "• **Features:** Automated LIBSOFT LMS, RFID, 10 research workstations<br>" +
+                "• **Subscriptions:** IEEE Xplore, ScienceDirect, Springer, Taylor & Francis<br>" +
+                "• **Chief Librarian:** Dr. A. Nagaraja (Ph.D., M.L.I.Sc.)",
+          url: "https://rvitm.edu.in/departments/library-2/",
           buttons: [
-            { text: "🌐 Library Portal", url: "https://rvitm.edu.in/departments/library-2/" },
             { text: "📄 Librarian Profile", url: "https://rvitm.edu.in/wp-content/uploads/2026/05/Resume.pdf" },
-            { text: "🏢 Campus Facilities", act: "facilities" },
-            { text: "📚 Academic Departments", act: "departments" }
+            { text: "🔬 Research at RVITM", act: "research" },
+            { text: "🏢 Campus Facilities", act: "facilities" }
           ]
         };
 
       case 'sports':
         return {
-          text: T(
-            `🏆 **Champions in Action!**<br>RVITM won the prestigious **VTU Institutional Sports Achievement Award**! We have badminton courts, table tennis, cricket & football training, and an equipped gym! 🥇`,
-            `🏆 **Sports & Physical Education — RVITM**<br><br>• **Recognition:** Honored with the **VTU Institutional Sports Achievement Award** for remarkable inter-collegiate performances.<br>• **Facilities:** Indoor badminton courts, table tennis, modern fitness gym, outdoor cricket/football fields.<br>• **Activities:** Annual sports meets, VTU tournament participation, and athletic conditioning.`
-          ),
+          text: "🏆 **Sports & Fitness — RVITM**<br><br>" +
+                "• 🥇 **Recognition:** Awarded the **VTU Institutional Sports Achievement Award**.<br>" +
+                "• 🏋️ **Facilities:** Indoor badminton courts, modern gymnasium, table tennis, cricket & football training.<br>" +
+                "• 🏅 **Achievements:** State & university-level medals in chess, athletics, and annual meets.",
           buttons: [
             { text: "🚀 Student Clubs", act: "clubs" },
             { text: "🏢 Campus Facilities", act: "facilities" }
@@ -1012,10 +1255,9 @@
 
       case 'canteen':
         return {
-          text: T(
-            `☕ **Cafeteria Hangout!**<br>The college cafeteria serves delicious South Indian dosas, meals, coffee, tea, and quick bites throughout the day in a clean, vibrant dining area! 🍽️`,
-            `☕ **Campus Cafeteria & Dining**<br><br>• Clean, spacious cafeteria providing healthy vegetarian breakfast, lunch, and refreshments.<br>• Adheres to stringent food safety and hygiene protocols.`
-          ),
+          text: "☕ **Campus Cafeteria & Dining**<br><br>" +
+                "• Clean food court serving fresh South Indian meals, snacks, and beverages.<br>" +
+                "• High hygiene standards with industrial water purification systems.",
           buttons: [
             { text: "🏢 Campus Facilities", act: "facilities" },
             { text: "🛏️ Hostels", act: "hostels" }
@@ -1024,35 +1266,286 @@
 
       case 'mental_health':
         return {
-          text: T(
-            `🧠 **We Care About You!**<br>RVITM has a pioneering **24/7 Mental Health Helpline** in official partnership with **Cadabams Hospital**. Confidential, professional counseling whenever students need guidance! 💚`,
-            `🧠 **Student Mental Health & Wellbeing — Cadabams Partnership**<br><br>• RVITM provides a 24/7 confidential mental health and psychological counseling helpline for all students in collaboration with **Cadabams Hospital**.<br>• Ensures emotional wellbeing, stress management, exam anxiety coping, and holistic student support.`
-          ),
+          text: "🧠 **Mental Health & Wellbeing**<br><br>" +
+                "• **24/7 Confidential Helpline** in official partnership with **Cadabams Hospital**.<br>" +
+                "• Professional counseling for stress management, exam anxiety, and emotional wellness.",
           buttons: [
             { text: "🏢 Campus Facilities", act: "facilities" },
-            { text: "📞 Contact College", act: "contact" }
+            { text: "📞 Contact Us", act: "contact" }
           ]
         };
 
+      // ================= RESEARCH INTENTS (RVCE PARITY) =================
+      case 'research':
+        return {
+          text: "🔬 **Research & Innovation — RVITM**<br><br>" +
+                "• 🏛️ **VTU Research Centres:** Approved for Ph.D. & M.Sc. (Engg.) in Physics, Chemistry, Math & Engineering.<br>" +
+                "• 📄 **Publications:** 100+ peer-reviewed papers in IEEE Xplore, Springer, and Scopus journals.<br>" +
+                "• 🌐 **Conferences:** Host of **ICDTE-2025** (Springer); papers at ICCNP, ICRIET, IMSTEM.<br>" +
+                "• 🏆 **Key Honors:** Best Paper Award at ICRIET-2025 (IoT Smart Mirror); Google Generation Scholar Chavi Gupta.",
+          url: "https://rvitm.edu.in/achievements/",
+          buttons: [
+            { text: "🔬 VTU Research Centres", act: "vtu_research" },
+            { text: "🏆 Research Awards", act: "research_awards" },
+            { text: "🚀 Student Clubs", act: "clubs" },
+            { text: "🌐 Research on Web", url: "https://rvitm.edu.in/achievements/" }
+          ]
+        };
+
+      case 'vtu_research':
+        return {
+          text: "🔬 **VTU Recognized Research Centres — RVITM**<br><br>" +
+                "• 🧬 **Recognized Domains:** Physics, Chemistry, Mathematics, and Engineering (VLSI, Wireless, AI).<br>" +
+                "• 🎓 **Programs:** Ph.D. and M.Sc. (Engg.) by Research under doctoral supervisors.<br>" +
+                "• 📄 **Affiliation:** Officially recognized and notified by Visvesvaraya Technological University (VTU).",
+          url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Research-Centre-Basic-Science-Dept.pdf",
+          buttons: [
+            { text: "📄 VTU Notification (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Research-Centre-Basic-Science-Dept.pdf" },
+            { text: "🔬 Research Overview", act: "research" },
+            { text: "📚 Academic Courses", act: "departments" }
+          ]
+        };
+
+      case 'research_awards':
+        return {
+          text: "🏆 **Research Awards & Honors — RVITM**<br><br>" +
+                "• 🥇 **Best Research Paper (ICRIET-2025):** IoT Smart Mirror project (Navyashree et al., mentored by Dr. Shalini J, funded by RVEI).<br>" +
+                "• 🌐 **Generation Google Scholarship (APAC):** Awarded to Chavi Gupta.<br>" +
+                "• 📄 **Springer ICDTE-2025:** Devika Biradar honored for Privacy-Preserving Applications research.<br>" +
+                "• 🏥 **Cardiovascular ML (ICCCNP-2025):** Heart disease detection model by Nidhi, Prarthana & Manya.",
+          url: "https://rvitm.edu.in/achievements/",
+          buttons: [
+            { text: "🔬 Research Overview", act: "research" },
+            { text: "🚀 Student Clubs", act: "clubs" },
+            { text: "🌐 Official Achievements", url: "https://rvitm.edu.in/achievements/" }
+          ]
+        };
+
+      // ================= STUDENT CLUBS INTENTS (RVCE PARITY) =================
       case 'clubs':
         return {
-          text: T(
-            `🚀 **Student Clubs at RVITM!**<br><br>• ⚡ **ECX:** Electronics & Hardware Hacking<br>• 🤖 **Phoenix Robotics:** Combat & Autonomous Bots<br>• 💻 **Coding Club:** Hackathons & Competitive Coding<br>• 🛡️ **Aegis:** Cybersecurity & CTF<br>• 💡 **E-Cell:** Startups & Entrepreneurship<br>• 🎭 **Rudra:** Dramatics & Street Theatre<br>• 💛 **Kannada Sangha:** Regional Culture & Literature<br>• 🎨 **Cultural Club:** Dance & Music<br>• 🧗 **Adventure Club:** Treks & Outdoor Thrills<br>• 🤝 **NSS:** Social Impact & Drives`,
-            `🚀 **Student Clubs & Co-Curricular Life — RVITM**<br><br>• **Technical Clubs:** ECE Club (ECX), Phoenix Robotics Club, Coding Club, Aegis (Cybersecurity).<br>• **Innovation:** E-Cell (Entrepreneurship Cell) for startup incubation and venture pitching.<br>• **Cultural & Fine Arts:** Rudra (Theatre & Dramatics), Cultural Club (Music & Dance), Kannada Sangha.<br>• **Social Impact & Recreation:** NSS (National Service Scheme), Adventure Activities Club, Science Club, Magazine Club.`
-          ),
+          text: "🚀 **Student Clubs — RVITM**<br><br>" +
+                "• 🤖 **Phoenix Robotics:** Combat & autonomous robotics, line followers, VTU competitions.<br>" +
+                "• 💻 **Coding Club & Aegis:** Competitive coding, hackathons, and CTF cybersecurity.<br>" +
+                "• ⚡ **ECE Club (ECX):** Embedded hardware, IoT, and PCB prototyping.<br>" +
+                "• 💡 **E-Cell:** Startup pitching, ideation, and incubator mentorship (Christ Academy 1st prize).<br>" +
+                "• 🎭 **Cultural & Rudra:** Theatre, classical dance (Natya Jothi winners), music, and fests.<br>" +
+                "• 💛 **Kannada Sangha:** Heritage, literature, and Rajyotsava celebrations.<br>" +
+                "• 🧗 **Adventure & Science:** Trekking, outdoor survival, and astronomy colloquiums.<br>" +
+                "• 📰 **Magazine Club & NSS:** Campus editorial, journalism, and community outreach.",
+          url: "https://rvitm.edu.in/clubs/",
           buttons: [
-            { text: "🏆 Sports Achievements", act: "sports" },
-            { text: "🏢 Campus Facilities", act: "facilities" },
-            { text: "📚 Departments", act: "departments" }
+            { text: "🤖 Phoenix Robotics", act: "club_robotics" },
+            { text: "💻 Coding Club & Aegis", act: "club_coding" },
+            { text: "⚡ ECE Club (ECX)", act: "club_ecx" },
+            { text: "🎭 Cultural Club & Rudra", act: "club_cultural" },
+            { text: "💡 E-Cell (Startups)", act: "club_ecell" },
+            { text: "💛 Kannada Sangha", act: "club_kannada" },
+            { text: "🧗 Adventure Club", act: "club_adventure" },
+            { text: "🔬 Science Club", act: "club_science" },
+            { text: "📰 Magazine Club", act: "club_magazine" },
+            { text: "🤝 NSS Unit", act: "nss" }
+          ]
+        };
+
+      case 'club_robotics':
+        return {
+          text: "🤖 **Phoenix Robotics Club — RVITM**<br><br>" +
+                "• 🦾 **Focus:** Autonomous mobile robots, combat robotics, ROS, and embedded microcontrollers (ESP32, Arduino).<br>" +
+                "• 🏆 **Activities:** Inter-collegiate bot wars, maze navigation, and VTU challenges.<br>" +
+                "• 🛠️ **Access:** Dedicated hardware lab access open to all branches.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "💻 Coding Club & Aegis", act: "club_coding" },
+            { text: "🚀 All Student Clubs", act: "clubs" },
+            { text: "🌐 Clubs Webpage", url: "https://rvitm.edu.in/clubs/" }
+          ]
+        };
+
+      case 'club_coding':
+        return {
+          text: "💻 **Coding Club & Aegis Cybersecurity**<br><br>" +
+                "• 🚀 **Coding Club:** Competitive programming (LeetCode, Codeforces), full-stack apps, and hackathons.<br>" +
+                "• 🛡️ **Aegis:** Ethical hacking, Capture The Flag (CTF) tournaments, and network security.<br>" +
+                "• 💡 **Workshops:** Docker, Git/GitHub, Cloud computing, and open-source sprints.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "🤖 Phoenix Robotics", act: "club_robotics" },
+            { text: "💡 E-Cell (Startups)", act: "club_ecell" },
+            { text: "🚀 All Student Clubs", act: "clubs" }
+          ]
+        };
+
+      case 'club_cultural':
+        return {
+          text: "🎭 **Cultural Club & Rudra Theatre**<br><br>" +
+                "• 🎭 **Rudra Dramatics:** Street plays, social skits, mono-acting, and stage productions.<br>" +
+                "• 🎨 **Cultural Club:** Dance (Natya Jothi awardees), music ensembles, and annual college fests.<br>" +
+                "• 🎪 **Events:** Inter-collegiate cultural competitions and battle of the bands.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "💛 Kannada Sangha", act: "club_kannada" },
+            { text: "🚀 All Student Clubs", act: "clubs" },
+            { text: "🌐 Clubs Webpage", url: "https://rvitm.edu.in/clubs/" }
+          ]
+        };
+
+      case 'club_ecell':
+        return {
+          text: "💡 **E-Cell (Entrepreneurship Cell) — RVITM**<br><br>" +
+                "• 📈 **Incubation:** Startup guidance, venture pitch decks, and investor networking.<br>" +
+                "• 🏆 **Achievement:** 1st Place in \"Pitch a Product\" at Christ Academy.<br>" +
+                "• 🤝 **Mentorship:** RSST alumni founders, VC masterclasses, and IP patent workshops.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "💻 Coding Club", act: "club_coding" },
+            { text: "🚀 All Student Clubs", act: "clubs" },
+            { text: "🌐 Clubs Webpage", url: "https://rvitm.edu.in/clubs/" }
+          ]
+        };
+
+      case 'club_kannada':
+        return {
+          text: "💛 **Kannada Sangha — RVITM**<br><br>" +
+                "• 🚩 **Rajyotsava:** Annual celebration of Karnataka heritage with folk arts (Yakshagana, Dollu Kunitha).<br>" +
+                "• 📚 **Literary Activities:** Debates, poetry sessions, and guest talks with Kannada scholars.<br>" +
+                "• 🤝 **Community:** Promoting regional culture and social initiatives.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "🎭 Cultural Club", act: "club_cultural" },
+            { text: "🚀 All Student Clubs", act: "clubs" },
+            { text: "🌐 Clubs Webpage", url: "https://rvitm.edu.in/clubs/" }
+          ]
+        };
+
+      case 'club_ecx':
+        return {
+          text: "⚡ **ECE Club (ECX) — RVITM**<br><br>" +
+                "• 🔌 **Focus:** Embedded systems, STM32/ESP32, PCB schematic design, FPGA, and IoT sensors.<br>" +
+                "• 🛠️ **Workshops:** Hardware hackathons, soldering bootcamps, and drone telemetry.<br>" +
+                "• 🏭 **Industry Visits:** Semiconductor and VLSI hubs in Bengaluru.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "🤖 Phoenix Robotics", act: "club_robotics" },
+            { text: "⚡ ECE Dept Info", act: "dept_ec" },
+            { text: "🚀 All Student Clubs", act: "clubs" }
+          ]
+        };
+
+      case 'club_adventure':
+        return {
+          text: "🧗 **Adventure Activities Club — RVITM**<br><br>" +
+                "• 🏕️ **Expeditions:** Western Ghats trekking, rock climbing, cave exploration, and camping.<br>" +
+                "• 🌲 **Skills:** Orienteering, survival tactics, and eco-friendly outdoor protocols.<br>" +
+                "• 🤝 **Teamwork:** High-rope obstacle challenges and fitness conditioning.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "🤝 NSS Unit", act: "nss" },
+            { text: "🚀 All Student Clubs", act: "clubs" }
+          ]
+        };
+
+      case 'club_science':
+        return {
+          text: "🔬 **Science Club — RVITM**<br><br>" +
+                "• 🌌 **Domains:** Astronomy, quantum mechanics, material physics, and computational math.<br>" +
+                "• 📑 **Seminars:** Guest lectures by scientists from IISc, ISRO, and premier research labs.<br>" +
+                "• 💡 **Exhibitions:** National Science Day projects and paper presentations.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "🔬 Research at RVITM", act: "research" },
+            { text: "🚀 All Student Clubs", act: "clubs" }
+          ]
+        };
+
+      case 'club_magazine':
+        return {
+          text: "📰 **Magazine Club — RVITM**<br><br>" +
+                "• ✍️ **Publications:** RVITM annual magazine, quarterly bulletins, and campus newsletters.<br>" +
+                "• 🎙️ **Content:** Student journalism, creative writing, alumni interviews, and photography.<br>" +
+                "• 🎨 **Design:** Hands-on training in digital illustration and editorial layout.",
+          url: "https://rvitm.edu.in/clubs/",
+          buttons: [
+            { text: "🎭 Cultural Club", act: "club_cultural" },
+            { text: "🚀 All Student Clubs", act: "clubs" }
+          ]
+        };
+
+      // ================= FACULTY DIRECTORY INTENTS (RVCE PARITY) =================
+      case 'faculty':
+      case 'faculty_list':
+        return {
+          text: "👨‍🏫 **Faculty Directory — RVITM**<br><br>" +
+                "RVITM has 90+ dedicated professors and doctoral supervisors across engineering, MCA, and basic sciences.<br><br>" +
+                "Select a department to view faculty members:",
+          url: "https://rvitm.edu.in/departments/",
+          buttons: [
+            { text: "💻 Computing & IT Faculty", act: "fac_group_comp" },
+            { text: "⚡ Electrical & Comm (ECE)", act: "fac_ec" },
+            { text: "⚙️ Core Mechanical (ME)", act: "fac_me" },
+            { text: "🔬 Applied Sciences (ASH)", act: "fac_ash" },
+            { text: "📱 MCA Faculty", act: "fac_mca" },
+            { text: "👔 All HODs", act: "hods_list" },
+            { text: "👨‍💼 Deans & Leadership", act: "deans_list" }
+          ]
+        };
+
+      case 'fac_group_comp':
+        return {
+          text: "💻 **Computing & Information Technology Faculty**<br><br>Choose a department to view the roster:",
+          buttons: [
+            { text: "💻 Computer Science (CSE)", act: "fac_cs" },
+            { text: "🤖 AI & Machine Learning", act: "fac_aiml" },
+            { text: "🌐 Information Science (ISE)", act: "fac_is" },
+            { text: "📱 Master of Computer Applications", act: "fac_mca" },
+            { text: "👨‍🏫 All Faculty", act: "faculty_list" }
+          ]
+        };
+
+      case 'deans_list':
+        return {
+          text: "👨‍💼 **Academic Deans & Leadership — RVITM**<br><br>" +
+                "• 🎓 **Principal:** Dr. Nagashettappa Biradar (`principal.rvitm@rvei.edu.in`)<br>" +
+                "• ⚡ **Vice Principal & ECE Head:** Dr. Manjunatha Prasad R<br>" +
+                "• 💻 **Dean, CSE Cluster:** Dr. Malini M. Patil<br>" +
+                "• 📊 **IQAC Coordinator:** Dr. Latha C. A. (ISE)<br>" +
+                "• ⚖️ **Grievance Convener:** Dr. Prashant P. Patavardhan (ECE)<br>" +
+                "• 📖 **Chief Librarian:** Dr. A. Nagaraja",
+          url: "https://rvitm.edu.in/key_executives/",
+          buttons: [
+            { text: "👨‍💼 Principal", act: "principal" },
+            { text: "👨‍💼 Vice Principal", act: "vice_principal" },
+            { text: "👔 All HODs", act: "hods_list" },
+            { text: "👨‍🏫 Faculty Directory", act: "faculty_list" }
+          ]
+        };
+
+      case 'hods_list':
+        return {
+          text: "👔 **Heads of Departments (HODs) — RVITM**<br><br>" +
+                "• 💻 **CSE:** **Dr. Hema M S**<br>" +
+                "• 🤖 **AI & ML:** **Dr. Surabhi Agrawal**<br>" +
+                "• 🌐 **ISE:** **Dr. Vinoth Kumar M**<br>" +
+                "• ⚡ **ECE:** **Dr. Manjunatha Prasad R** (Vice Principal)<br>" +
+                "• ⚙️ **ME:** **Dr. C. Solaimuthu**<br>" +
+                "• 📱 **MCA:** **Dr. M. Mrunalini**<br>" +
+                "• 🔬 **ASH:** **Dr. Gangadharaiah Y H**",
+          buttons: [
+            { text: "💻 CSE HOD", act: "hod_cs" },
+            { text: "🤖 AI&ML HOD", act: "hod_aiml" },
+            { text: "⚡ ECE HOD", act: "hod_ec" },
+            { text: "🌐 ISE HOD", act: "hod_is" },
+            { text: "⚙️ ME HOD", act: "hod_me" }
           ]
         };
 
       case 'transport':
         return {
-          text: T(
-            `🚌 **Find Us!**<br>RVITM is in **Chaithanya Layout, 8th Phase, JP Nagar, Bengaluru – 560076**. Call 080-35095100 for directions and college transport details! 🗺️`,
-            `🚌 **Location — RVITM**<br><br>• **Campus Address:** RV Institute of Technology & Management, Chaithanya Layout, 8th Phase, J.P. Nagar, Bengaluru – 560076, Karnataka.<br>• **Enquiries on transport / directions:** 080-35095100.`
-          ),
+          text: "🚌 **Location & Connectivity — RVITM**<br><br>" +
+                "• 📍 **Address:** Chaithanya Layout, 8th Phase, J.P. Nagar, Bengaluru – 560076.<br>" +
+                "• 🚇 **Metro & Road:** Near Namma Metro Green Line; accessible via Bannerghatta & Kanakapura roads.<br>" +
+                "• 🚌 **Bus:** Frequent BMTC routes connect directly to campus.<br>" +
+                "• ☎️ **Campus Desk:** 080-35095100",
           buttons: [
             { text: "📞 Contact Us", act: "contact" },
             { text: "🏛️ About RVITM", act: "about" }
@@ -1061,49 +1554,23 @@
 
       case 'contact':
         return {
-          text: `📞 **Contact Directory & Campus Helpdesk — RVITM**<br><br>We are here to assist you with all admissions and academic inquiries:<br><br>• 📍 **Campus Address:** RV Institute of Technology & Management, Chaithanya Layout, 8th Phase, J.P. Nagar, Bengaluru – 560076, Karnataka, India.<br>• 📱 **Direct Admissions Helpline:** **+91 8951758140**<br>• ☎️ **Campus Landlines:** 080-35095100, 080-35095101, 080-35095102, 080-35095103, 080-35095104<br>• ⏰ **Office Working Hours:**<br>  - Monday to Friday: 09:00 AM – 05:00 PM<br>  - Saturday: 09:00 AM – 02:00 PM<br>• ✉️ **Official Email Addresses:**<br>  - Admissions: \`admissions.rvitm@rvei.edu.in\`<br>  - General Enquiries: \`info.rvitm@rvei.edu.in\`<br>  - Principal's Secretariat: \`principal.rvitm@rvei.edu.in\`<br>  - NSS Cell: \`nssunit.rvitm@rvei.edu.in\`<br>• 🌐 **Official Website:** https://rvitm.edu.in`,
+          text: "📞 **Contact RVITM**<br><br>" +
+                "• 📍 **Location:** Chaithanya Layout, 8th Phase, J.P. Nagar, Bengaluru – 560076.<br>" +
+                "• 📱 **Admissions Helpline:** **+91 8951758140**<br>" +
+                "• ☎️ **Landline:** 080-35095100 / 101 / 102 / 103 / 104<br>" +
+                "• ✉️ **Email:** `admissions.rvitm@rvei.edu.in` | `info.rvitm@rvei.edu.in`<br>" +
+                "• ⏰ **Office Hours:** Mon–Fri: 9:00 AM – 5:00 PM | Sat: 9:00 AM – 2:00 PM",
           buttons: [
             { text: "🎓 Admission Routes", act: "admissions" },
             { text: "🚌 Location & Transport", act: "transport" },
-            { text: "🏛️ About RVITM", act: "about" },
-            { text: "📚 Courses Offered", act: "departments" }
-          ]
-        };
-
-      case 'placement_reports':
-        return {
-          text: T(
-            `📑 **Official Placement Selection Lists!** 🎯<br><br>RVITM publishes transparent candidate selection lists every year:<br><br>• 📄 **2022–2026 Batch:** 202 Candidates Selected<br>• 📄 **2021–2025 Batch:** 172 Candidates Selected<br>• 📄 **2020–2024 Batch:** 181 Candidates Selected<br><br>Tap below to view or download the verified PDF reports! 📊`,
-            `📑 **Batch Placement Records & Selection Lists — RVITM**<br><br>Official batch-wise selection lists published by the RVITM Training and Placement Cell:<br><br>• **2022–2026 Batch Selection List:** 202 Candidates Placed<br>• **2021–2025 Batch Selection List:** 172 Candidates Placed<br>• **2020–2024 Batch Selection List:** 181 Candidates Placed<br><br>All figures are documented in official university selection lists.`
-          ),
-          buttons: [
-            { text: "📄 2026 Batch Selection (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/09/RVITM_SelectionList_2026-Batch_15thSept_2026_202_Candidates.pdf" },
-            { text: "📄 2025 Batch Selection (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/RVITM_SelectionList_2025-Batch_23rdAugust2025_172_Candidates_Updated.pdf" },
-            { text: "📄 2024 Batch Selection (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/RVITM_SelectionList_2024-Batch_19th_Sep2024_181_Candidates-2.pdf" },
-            { text: "📊 Placement Statistics (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/08/Placement_Statistics-All-Batches-HS-and-History-of-Baklogs-Candidates-Excluded.docx.pdf" },
-            { text: "👥 Placement Team", act: "placement_team" }
-          ]
-        };
-
-      case 'placement_team':
-        return {
-          text: T(
-            `💼 **The Placement Powerhouse Team!** 🤝<br><br>• 👔 **Director (Placement, RVCE):** Dr. Ranganath D<br>• 👔 **Deputy Director (Placements & Training, RVITM):** MD Ataullah<br>• ⚙️ **Engineering Placement Coordinator:** Dr. Mallanagouda Patil<br>• 📱 **MCA Placement Coordinator:** Prof. Jayaramu M<br><br>They coordinate centralised recruitment across top global tech companies! 🚀`,
-            `💼 **Training & Placement Cell Leadership — RVITM**<br><br>• **Director, Placement (RVCE):** Dr. Ranganath D<br>• **Deputy Director, Placements & Training (RVITM):** MD Ataullah<br>• **Placement Coordinator for Engineering (RVITM):** Dr. Mallanagouda Patil<br>• **Placement Coordinator for MCA (RVITM):** Prof. Jayaramu M<br><br>The team manages industry collaborations, centralized internship drives, and corporate training programs.`
-          ),
-          buttons: [
-            { text: "💼 Overall Placements", act: "placements" },
-            { text: "📑 Batch Selection Lists", act: "placement_reports" },
-            { text: "🌐 Placement Page", url: "https://rvitm.edu.in/placement/" }
+            { text: "🏛️ About RVITM", act: "about" }
           ]
         };
 
       case 'syllabus':
         return {
-          text: T(
-            `📜 **Curriculum & Syllabus Downloads!** 🎓<br><br>All programmes follow the updated **VTU Belagavi** credit curriculum. You can download official schemes and syllabus PDFs below:`,
-            `📜 **VTU Curriculum & Syllabus Documents — RVITM**<br><br>Programmes are affiliated with Visvesvaraya Technological University (VTU) and adhere to the prescribed choice-based credit system.<br><br>Download official department syllabi:`
-          ),
+          text: "📜 **Curriculum & Syllabus — RVITM (VTU CBCS)**<br><br>" +
+                "Download official VTU scheme and syllabus documents:",
           buttons: [
             { text: "📄 MCA 1st Sem Syllabus", url: "https://rvitm.edu.in/wp-content/uploads/2026/05/MCA-2024-Syllabus-1st-semester.pdf" },
             { text: "📄 MCA 2nd Year Syllabus", url: "https://rvitm.edu.in/wp-content/uploads/2026/08/MCA-2nd-year-Syllabus.pdf" },
@@ -1115,37 +1582,40 @@
 
       case 'accreditations':
         return {
-          text: T(
-            `📜 **Recognitions & Approvals!** ✅<br><br>• 🏛️ **AICTE Approval:** Continuous Extension of Approval (EoA) from 2019 to 2026-27!<br>• 🏛️ **VTU Belagavi:** Official affiliation across all B.E. & MCA programmes, plus recognized Research Centres!<br>• 🏛️ **Govt. of Karnataka:** Approved through official government orders and NOCs.`,
-            `📜 **Accreditations, Affiliations & Regulatory Approvals — RVITM**<br><br>• **AICTE Approval:** Continuous Extension of Approval (EoA) from 2019 to 2026-27 adhering to national infrastructure and faculty norms.<br>• **VTU Affiliation:** Officially affiliated with Visvesvaraya Technological University (VTU), Belagavi, with validated degree awarding authority.<br>• **VTU Research Centres:** Recognized research centres in Basic Sciences and engineering streams.<br>• **Government of Karnataka (GoK):** Formal No Objection Certificates (NOC) and approval orders.`
-          ),
+          text: "📜 **Accreditations & Approvals — RVITM**<br><br>" +
+                "• 🏛️ **AICTE Approval:** Continuous Extension of Approval (EoA 2026-27).<br>" +
+                "• 🎓 **VTU Affiliation:** Permanently affiliated to Visvesvaraya Technological University, Belagavi.<br>" +
+                "• 🔬 **Research Centres:** VTU-recognized centres in Basic Sciences and Engineering.<br>" +
+                "• 🏛️ **Government Approval:** Validated by Government of Karnataka (GoK).",
           buttons: [
-            { text: "📄 AICTE EoA 2026-27 (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/06/EOA-2026-27.pdf" },
-            { text: "📄 VTU Affiliation 2025-26 (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Affiliation-2025-26.pdf" },
-            { text: "📄 GoK Order All Courses (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/GOK-order-all-courses.pdf" },
-            { text: "🏛️ About RVITM", act: "about" }
+            { text: "📄 AICTE EoA (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/06/EOA-2026-27.pdf" },
+            { text: "📄 VTU Affiliation (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Affiliation-2025-26.pdf" },
+            { text: "📄 GoK Order (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/GOK-order-all-courses.pdf" }
           ]
         };
 
       case 'circulars':
         return {
-          text: T(
-            `📢 **Latest Circulars & Notifications!** 🗓️<br><br>Check out all official institutional notices organized by category on the RVITM circulars desk:<br><br>• 📅 Academic Calendar & Semester Schedules<br>• 📝 Examination Time Tables & Result Updates<br>• 📢 Academic & Department Circulars<br>• 🎓 Admission Notices & Cutoff Slabs`,
-            `📢 **Circulars & Institutional Notifications — RVITM**<br><br>Official circulars and notices published by the RVITM administration:<br><br>1. **Academic Calendar:** Annual schedule, semester timelines, and holidays.<br>2. **Examination Circulars:** Time tables, hall ticket schedules, and results.<br>3. **Academic Circulars:** Department updates and curriculum notices.<br>4. **Admission Circulars:** Admission schedules, quota details, and procedures.`
-          ),
+          text: "📢 **Circulars & Notices — RVITM**<br><br>" +
+                "• 📅 **Academic Calendar:** Semester schedules, timelines, and exams.<br>" +
+                "• 📝 **VTU Circulars:** Examination time-tables and registration notices.<br>" +
+                "• 🎓 **Admissions:** Latest seat availability, quotas, and guidelines.",
           buttons: [
             { text: "🌐 Open Circulars Desk", url: "https://rvitm.edu.in/circular_and_notifications/" },
             { text: "🎓 Admissions 2026", act: "admissions" },
-            { text: "📞 Contact Admin", act: "contact" }
+            { text: "📞 Contact Office", act: "contact" }
           ]
         };
 
       case 'committees':
         return {
-          text: T(
-            `⚖️ **Governance & Statutory Committees!** 🛡️<br><br>RVITM maintains strict statutory committees headed by senior professors:<br><br>• 🚫 **Anti-Ragging Committee:** Zero-tolerance campus discipline<br>• 📝 **Online Grievance Redressal:** AICTE Act compliant student portal<br>• 🌸 **Women Empowerment & POSH:** Safe campus environment<br>• ⚖️ **Disciplinary Action & Malpractice Committees**`,
-            `⚖️ **Statutory Committees & Governance — RVITM**<br><br>Constituted in accordance with AICTE, UGC, and VTU regulations:<br><br>• **Disciplinary Action Committee (DAC):** Convenor — Dr. Manjunatha Prasad R (Vice Principal)<br>• **Malpractice Cases Consideration Committee (MPCC):** Convenor — Dr. Hema M S (HOD CSE)<br>• **Institute Development & Planning Committee:** Convenor — Dr. Malini M. Patil (Dean, CSE Cluster)<br>• **Online Grievance Redressal Committee:** Convener — Dr. Prashant P. P. (Professor, ECE)<br>• **Anti-Ragging Committee (ARC):** Chairman — Dr. Nagashettappa Biradar (Principal)<br>• **Women Empowerment Cell & POSH:** Chairperson — Dr. Latha C. A. (Professor, ISE)`
-          ),
+          text: "⚖️ **Statutory Committees — RVITM**<br><br>" +
+                "• 🛡️ **Anti-Ragging Committee (ARC):** Dr. Nagashettappa Biradar (Principal)<br>" +
+                "• ⚖️ **Disciplinary Action Committee (DAC):** Dr. Manjunatha Prasad R (Vice Principal)<br>" +
+                "• 📝 **Grievance Redressal:** Dr. Prashant P. Patavardhan (ECE)<br>" +
+                "• 📋 **Malpractice Cases (MPCC):** Dr. Hema M S (HOD CSE)<br>" +
+                "• 👩 **Women Empowerment & POSH:** Dr. Latha C. A. (ISE)<br>" +
+                "• 📈 **Institute Planning:** Dr. Malini M. Patil (Dean CSE)",
           buttons: [
             { text: "🛡️ Anti-Ragging Cell", act: "antiragging" },
             { text: "📝 Grievance Redressal", act: "grievance" },
@@ -1155,25 +1625,29 @@
 
       case 'antiragging':
         return {
-          text: T(
-            `🛡️ **Zero-Tolerance Anti-Ragging Cell!** 🚫<br><br>Ragging in any form is strictly banned across RVITM! Continuous surveillance is maintained by the Anti-Ragging Squad.<br><br>• 👨‍💼 **Chairman:** Dr. Nagashettappa Biradar (Principal)<br>• 👔 **Convener:** Dr. Gangadharaiah Y. H. (ASH HOD)<br>• 👮 **Police Nominee:** Sri Babu KV, Sub Inspector (8123442381)<br>• 🕵️ **Anti-Ragging Squad Convener:** Dr. Nagbhabushan P.`,
-            `🛡️ **Anti-Ragging Committee & Squad — RVITM**<br><br>RVITM enforces a strict zero-tolerance policy against ragging in compliance with AICTE and UGC regulations.<br><br>• **Chairman:** Dr. Nagashettappa Biradar (Principal)<br>• **Deputy Chairman:** Dr. Manjunatha Prasad R (Vice Principal)<br>• **Convener:** Dr. Gangadharaiah Y. H. (Professor & Head, ASH)<br>• **Police Department Nominee:** Sri Babu KV, Sub Inspector of Police (Ph: 8123442381)<br>• **Anti-Ragging Squad (ARS) Convener:** Dr. Nagbhabushan P. (Assistant Professor, Mathematics)<br>• The squad conducts surprise checks across classrooms, laboratories, and hostels.`
-          ),
+          text: "🛡️ **Anti-Ragging Committee & Squad — RVITM**<br><br>" +
+                "• **Policy:** Strict zero tolerance against ragging per AICTE/UGC norms.<br>" +
+                "• **Chairman:** Dr. Nagashettappa Biradar (Principal)<br>" +
+                "• **Deputy Chairman:** Dr. Manjunatha Prasad R (Vice Principal)<br>" +
+                "• **Convener:** Dr. Gangadharaiah Y. H. (ASH)<br>" +
+                "• **Police Nominee:** Sri Babu KV, Sub Inspector (Ph: 8123442381)<br>" +
+                "• **Squad Convener:** Dr. Nagbhabushan P. (Math) — conducts surprise checks.",
           buttons: [
             { text: "📄 Anti-Ragging Policy (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Anti-Ragging-web.pdf" },
             { text: "📝 Grievance Redressal", act: "grievance" },
-            { text: "📞 Contact Principal", act: "contact" }
+            { text: "📞 Contact Office", act: "contact" }
           ]
         };
 
       case 'grievance':
         return {
-          text: T(
-            `📝 **Online Grievance Redressal & POSH Cell!** 🤝<br><br>• ⚖️ **Mandate:** Constituted under AICTE Act Clause 1, Section 23<br>• 👨‍💼 **Convener:** Dr. Prashant P. P. (Professor, ECE)<br>• ✉️ **Online Submission:** \`principal.rvitm@rvei.edu.in\`<br>• 🌸 **Women Concerns:** Addressed exclusively by women faculty led by Dr. Latha C. A. and clinical psychologist Dr. Padmakshi L!`,
-            `📝 **Online Grievance Redressal & POSH Mechanism — RVITM**<br><br>• **Statutory Compliance:** Constituted pursuant to AICTE Act Clause 1 Section 23.<br>• **Convener:** Dr. Prashant P. P. (Professor, Department of ECE).<br>• **Submission Channel:** Formal grievances may be submitted online to \`principal.rvitm@rvei.edu.in\`.<br>• **Women Grievance / POSH:** Handled exclusively by women faculty members under the Women Empowerment Cell chaired by Dr. Latha C. A., with external clinical psychologist Dr. Padmakshi L.`
-          ),
+          text: "📝 **Online Grievance Redressal & POSH — RVITM**<br><br>" +
+                "• **Compliance:** Mandated under AICTE Act Clause 1 Section 23.<br>" +
+                "• **Convener:** Dr. Prashant P. Patavardhan (Professor, ECE).<br>" +
+                "• **Submission:** Online filing at `principal.rvitm@rvei.edu.in`.<br>" +
+                "• **Women / POSH Cell:** Led by Dr. Latha C. A. and clinical psychologist Dr. Padmakshi L.",
           buttons: [
-            { text: "📄 Grievance Cell Notification (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Institute-Online-Grievances-Cell-2025-26.docx.pdf" },
+            { text: "📄 Grievance Order (PDF)", url: "https://rvitm.edu.in/wp-content/uploads/2026/03/Institute-Online-Grievances-Cell-2025-26.docx.pdf" },
             { text: "🛡️ Anti-Ragging Cell", act: "antiragging" },
             { text: "📞 Contact Us", act: "contact" }
           ]
@@ -1181,10 +1655,13 @@
 
       case 'nss':
         return {
-          text: T(
-            `🤝 **National Service Scheme (NSS Unit RVITM)!** 🇮🇳<br><br>• 🌟 **Motto:** *"Not Me But You"*<br>• 👨‍💼 **Coordinators:** Dr. Lokesh P. (9632389355) & Mr. Abhaykumar S. Inchal (9449608448)<br>• ✉️ **Email:** \`nssunit.rvitm@rvei.edu.in\`<br>• 📅 **Enrollment:** Starts 2nd or 3rd week of August every year with personal interviews!<br>• 🌱 **Drives:** Blood donation, rural education, tree planting, and sustainability!`,
-            `🤝 **National Service Scheme (NSS) — RVITM Unit**<br><br>• **Motto:** "Not Me But You"<br>• **Programme Officers (2025–26):**<br>  - Dr. Lokesh P. (NSSO-I, Assistant Professor, ME) — 9632389355<br>  - Mr. Abhaykumar S. Inchal (NSSO-II, Assistant Professor, ISE) — 9449608448<br>• **Email:** \`nssunit.rvitm@rvei.edu.in\`<br>• **Recruitment:** Annual enrollments occur in the 2nd/3rd week of August followed by VTU submission.<br>• **Initiatives:** Community outreach, blood donation camps, environmental drives, and digital literacy.`
-          ),
+          text: "🤝 **National Service Scheme (NSS) — RVITM Unit**<br><br>" +
+                "• **Motto:** \"Not Me But You\"<br>" +
+                "• **Programme Officers:**<br>" +
+                "  - Dr. Lokesh P. (ME) — 9632389355<br>" +
+                "  - Mr. Abhaykumar S. Inchal (ISE) — 9449608448<br>" +
+                "• **Recruitment:** Annual enrollment in August followed by VTU submission.<br>" +
+                "• **Email:** `nssunit.rvitm@rvei.edu.in` | Blood camps, tree plantations & digital literacy.",
           buttons: [
             { text: "🌐 NSS Webpage", url: "https://rvitm.edu.in/nss/" },
             { text: "🚀 Student Clubs", act: "clubs" },
@@ -1194,58 +1671,25 @@
 
       case 'alumni':
         return {
-          text: T(
-            `🌐 **RVITM Global Alumni Network!** 🎓<br><br>Connecting graduates across top tech firms, startups, and higher research worldwide!<br><br>• 💡 **Mentorship:** Industry guidance from seniors<br>• 💼 **Internship Referrals:** Corporate connects<br>• 🤝 **Alumni Meets:** Networking sessions throughout the year!`,
-            `🌐 **Alumni Network & Community — RVITM**<br><br>The RVITM Alumni Network connects graduates worldwide across software, hardware, entrepreneurship, and research.<br><br>• **Objectives:** Industry mentorship, guest lectures, internship referrals, and career guidance.<br>• **Portal Access:** Open to all RVITM alumni for lifelong networking and campus collaboration.`
-          ),
+          text: "🌐 **Alumni Network — RVITM**<br><br>" +
+                "• Global community of graduates across tech, research, and entrepreneurship.<br>" +
+                "• Engaged in mentorship, guest talks, campus referrals, and project guidance.",
           buttons: [
             { text: "🌐 Alumni Portal", url: "https://rvitm.edu.in/alumni/" },
-            { text: "💼 Placement Records", act: "placements" },
+            { text: "💼 Placements", act: "placements" },
             { text: "🏛️ About RVITM", act: "about" }
-          ]
-        };
-
-      case 'hods_list':
-        return {
-          text: T(
-            `👔 **Meet the Heads of Departments at RVITM!**<br><br>• 💻 **CSE:** Dr. Hema M S<br>• 🤖 **AI & ML:** Dr. Surbhi Agrawal<br>• 🌐 **ISE:** Dr. Vinoth Kumar M<br>• ⚡ **ECE:** Dr. Manjunatha Prasad R (Vice Principal)<br>• ⚙️ **ME:** Dr. C. Solaimuthu<br>• 📱 **MCA:** Dr. M. Mrunalini<br>• 🔬 **ASH:** Dr. Gangadharaiah Y H`,
-            `👔 **Academic Heads of Departments (HODs) — RVITM**<br><br>• **Computer Science & Engineering (CSE):** Dr. Hema M S<br>• **CSE — Artificial Intelligence & ML (AI&ML):** Dr. Surbhi Agrawal<br>• **Information Science & Engineering (ISE):** Dr. Vinoth Kumar M<br>• **Electronics & Communication Engineering (ECE):** Dr. Manjunatha Prasad R (Vice Principal)<br>• **Mechanical Engineering (ME):** Dr. C. Solaimuthu<br>• **Master of Computer Applications (MCA):** Dr. M. Mrunalini<br>• **Applied Sciences & Humanities (ASH):** Dr. Gangadharaiah Y H`
-          ),
-          buttons: [
-            { text: "💻 CSE HOD", act: "hod_cs" },
-            { text: "🤖 AI&ML HOD", act: "hod_aiml" },
-            { text: "⚡ ECE HOD", act: "hod_ec" },
-            { text: "🌐 ISE HOD", act: "hod_is" },
-            { text: "⚙️ ME HOD", act: "hod_me" }
-          ]
-        };
-
-      case 'faculty_list':
-        return {
-          text: T(
-            `👨‍🏫 **Over 100+ Renowned Faculty Members!**<br>RVITM faculty members are active researchers with doctorates from top universities and prestigious journal publications. Which department's faculty would you like to explore?`,
-            `👨‍🏫 **Faculty Directory — RVITM**<br>RVITM houses over 100 dedicated faculty members across engineering, computer applications, and basic sciences.<br>Select a department to view faculty profiles:`
-          ),
-          buttons: [
-            { text: "💻 CSE Faculty", act: "dept_cs" },
-            { text: "🤖 AI&ML Faculty", act: "dept_aiml" },
-            { text: "🌐 ISE Faculty", act: "dept_is" },
-            { text: "⚡ ECE Faculty", act: "dept_ec" },
-            { text: "⚙️ ME Faculty", act: "dept_me" },
-            { text: "📱 MCA Faculty", act: "dept_mca" }
           ]
         };
 
       default:
         return {
-          text: T(
-            `Hmm, I didn't quite catch that. Could you rephrase your question? Here are some top topics you can explore:`,
-            `I apologize, but I could not find a direct answer to your specific query. Please choose from the topics below or rephrase your question:`
-          ),
+          text: "I couldn't find an exact match for that query. Choose a topic below or rephrase your question:",
           buttons: [
-            { text: "💼 Placements (₹41.5 LPA)", act: "placements" },
+            { text: "💼 Placements", act: "placements" },
             { text: "🎓 Admissions 2026", act: "admissions" },
-            { text: "📚 Departments", act: "departments" },
+            { text: "📚 Courses Offered", act: "departments" },
+            { text: "👨‍🏫 Faculty Directory", act: "faculty_list" },
+            { text: "🔬 Research & Clubs", act: "research" },
             { text: "📞 Contact Us", act: "contact" }
           ]
         };
@@ -1253,67 +1697,134 @@
   }
 
   /* =========================================================================
-     9. CARD RENDERERS (Department, HOD, Faculty)
+     9. CARD RENDERERS (Department, HOD, Faculty, Faculty Roster)
      ========================================================================= */
   function renderDepartmentCard(d) {
-    const facCount = (KB.faculty && KB.faculty[d.c]) ? KB.faculty[d.c].length : 0;
+    const deptCodeMap = {
+      'cs': 'cse', 'cse': 'cse',
+      'aiml': 'aiml', 'ai': 'aiml',
+      'is': 'ise', 'ise': 'ise',
+      'ec': 'ece', 'ece': 'ece',
+      'me': 'me', 'mech': 'me',
+      'mca': 'mca',
+      'ash': 'ash'
+    };
+    const key = deptCodeMap[d.c] || d.c;
+    const facList = (KB.faculty && KB.faculty[key]) ? KB.faculty[key] : [];
+    const facCount = facList.length;
+    const focusStr = (d.focusAreas && d.focusAreas.length) ? d.focusAreas.join(', ') : 'Emerging Technologies & Engineering';
+
     return {
-      text: `📘 **${d.code} — ${d.n}**<br><br>` +
-            `• **Head of Department:** ${d.hod} (${d.hodTitle})<br>` +
-            (d.intake ? `• **Annual Intake:** ${d.intake} seats<br>` : '') +
-            `• **Key Focus:** ${d.focusAreas.slice(0, 3).join(', ')}<br>` +
-            `• **Labs:** ${d.labs.join(', ')}<br>` +
-            `• **Faculty Strength:** ${facCount} dedicated professors<br><br>` +
-            `<em>${d.overview}</em>`,
+      text: "📘 **Department of " + d.n + " (" + d.code + ")**<br><br>" +
+            "• 👨‍💼 **HOD:** **" + d.hod + "** (" + d.hodTitle + ")<br>" +
+            (d.intake ? "• 🎓 **Intake:** **" + d.intake + " seats** (AICTE approved, VTU affiliated)<br>" : '') +
+            "• 🔬 **Key Focus:** " + focusStr + "<br>" +
+            "• 👨‍🏫 **Faculty:** " + facCount + " faculty members<br>" +
+            "• 💼 **Placements:** Centralized with RVCE (Highest: ₹41.5 LPA, Avg: ₹12.27 LPA)",
       url: d.url,
       buttons: [
-        { text: `💼 ${d.code} Placements`, act: `plcmt_${d.c}` },
-        { text: `👔 HOD Details`, act: `hod_${d.c}` },
-        { text: `🌐 Official Dept Webpage`, url: d.url },
-        { text: `📚 All Departments`, act: "departments" }
+        { text: "👨‍🏫 " + d.code + " Faculty", act: "fac_" + d.c },
+        { text: "💼 " + d.code + " Placements", act: "plcmt_" + d.c },
+        { text: "🌐 Official Dept Webpage", url: d.url },
+        { text: "📚 All Courses", act: "departments" }
       ]
     };
   }
 
   function renderHODCard(d) {
     return {
-      text: `👔 **Head of Department — ${d.code}**<br><br>` +
-            `**${d.hod}**<br>` +
-            `• **Title:** ${d.hodTitle}<br>` +
-            `• **Department:** ${d.n}<br>` +
-            `• **Institution:** RV Institute of Technology and Management (RVITM)<br><br>` +
-            `The department under ${d.hod}'s leadership prioritizes hands-on project incubation, industry-backed curriculum, and experiential learning.`,
+      text: "👔 **Head of Department — " + d.code + "**<br><br>" +
+            "**" + d.hod + "**<br>" +
+            "• **Designation:** " + d.hodTitle + "<br>" +
+            "• **Department:** " + d.n + "<br>" +
+            "• **Institution:** RV Institute of Technology & Management (RVITM)",
       url: d.url,
       buttons: [
-        { text: `📘 ${d.code} Overview`, act: `dept_${d.c}` },
-        { text: `💼 ${d.code} Placements`, act: `plcmt_${d.c}` },
-        { text: `👔 All HODs`, act: "hods_list" }
+        { text: "📘 " + d.code + " Overview", act: "dept_" + d.c },
+        { text: "👨‍🏫 " + d.code + " Faculty", act: "fac_" + d.c },
+        { text: "💼 " + d.code + " Placements", act: "plcmt_" + d.c },
+        { text: "👔 All HODs", act: "hods_list" }
       ]
     };
   }
 
-  function renderFacultyCard(f, deptKey) {
-    const deptName = {
-      'cse': 'Computer Science and Engineering',
-      'aiml': 'Computer Science & Engineering (AI & ML)',
-      'ise': 'Information Science and Engineering',
-      'ece': 'Electronics and Communication Engineering',
-      'me': 'Mechanical Engineering',
-      'mca': 'Master of Computer Applications',
-      'ash': 'Applied Sciences and Humanities'
-    }[deptKey] || deptKey.toUpperCase();
+  function renderDeptFacultyList(deptKey) {
+    const deptCodeMap = {
+      'cs': 'cse', 'cse': 'cse',
+      'aiml': 'aiml', 'ai': 'aiml',
+      'is': 'ise', 'ise': 'ise',
+      'ec': 'ece', 'ece': 'ece',
+      'me': 'me', 'mech': 'me',
+      'mca': 'mca',
+      'ash': 'ash'
+    };
+    const key = deptCodeMap[deptKey] || deptKey;
+    const list = (KB.faculty && KB.faculty[key]) ? KB.faculty[key] : [];
+    const deptObj = allBranches.find(b => b.c === deptKey || b.c === key) || KB.departments.foundational?.find(b => b.c === deptKey || b.c === key);
+    const deptName = deptObj ? deptObj.n : key.toUpperCase();
+    const code = deptObj ? deptObj.code : key.toUpperCase();
+
+    if (!list || list.length === 0) {
+      return {
+        text: "👨‍🏫 Faculty directory for " + deptName + " will be updated shortly.",
+        buttons: [{ text: "📚 All Courses", act: "departments" }]
+      };
+    }
+
+    let text = "👨‍🏫 **Faculty Directory — " + deptName + " (" + code + ")**<br><br>" +
+               "Total " + list.length + " faculty members. Key professors:<br><br>";
+
+    list.slice(0, 6).forEach((f, idx) => {
+      text += (idx + 1) + ". **" + f.n + "** — " + f.d + "<br>";
+    });
+
+    if (list.length > 6) {
+      text += "<br><em>...and " + (list.length - 6) + " more professors on official page.</em>";
+    }
+
+    const buttons = [];
+    list.slice(0, 3).forEach(f => {
+      const cleanSlug = f.slug || f.n.toLowerCase().replace(/[^a-z0-9]/g, '');
+      const shortName = f.n.replace(/Dr\.|Prof\.|Mr\.|Mrs\.|Ms\./gi, '').trim();
+      buttons.push({ text: "👤 " + shortName, act: "fac_" + cleanSlug });
+    });
+
+    const listingUrl = list[0].u.replace(/\/[^\/]+\/?$/, '/');
+    buttons.push({ text: "🌐 All " + code + " Profiles", url: listingUrl });
+    buttons.push({ text: "📘 " + code + " Course Info", act: "dept_" + (deptObj ? deptObj.c : deptKey) });
+    buttons.push({ text: "👨‍🏫 Faculty Directory", act: "faculty_list" });
+
+    return { text, url: listingUrl, buttons };
+  }
+
+  function renderFacultyCard(f, deptCode) {
+    if (!f) return { text: "Faculty profile not found.", buttons: [{ text: "👨‍🏫 Faculty Directory", act: "faculty_list" }] };
+    const deptCodeMap = {
+      'cs': 'cse', 'cse': 'cse',
+      'aiml': 'aiml', 'ai': 'aiml',
+      'is': 'ise', 'ise': 'ise',
+      'ec': 'ece', 'ece': 'ece',
+      'me': 'me', 'mech': 'me',
+      'mca': 'mca',
+      'ash': 'ash'
+    };
+    const key = deptCodeMap[deptCode] || deptCode;
+    const deptObj = allBranches.find(b => b.c === deptCode || b.c === key) || KB.departments.foundational?.find(b => b.c === deptCode || b.c === key);
+    const deptName = deptObj ? deptObj.n : (key ? key.toUpperCase() : 'Engineering');
+    const code = deptObj ? deptObj.code : (key ? key.toUpperCase() : '');
 
     return {
-      text: `👨‍🏫 **Faculty Profile**<br><br>` +
-            `**${f.n}**<br>` +
-            `• **Department:** ${deptName}<br>` +
-            `• **Institution:** RVITM, Bengaluru<br><br>` +
-            `For complete research publications, teaching portfolio, and contact details, view the official faculty bio below.`,
+      text: "👨‍🏫 **" + f.n + "** — **" + deptName + "**<br><br>" +
+            "• 👔 **Designation:** " + f.d + "<br>" +
+            "• 🎓 **Qualification:** " + (f.q || "M.Tech / Ph.D.") + "<br>" +
+            "• 🔬 **Domain:** " + (f.e || "Engineering & Research") + "<br>" +
+            "• 🏛️ **College:** RVITM, Bengaluru",
       url: f.u,
       buttons: [
-        { text: `📄 View Bio on RVITM Portal`, url: f.u },
-        { text: `📘 ${deptKey.toUpperCase()} Dept`, act: `dept_${deptKey}` },
-        { text: `👨‍🏫 Faculty Directory`, act: "faculty_list" }
+        { text: "🌐 View Official Profile", url: f.u },
+        { text: "📘 " + code + " Dept", act: "dept_" + (deptObj ? deptObj.c : deptCode) },
+        { text: "👨‍🏫 " + code + " Faculty", act: "fac_" + (deptObj ? deptObj.c : deptCode) },
+        { text: "👨‍🏫 Faculty Directory", act: "faculty_list" }
       ]
     };
   }

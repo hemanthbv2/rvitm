@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/nss/
 TITLE: NSS -
+DESCRIPTION: 
 
 •
 NSS -
@@ -141,4 +142,6 @@ Yes. Students receive certificates and recognition for active participation in N
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

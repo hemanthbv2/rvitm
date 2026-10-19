@@ -1,0 +1,141 @@
+URL: https://rvitm.edu.in/departments/department_of_applied_sciences_and_humanities/events-ash/
+TITLE: ASH Events at RVITM | Workshops, Seminars & Activities
+DESCRIPTION: Explore Applied Sciences & Humanities events at RVITM, including workshops, seminars, Mathematics Day celebrations, quizzes and academic activities.
+
+•
+ASH Events at RVITM | Workshops, Seminars & Activities
+•
+## Applied Sciences and Humanities
+## Events
+•
+2026
+•
+2025
+•
+2024
+•
+2023
+•
+2022
+•
+2021
+## NATIONAL MATHEMATICS DAY
+Event Coordinator: Dr. Gangadharaiah Y H
+Date: 22/12/2025
+Faculty Coordinators:
+Dr. Sivasankar S, Dr. Nagabhushana P
+The Mathematical Computing Club successfully conducted National Mathematics Day on 22 December 2025, celebrating the beauty and importance of mathematics through engaging and interactive activities.The event featured exciting competitions such as Maths Puzzle, Math Bingo, and Treasure Hunt, encouraging students to think logically, collaborate, and enjoy mathematics beyond the classroom.
+Know More
+## Problem Solving Quiz
+Event Coordinator: Dr. Gangadharaiah Y H
+Date: 25/03/2025
+Faculty Coordinators:
+Dr. Sivasankar S
+Dr. Nagabhushana P
+Dr. Sushma M P Dr. David A K
+The Technical Quiz for RVITM students took place online from 4:00 PM to 4:30 PM, with supervision by faculty coordinators. Approximately 98 students participated, and the quiz was evaluated by the coordinators on the same day. Later, the NDLI club released a list of students who scored above 90%.
+## Technical Quiz
+Event Coordinator: Dr. Gangadharaiah Y H
+Date: 27/02/2025
+Faculty Coordinators:
+Dr. Sivasankar S
+Dr. Nagabhushana P
+Dr. Sushma M P Dr. David A K
+The Technical Quiz for RVITM students took place online from 4:00 PM to 4:30 PM, with supervision by faculty coordinators. Approximately 98 students participated, and the quiz was evaluated by the coordinators on the same day. Later, the NDLI club released a list of students who scored above 90%.
+Know More
+## Technical Quiz
+Event Coordinator: Dr. Gangadharaiah Y H
+Date: 13/03/2024
+Faculty Coordinators:
+Dr. Sivasankar S
+Dr. Nagabhushana P
+Dr. Sushma M P
+The Technical Quiz was conducted in four rooms located in second and third floor for the students of RVITM. The Quiz started at 04:00 pm and monitored by the faculty coordinators. The number of participants for the technical quiz is around 131 students and ends at 04:30 pm. The evaluation part of the technical quiz was taken care by the faculty coordinators on the same day. The NDLI club released the list of students scored more than 90%
+## Technical Talk
+Event Coordinator: Dr.
+Arulalan Rajan
+CCE, IISC, Bengaluru, India
+Date: 29/11/2024
+Faculty Coordinators:
+Dr. Sivasankar and Dr. Nagabhushana P
+Venue : Classroom L3-11
+The guest addresses the 3rd sem ECE students on topic "Integral Transforms
+& it’s Applications". The session was enlighting and students enthusiastically participated.
+## SERB funded one day workshop on Advanced Materials - Characterization and Electrochemical Applications
+Date: 29/01/2024
+Faculty Coordinators:
+Samrat D
+The workshop focused on the introduction to the design and development of new hybrid and functional nanoscale and quantum materials aimed at cleaner and more sustainable energy alternatives. Detailed sessions were organized on the characterization of advanced materials, providing participants with comprehensive insights into modern analytical techniques. Fundamental aspects of key electrochemical methods were also discussed to enhance understanding of the applications of advanced materials in sensing technologies and energy systems.
+## SERB funded one day workshop on Advanced Materials Synthesis: Applications for Energy Generation and Storage
+Date: 13/09/2024
+Faculty Coordinators:
+B E Prasad
+The workshop focused on the design, synthesis, and characterization of functional nanoscale and quantum materials for clean and sustainable energy applications. It also highlighted fundamental principles and recent advances in energy generation, battery science, and emerging energy technologies.
+## TECHNICAL TALK
+Event Coordinator: Mr. Raghavendra
+Harnoorkar
+Senior Software Engineer, CISCO, CANADA
+Date: 06/02/2023
+Faculty Coordinators:
+Dr. Sushma M Puranik Dr. Nagabhushana P
+The guest addresses the first year CSE students on topic "Application for Mathematics in Data Science". The session was enlighting and students enthusiastically participated.
+## Technical Aptitude Test
+Event Coordinator: Dr. Gangadharaiah Y H
+Date: 08/06/2023
+Faculty Coordinators:
+Dr. Sivasankar S
+Dr. Nagabhushana P
+Dr. Sushma M P
+A technical aptitude test for RVITM students was organised by department of mathematics in association with NDLI club, RVITM. The test was conducted for a duration of 60 minutes. The main content of test included question related to logical reasoning, quantitative and qualitative analysis and other mathematics related concepts. These questions were framed in view point of aptitude round of placement training process. The test enables students to develop basic skills to prepare for aptitude test round of placement training process. Students showed enthusiastic participation in writing test.
+## Technical Aptitude Test
+Event Coordinator: Dr. Gangadharaiah Y H
+Date: 23/05/2022
+Faculty Coordinators:
+Dr. Sivasankar S
+Dr. Nagabhushana P
+Dr. Smitha T V
+The Technical Quiz was conducted in four rooms located in second and third floor for the students of RVITM. The Quiz started at 12:20 pm and monitored by the faculty coordinators. The number of participants for the technical quiz is around 130 students and ends at 1:20 pm. The evaluation part of the technical quiz was taken care by the faculty coordinators on the same day. The NDLI club released the list of students scored more than 90%
+## Workshop
+on
+Introduction to MATLAB
+Event Coordinator: Dr. Arun Kumar N, Christ University, Bengaluru
+Date: 17th January 2022
+## The Technical Talk on “Predictive Data Analytics -a Mathematical Perspective”
+Event Coordinator: Dr. K Sangeeta, Data Science Trainer/Educator, Bengaluru
+Date: 13-03-2021
+Chief Patron: Dr. Jayapal R
+Convener: Dr. Gangadharaiah Y H
+Session Coordinators: Dr. Smitha T V, Dr. Nagabhushana P
+The Technical Talk on “Predictive Data Analytics -a Mathematical Perspective” began at 12:20 PM by welcoming the gathering and introduction to the resource person by Dr. Smitha T V. An Invocation song was recited by Nitya Ananth, 1st Sem, CSE Dept. Student. Thereafter, Principal Dr. Jayapal R gave the presidential address. Then, followed by a fascinating session by the resource person on “Predictive Data Analytics -a Mathematical Perspective”. She had discussed about predictive models, analysis of data, designing of model by taking simple data and mathematics involved in all the analysis. She had explained all these concepts very well with practical applications. It was overall an interesting, informative and interactive session. Students interacted well during the session. Her session went on till 01:50 PM. At 01:55 PM, the function was concluded by vote of thanks by Dr. Nagabhushana P.
+## Technical Talk on
+“Discrete event system simulation”
+Event Coordinator: Dr. K Sangeeta, Data Science Trainer/Educator, Bengaluru
+Date: 27/02/2025
+Chief Patron: Dr. Jayapal R
+Convener: Dr. Gangadharaiah Y H
+Session Coordinators: Dr. Smitha T V, Dr. Nagabhushana P
+The function was Anchored by Poornima, 4th Sem, ISE Dept. Student. The resource person was Dr. K Sangeeta, Data Science Trainer/Educator, Bengaluru. The Technical Talk on “Discrete event system simulation” began at 09:00 AM by welcoming the gathering and introduction to the resource person by Dr. Smitha T V. An Invocation song was recited by Pranati, 4th Sem, ISE Dept. Student. Thereafter, Principal Dr. Jayapal R gave the presidential address. Then, followed by a fascinating session by the resource person on “Discrete event system simulation”. She had discussed about discrete models, analysis of data, system simulation by taking simple data and mathematics involved in all the analysis. She had explained all these concepts very well with practical applications. It was overall an interesting, informative and interactive session. Students interacted well during the session. Her session went on till 10:55 AM. At 10:55 AM, the function was concluded by vote of thanks by Dr. Nagabhushana P.
+## Technical Talk on
+“Mathematics for Artificial Intelligence & Machine Learning
+Event Coordinator: Dr. N. S. Sreekanth, Associate Professor Dept. of IT, Kannur University, Kerala.
+Date: 15-07-2021
+Chief Patron: Dr. Jayapal R
+Convener: Dr. Gangadharaiah Y H
+Session Coordinators: Dr. Smitha T V, Dr. Nagabhushana P
+The function was Anchored by Bhakti S Shetty, 2nd Sem, ISE Dept. Student. The resource person was Dr. N. S. Sreekanth, Associate Professor Dept. of IT, Kannur University, Kerala. The Technical Talk on “Mathematics for Artificial Intelligence & Machine Learning” began at 10:00 AM by welcoming the gathering and introduction to the resource person by Dr. Sivasankar S. An Invocation song was recited by Rahul M Bharadwaj, 2nd Sem, CSE Dept. Student. Thereafter, Principal Dr. Jayapal R gave the presidential address. Then, followed by a fascinating session by the resource person on “Mathematics for Artificial Intelligence & Machine Learning”. he had discussed about Artificial Intelligence & Machine Learning by taking simple data and mathematics involved in all the analysis. he had explained all these concepts very well with practical applications. It was overall an interesting, informative and interactive session. Students interacted well during the session. His session went on till 10:55 AM. At 10:55 AM, the function was concluded by vote of thanks by Dr. Nagabhushana P.
+## Technical Talk on
+“Hands-on session on Linear Algebra with MATLAB”
+Event Coordinator: Dr. Sarada Jayan, Associate Professor, Amrita School of Engineering, Bengaluru
+Date: 16-09-2021
+Chief Patron: Dr. Jayapal R
+Convener: Dr. Gangadharaiah Y H
+Session Coordinators: Dr. Smitha T V, Dr. Nagabhushana P
+The function was Anchored by Rahul M Bharadwaj, 2nd Sem, CSE Dept. Student. The resource person was Dr. Sarada Jayan, Associate Professor, Amrita School of Engineering, Bengaluru. The Technical Talk on “Hands-on session on Linear Algebra with MATLAB” began at 09:00 AM by welcoming the gathering and introduction to the resource person by Dr. Smitha T V. An Invocation song was recited by Bhkti S Shetty, 2nd Sem, ISE Dept. Student. Thereafter, Dr. Gangadharaiah Y H gave the presidential address. Then, followed by a fascinating session by the resource person on “Hands-on session on Linear Algebra with MATLAB”. She had discussed about discrete models, analysis of data, system simulation by taking simple data and mathematics involved in all the analysis. She had explained all these concepts very well with practical applications. It was overall an interesting, informative and interactive session. Students interacted well during the session. Her session went on till 10:55 AM. At 10:55 AM, the function was concluded by vote of thanks by Dr. Sivasankar S.
+•
+
+--- DOCUMENTS ---
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/Mathematics-Day-2025-Report_DEC-2025.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/Technical-Quiz-Report_feb.docx.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

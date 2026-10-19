@@ -1,0 +1,485 @@
+URL: https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/events_cse/
+TITLE: CSE Events at RVITM | Workshops, Hackathons & Seminars
+DESCRIPTION: Explore CSE events at RVITM including AI workshops, hackathons, coding contests, FDPs, expert talks and technical seminars.
+
+•
+CSE Events at RVITM | Workshops, Hackathons & Seminars
+•
+## Computer Science and Engineering
+## Events
+•
+2026
+•
+2025
+•
+2024
+•
+2023
+•
+2022
+•
+2020
+Topic
+Outreach Activity
+Date
+17th July 2026.
+Session Coordinator
+Mrs. Priyanka K R, Dr. Annie Sujith, Mr. Manjunath K M, and Ms. Indu K S
+Know More
+Topic
+5- day FDP on Quantum Computing
+Date
+19 th to 23 rd Jan 2026
+Time
+9:30 am to 4 pm
+Resource Person
+Mr.Venkatesh Kumar, Mr.Sachin Namdeo, Mrs.Tulika Dutta, Mr.Raja Singh Yadav, Mr.Deepak Sharma, Dr.Anjani Priya
+Session Coordinator
+Dr.Satish BB, Dr.Koushik S, Mr. Manjunath KM
+Know More
+Event Name
+Advanced Data Structures and Algorithms
+Date
+11 th ,
+12 th ,
+13 th
+November 2025
+Venue
+First Floor Seminar Hall
+Audience
+3 RD
+SEM CSE
+Resource Person
+Saran Kirthic S
+Faculty Coordinator:
+Nayana H J, Madhuri H D
+Know More
+Topic
+Workshop session 2025 (Algoholics Club)
+Date
+4 th
+& 13 th
+September 2025
+Time
+2:00 PM to 3:00 PM
+Resource Person(s)
+Siddhant Girish
+Session Coordinator(s)
+Rethash Reddy
+Faculty Coordinator
+Dr. Nandita Bangera
+Know More
+Event Name
+Algorithmic Thinking and Problem Solving
+Date
+27 th and 28 th October 2025
+Venue
+UG Seminar Hall
+Audience
+5 th Semester Students of CSE
+Resource Person
+Dr. Subramanya
+Faculty Coordinator:
+Dr. V R Srividhya
+Know More
+Topic
+Workshop Report of Technical skill building workshop for 3rd sem students
+Date
+1/9/2025 to 15/9/2025
+Time
+10 am to 4 pm
+Resource Person
+Internal and External Resource Persons
+Session Coordinator
+Mrs. Manjusha Kulkarni, Mrs. Bhavya N Javagal, Dr. V R Srividya, Mrs. Padmasree N.
+Know More
+Event Name
+SDP build with AI, create using AI, and deploy through AI .
+Date
+10-12 September 2025
+Venue
+6 th Floor Seminar Hall , RVITM
+Audience
+5 th semester students
+Resource person(s)
+SUSHANT VASANT PAI
+Faculty
+Coordinator(s)
+Padma Sree.N, Uppin Rashmi
+Know More
+Event Name
+Build, create, Deploy with AI – GenAI Acclerator Bootcamp for Students
+Know More
+Event Name
+Orientation for Agentic AI Workshop
+Date
+19 August 2025
+Venue
+UG Seminar Hall
+Resource person(s)
+Mr. Mayank Arora (CAPABL)
+Know More
+Event Name
+Agentic AI Workshop with Hands-on Hackathon
+Date
+12th & 13th September 2025
+Venue
+MCA Seminar Hall
+Resource person(s)
+Ms. Shikha Singh
+Know More
+Event Name
+Cloud Computing and Devops : From VIrtual Machine andKubernates
+Date
+3 rd and 5 th of April 2025
+Venue
+MCA Seminar Hall
+Resource person(s)
+M. VIjayasanthi
+Faculty
+Coordinator(s)
+Mrs Rachana M S (Assistant Professor, Dept. of CSE, RVITM) Mrs. Prabhavathi K (Assistant Professor, Dept. of CSE, RVITM)
+Know More
+Event Name
+3-day workshop on Data Structures and Algorithms
+Date
+11 th – 13 th October 2025
+Venue
+6 TH Floor UG Seminar Hall, RVITM
+Resource person(s)
+Mr. Mahesh Arali, Founder of Algorithms365 & Mr. Prince Jayaseelan, Senior Engineer at Tekion
+Faculty
+Coordinator(s)
+Mr. Sudheendra B S and Dr. Shashidhar V
+Know More
+Event Name
+3-day workshop on Data Structures and Algorithms
+Date
+11 th – 13 th October 2025
+Venue
+6 TH Floor UG Seminar Hall, RVITM
+Resource person(s)
+Mr. Mahesh Arali, Founder of Algorithms365 & Mr. Prince Jayaseelan, Senior Engineer at Tekion
+Faculty
+Coordinator(s)
+Mr. Sudheendra B S and Dr. Shashidhar V
+Know More
+Event Name
+Expert Talk
+Date
+4th April 2025
+Venue
+UG SEMINAR HALL
+Resource person(s)
+Mr.Ganesh Srinivas Prasad,Scrum Master,Agile Coach,Common Wealth Bank of Australia
+Faculty
+Coordinator(s)
+Dr.Nandita B
+Know More
+Event Name
+Expert Talk on Health and well Being
+Date
+14th October 2025
+Venue
+MCA SEMINAR HALL
+Resource person(s)
+Dr. Manjulatha V R
+Faculty
+Coordinator(s)
+Dr. Syeda Ayesha Unisa
+Know More
+Event Name
+3-day workshop on Data Structures and Algorithms
+Date
+11th– 13th October 2025
+Venue
+6TH Floor UG Seminar Hall, RVITM
+Resource person(s)
+Mr. Mahesh Arali, Founder of Algorithms 365
+&
+Mr. Prince Jayaseelan, Senior Engineer at Tekion
+Faculty
+Coordinator(s)
+Mr. Sudheendra B S and Dr. Shashidhar V
+Know More
+Event Name
+Cloud Computing and Devops : From VIrtual Machine and Kubernates
+Date
+3rd and 5th of April 2025
+Venue
+MCA Seminar hall, RVITM
+Resource person(s)
+M. VIjayasanthi
+Faculty
+Coordinator(s)
+Mrs Rachana M S (Assistant Professor, Dept. of CSE, RVITM) Mrs. Prabhavathi K (Assistant Professor, Dept. of CSE, RVITM)
+Know More
+Event Name
+SDP build with AI, create using AI, and deploy through AI
+Date
+3rd and 5th of April 2025
+Venue
+6th Floor Seminar Hall , RVITM
+Resource person(s)
+SUSHANT VASANT PAI
+Faculty
+Coordinator(s)
+Padma Sree.N, Uppin Rashmi
+Know More
+Event Name
+Algorithmic Thinking and Problem Solving
+Date
+27th and 28th October 2025
+Venue
+UG Seminar Hall , RVITM
+Resource person(s)
+Dr. Subramanya
+Faculty
+Coordinator(s)
+Dr. V R Srividhya
+Know More
+Event Name
+VMWare GreenPlum for Large-Scale Analytics and Data Warehousing
+Date
+25th January 2024
+Venue
+4th Floor Seminar Hall
+Resource Person
+Mrs. Shwetha C Ravoor, Engineering Manager, VMware
+Faculty Coordinator:
+Prof. Sudheendra B S and Dr. Shashidhar V
+Know More
+Event Name
+Internship certificate distribution for RVITM Industry Connect project – VIVEKA
+Date
+4th January 2024
+Venue
+Seminar Hall
+Resource Person
+Mrs. Shwetha C Ravoor, Engineering Manager, VMware
+Know More
+Event Name
+Workshop on UI/UX and Usability Design
+Date
+28th June 2024
+Venue
+6th Floor MCA Seminar Hall
+Resource Person
+Supritha R and Basava Kumar M
+Faculty Coordinator:
+Dr. Malini M Patil, Mrs. Rachana M S
+Know More
+Event Name
+Workshop on IoT and its Applications
+Date
+19 th – 20 th April 2024
+Venue
+L315, RVITM
+Resource Person
+• Mr. Mahesh Deginal, Managing Director and CEO, Karunada Technologies Pvt Ltd.
+• Mr. Harish N, CTO and Co-Founder, Karunada Technologies Pvt Ltd.
+Faculty Coordinator:
+Dr. Anitha J and Prof. Sudheendra B S
+Know More
+Event Name
+CODE AND CLUSTER Workshop
+Date
+16th and 17th May 2024
+Venue
+MCA Seminar Hall 6th floor , RVITM
+Resource Person
+Mr. Sateesh Kumar Ambesange, Co-founder Pragyan AI LLP
+Know More
+Event Name
+Hands-on Workshop on Data Visualization
+Date
+13th July 2024
+Venue
+Seminar hall, RVITM
+Resource Person
+Ms. Prerana H, Sr. Data Analyst at Kipi.bi
+Faculty Coordinator:
+Dr Anitha J and Dr Roopashree S
+Know More
+Event Name
+Technical Talk on Cloud Computing
+Date
+30th January 2024
+Venue
+6th Floor Seminar hall
+Resource Person
+Dr. G S Mamatha , RVCE
+Know More
+Event Name
+Building Better Code: Transition from Student Projects to Corporate Standards
+Date
+16 th December 2024
+Venue
+Auditorium, 6 th floor, RVITM
+Resource Person
+Ms. Sirisha Arava, PayPal, Bengaluru
+Know More
+Event Name
+Alumni lecture series, entitled “ Unleashing Your Potential: Strategies for Success”
+Date
+30th September, 2024
+Venue
+Seminar hall, RVITM
+Resource Person
+Ms.Shresta Bekinal, software engineer at HPE RND
+Know More
+Event Name
+Technical Talk on Software Engineering and Project Management
+Date
+2nd July 2024
+Venue
+UG Seminar Hall, 6th Floor, RVITM
+Resource Person
+Prof. Rashmi R.,
+Assistant Professor, Department of Information Science & Engineering,
+R.V. College of Engineering, Bangalore
+Know More
+Event Name
+Health Wellness with Yoga and Meditation
+Date
+September 9 th 2023
+Venue
+Auditorium, RVITM
+Resource Person
+Faculties (Teaching and Non-Teaching)
+Faculty Coordinator:
+Ms.Deepika and Mr.Siddharth From Art of Living
+Know More
+Event Name
+Visit to U R Rao Satellite Centre
+Date
+8th Nov 2023
+Venue
+U R Rao Satellite Centre
+Resource Person
+U R Rao Satellite Centre Scientists
+Faculty
+Coordinator(s)
+Dr. Mallangouda Patil and Dr. Shashidhar V.
+Know More
+Event Name
+FDP on “Importance of Data Science in Machine Learning”
+Date
+6 th -10 th Feb 2023
+Venue
+Online , RVITM
+Resource Person
+• Mr. Vivek Chaudhary
+• Dr. Snehanshu Saha
+• Dr. Nithin Nagaraj
+• Mr. Anmol Agrawal
+• Dr. Abhijeet Joshi & Dr. Deepak Nagar
+• Dr. Srinivasan
+• Dr. Malini M Patil
+Know More
+Event Name
+One day workshop on “Developing Mini Projects with AI Tools – A Case Study”
+Date
+25th May 2023,
+Venue
+Auditorium, RVITM
+Resource Person
+Mrs. Akshata A and Venkatesh Purudu, IT Vedant Education Pvt Ltd
+Know More
+Event Name
+SMART INDIA HACKTHON- 2022 -INTERNAL HACKTHON
+Date
+12-04-2022
+Venue
+th Floor Seminar Hall
+Know More
+Event Name
+Blockchain: Crypto-Currency and NFT
+Date
+29th April 2022
+Venue
+U R Rao Satellite Centre
+Resource Person
+U R Rao Satellite Centre Scientists
+Faculty
+Coordinator(s)
+Dr. Mallangouda Patil and Dr. Shashidhar V.
+Know More
+Event Name
+3 Days Hands on Workshop on Computer Vision using CNN
+Date
+2nd Nov -4
+th Nov 2022
+Venue
+6th Floor Seminar Hall, RVITM
+Resource Person
+1. Mr. Vivek Chaudhary
+2. Mr. Ananth Gupta
+Faculty
+Coordinator(s)
+Dr. Mallangouda Patil and Dr. Shashidhar V.
+Know More
+Event Name
+Technical Seminar on Navigating Through The Start- Up Challenges
+Date
+14 th Jan 2022
+Venue
+Online Google Meet Platform
+Resource Person
+Mr. Raja Chanda
+Know More
+Event Name
+Report on 3 Days Hands on Workshop on Computer Vision using CNN
+Date
+02-11-2022 to 04-11-2022
+Venue
+6th Floor Seminar Hall
+Know More
+Event Name
+Technical Talk on “Cloud Computing and its Impact”
+Date
+9th May 2020
+Venue
+Seminar Hall
+Resource Person
+Mr. Kavi Arasu, MindTree
+Know More
+•
+
+--- DOCUMENTS ---
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/Outreach-Activity_Media-Content.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/QuantumComputingFDP-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/ADS-Workshop-Track-II.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/Algoholics_Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/ALGORITHMIC-THINKING.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/BootCamp-for-3rd-Sem-Students.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/04/build-with-AI.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/06/Build-Create-Deploy-with-AI-GenAI-Accelerator-Bootcamp-for-Students-3-days-RVIT.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/06/Capabl_Orientation_Event_Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/06/Capabl_Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/06/Cloud-Workshop-3rd-and-4th-April-2025-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/06/DSA_workshop_report_B1_final.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/DSA_workshop_report_B1_final.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/Cloud-Workshop-3rd-and-4th-April-2025-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/build-with-AI.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/ALGORITHMIC-THINKING.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/VMWare-GreenPlum-TechTalk-Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/Viveka_Website_Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/UIUX-and-Usability-Design_workshop.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/IoT_Workshop_Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/DV_WORKSHOP_REPORT-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/CODE-N-CLUSTER_Workshop_Report_format_CSE.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Cloud_Computing_technical_seminar_report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/AlumniTalk_BuildingBetterCode_Report_9thDec2024.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/2nd-July-2024-Technical-Talk-on-Software-Engineering-by-Prabhavathi-K.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/yoga-report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Visit-to-U-R-Rao-Satellite-Centre.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/FDP-ON-Importance-of-Data-Science-in-Machine-Learning.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Data-science-one-day-workshop-report-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/SIH-Internal-Hackathon-Report-2022.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/navigating-through-startup-challenges-report-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Report-on-Workshop.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Deepak-Workshop-Seminar-Webinar.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

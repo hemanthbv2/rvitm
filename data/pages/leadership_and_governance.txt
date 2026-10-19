@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/leadership_and_governance/
 TITLE: RVITM Leadership & Governance | Academic Excellence
+DESCRIPTION: Explore RVITM's leadership and governance framework driving academic excellence, innovation and institutional growth.
 
 •
 RVITM Leadership & Governance | Academic Excellence
@@ -81,4 +82,6 @@ ISE Department, IQAC, Chief Coordinator
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

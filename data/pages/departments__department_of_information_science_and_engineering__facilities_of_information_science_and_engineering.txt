@@ -1,0 +1,116 @@
+URL: https://rvitm.edu.in/departments/department_of_information_science_and_engineering/facilities_of_information_science_and_engineering/
+TITLE: Facilities of Information Science and Engineering -
+DESCRIPTION: 
+
+•
+Facilities of Information Science and Engineering -
+•
+## Information Science and Engineering
+Facilities
+Data Structure and Application Lab [BCSL305]
+Lab Name / Code: Data Structures Lab / BCSL305 – III Semester (ISE)
+Data structures are techniques for organising, managing, and storing data for efficient use and modification. It is a fast and cost-effective solution. This laboratory course enables students to get practical experience in design, development, implementation, analysis, and evaluation/testing of the following:
+• Asymptotic performance of algorithms
+• Linear data structures and their applications, such as stacks, queues, and lists
+• Non-linear data structures and their applications, such as trees and graphs
+• Sorting and searching algorithms
+Data Visualisation with Python [BAIL504]
+Lab Name / Code:Data Visualization with python/[BCS358D]– III Semester (ISE)
+This course covers various libraries and techniques for creating visual representations of data in Python, including Matplotlib, Seaborn, and Plotly.
+• Python offers powerful libraries like Matplotlib, Seaborn, and Plotly for data visualisation.
+• Matplotlib is a versatile library for creating static, interactive, and publication-quality plots.
+• Seaborn provides a high-level interface for creating attractive, informative statistical graphics.
+• Plotly offers interactive and web-based visualisation capabilities suitable for dashboards and presentations.
+Digital design and Computer Organisation Lab[BCS302]
+Lab Name / Code: Digital design and computer organisation lab/BCS302
+III-Semester (ISE)
+“Digital Design and Computer Organisation" appears to be a course or lab session focusing on digital design and computer organisation. This course covers the fundamental principles of digital logic design, computer architecture, and organisation. Students may learn to design digital circuits using tools such as Verilog or VHDL, and to understand the architecture of computers, processors, memory systems, and input/output devices.
+• BCS302 is a hands-on lab course focusing on digital design and computer organisation.
+• Students learn fundamental principles of digital logic design and computer architecture.
+• Practical aspects include designing, simulating, and implementing digital circuits.
+• Tools like Verilog or VHDL may be used for circuit design and simulation.
+Operating System lab [BCS303]
+Lab Name / Code: Operating System lab/BCS303– III Semester (ISE)
+Operating System Lab corresponds to a practical session or laboratory component associated with a course on operating systems. Operating System is a lab course focusing on practical aspects of operating systems. Students gain hands-on experience with various operating system concepts and tools. Topics may include process management, memory management, file systems, and inter-process communication.
+• Students learn fundamental principles of digital logic design and computer architecture.
+• Practical aspects include designing, simulating, and implementing digital circuits.
+• Tools like Verilog or VHDL may be used for circuit design and simulation.
+• The lab covers topics essential for understanding computer systems and their organisation.
+OOP’s with Java lab [BCS306A]
+Lab Name / Code: OOP’s with Java lab /BCS306A– III Semester (ISE)
+In the "OOP's with Java Lab," The lab serves as a crucial component in reinforcing theoretical concepts taught in lectures by providing hands-on coding exercises and projects. Through these activities, students gain proficiency in implementing key OOP concepts such as inheritance, polymorphism, and encapsulation.
+• The lab focuses on the practical application of Object-Oriented Programming concepts in Java.
+• Students engage in hands-on coding exercises to reinforce theoretical concepts covered in lectures.
+• Exercises may include creating classes, objects, and methods, implementing inheritance, polymorphism, and encapsulation.
+• Students may work on projects to develop software solutions using OOP principles and Java.
+Advanced Java lab [BCS402]
+Lab Name / Code: OOP’s with Java lab /BCS306A– III Semester (ISE)
+In the "OOP's with Java Lab," The lab serves as a crucial component in reinforcing theoretical concepts taught in lectures by providing hands-on coding exercises and projects. Through these activities, students gain proficiency in implementing key OOP concepts such as inheritance, polymorphism, and encapsulation.
+• The lab focuses on the practical application of Object-Oriented Programming concepts in Java.
+• Students engage in hands-on coding exercises to reinforce theoretical concepts covered in lectures.
+• Exercises may include creating classes, objects, and methods, implementing inheritance, polymorphism, and encapsulation.
+• Students may work on projects to develop software solutions using OOP principles and Java.
+Database Management System lab [BCS403]
+Lab Name / Code: Database Management System lab / BCS403 – IV Semester(ISE)
+The DBMS Lab provides students with a strong foundation in database concepts and technology, extensive practice, and prepares them to become well-informed database application developers. Working on existing database systems, database design, creating relational databases, and analysing table designs.
+• Students get practical knowledge on designing and creating relational database systems.
+• Understand advanced query execution, including relational constraints, joins, set operations, aggregate functions, triggers, views, and embedded SQL.
+• Use of various software to design and build ER Diagrams, UML, Flow chart for related database systems.
+Analysis and Design of Algorithms Lab [BCSL404]
+Lab Name / Code: Database Management System lab / BCS403 – IV Semester(ISE)
+The DBMS Lab provides students with a strong foundation in database concepts and technology, extensive practice, and prepares them to become well-informed database application developers. Working on existing database systems, database design, creating relational databases, and analysing table designs.
+• Students get practical knowledge on designing and creating relational database systems.
+• Understand advanced query execution, including relational constraints, joins, set operations, aggregate functions, triggers, views, and embedded SQL.
+• Use of various software to design and build ER Diagrams, UML, Flow chart for related database systems.
+Skill lab(Robotics)
+In the Skill Lab (Robotics), students immerse themselves in hands-on activities centred around the exploration and advancement of robotics technology. Equipped with state-of-the-art robotics kits, tools, and software, students engage in a range of projects designed to deepen their understanding of robotics principles and applications.
+• The lab offers a hands-on learning environment where students can apply theoretical knowledge from robotics courses to practical projects.
+• Activities in the lab may include designing, building, and testing different types of robots, such as mobile robots, robotic arms, or autonomous drones.
+Through projects and challenges, students develop problem-solving, critical thinking, and teamwork skills essential to success in robotics. They detect the errors using the CRC Technique.
+Computer Networking [21CSL57]
+Lab Name / Code: Computer Networking / 21CSL57– V Semester(ISE)
+Computer networking focuses on explaining how the Internet works, ranging from how bits are modulated on wired and wireless links to how application-level protocols operate.
+• Acquire knowledge of using simulators for different connections.
+• Simulate and demonstrate the performance of GSM and CDMA
+• Able to detect the errors using the CRC Technique.
+• Students can find the shortest path in a network using routing algorithms.
+• To enable students to implement data link layer and transport layer protocols.
+Database Management System [21CSL58]
+Lab Name / Code: Database Management System Laboratory with mini Project (21CSL58– V Semester(ISE)
+The DBMS Lab provides students with a strong foundation in database concepts and technology, extensive practice, and prepares them to become well-informed database application developers. Working on existing database systems, database design, creating relational databases, and analysing table designs.
+• Students get practical knowledge on designing and creating relational database systems.
+• Understand advanced query execution, including relational constraints, joins, set operations, aggregate functions, triggers, views, and embedded SQL.
+• Use of various software to design and build ER Diagrams, UML, Flow chart for related database systems.
+C#And .NET [21CSL582]
+Lab Name / Code: C#And .NET / 21CSL582– V -Semester(ISE)
+C# is a versatile programming language primarily used to develop Windows and web applications, as well as various types of software solutions. The .NET Framework is a software development framework developed by Microsoft, which provides a large class library and support for multiple programming languages, including C#.
+• C# is a modern, object-oriented programming language developed by Microsoft.
+• The .NET Framework is a software development platform for building various types of applications.
+• C# is commonly used with the .NET Framework to create desktop, web, and mobile applications.
+• The .NET Framework provides a vast class library and runtime environment for executing C# code.
+• Together, C# and the .NET Framework offer developers a powerful and versatile toolset for software development.
+Software testing laboratory [21ISL66]
+Lab Name / Code: Software Testing Laboratory/21ISL66– VI Semester(ISE)
+The practise of reviewing and validating that a software product or application accomplishes what it is designed to do is known as software testing. The advantages of testing include preventing bugs, reducing development costs, and improving performance. In this lab, students learn to:
+• Analyse the requirements for the given problem statement
+• Design and implement various solutions for the given problem
+• Employ various design strategies for problem-solving
+• Derive test cases for any given problem
+• Construct control flow graphs for the implemented solution.
+• Create an appropriate document for the software artefact.
+Full Stack Development lab [21CS62]
+Lab Name / Code: Full Stack Development Lab/IPCC-21CS62– VI Semester(ISE)
+Full-stack development is the process of developing both the frontend and the backend of an application. Any application has a frontend (user-facing) component and a backend (database and logic) component. The frontend contains the user interface and code related to user interactions with the application.
+• Common front-end tools include HTML, CSS, and JavaScript.
+• Back-end technologies can include Node.js, Python, and databases like MySQL or MongoDB.
+• Full-stack developers are proficient in both front-end and back-end development.
+• Frameworks like React, Angular, and Express.js are commonly used in full-stack projects.
+Artificial Intelligence and Machine Learning [18CSL76]
+Lab Name / Code: Artificial Intelligence and Machine Learning / 18CSL76– VII Semester(ISE)
+Artificial Intelligence and Machine Learning Laboratory – 18CSL76 (VTU AIML Lab) covers the different algorithms such as A* Search, A** Search, Find-S algorithms, Candidate elimination algorithm, Decision tree (ID3) algorithm, Artificial Neural Networks, Back propagation Algorithm, Naïve Bayes classifier for text classification, Bayesian Belief Network, k-Means, and EM clustering Algorithm, k-Nearest Neighbour Algorithm (KNN), Locally Weighted Regression Algorithm.
+•
+
+--- DOCUMENTS ---
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

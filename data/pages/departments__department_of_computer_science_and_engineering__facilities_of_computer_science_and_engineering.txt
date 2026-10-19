@@ -1,0 +1,126 @@
+URL: https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/facilities_of_computer_science_and_engineering/
+TITLE: CSE Facilities & Laboratories at RVITM | Modern Labs
+DESCRIPTION: Access modern computer labs, software tools, research infrastructure and practical learning resources at RVITM CSE
+
+•
+CSE Facilities & Laboratories at RVITM | Modern Labs
+•
+## Computer Science and Engineering
+Facilities
+Generative AI Laboratory
+Lab Name / Code: Generative AI Laboratory / I BAIL657C– VI SEMESTER – CSE
+Laboratory Outcomes:At the end of the course the student will be able to:
+• Develop the ability to explore and analyze word embeddings, perform vector arithmetic to investigate word relationships, visualize embeddings using dimensionality reduction techniques
+• Apply prompt engineering skills to real-world scenarios, such as information retrieval, text generation.
+• Utilize pre-trained Hugging Face models for real-world applications, including sentiment analysis and text summarization.
+• Apply different architectures used in large language models, such as transformers, and understand their advantages and limitations.
+The students were able to:
+• Implement and demonstrate
+• Evaluate different algorithms.
+Parallel Computing
+Lab Name / Code: Parallel Computing Laboratory / I BCS702– VII SEMESTER – CSE
+• Lecturer method (L) need not to be only traditional lecture methods, but alternative effective teaching methods could be adopted to attain the outcomes.
+• Use of Video/Animation to explain functioning of various concepts.
+• Encourage collaborative (Group Learning) Learning in the class.
+• Ask at least three HOT (Higher order Thinking) questions in the class, which promotes critical thinking.
+• Adopt Programming assignment, which fosters student’s Analytical skills, develop design thinking skills such as the ability to design, evaluate, generalize, and analyze information rather than simply recall it.
+The students were able to:
+• Implement and demonstrate
+• Evaluate different algorithms.
+Internet of Thing / IoT Laboratory
+Lab Name / Code: Internet of Things / IoT Laboratory / BCS701 – VIII SEMESTER – CSE
+• Develop a program to blink 5 LEDs back and forth
+• Develop a program to interface a relay with Arduino board.
+• Develop a program to deploy an intrusion detection system using Ultrasonic and sound sensors.
+• Develop a program to control a DC motor with Arduino board.
+• Develop a program to deploy smart street light system using LDR sensor.
+• Develop a program to classify dry and wet waste with the Moisture sensor (DHT22).
+• Develop a program to read the pH value of a various substances like milk, lime and water.
+• Develop a program to detect the gas leakage in the surrounding environment.
+• Develop a program to demonstrate weather station readings using Arduino.
+• Develop a program to setup a UART protocol and pass a string through the protocol.
+• Develop a water level depth detection system using Ultrasonic sensor.
+• Develop a program to simulate interfacing with the keypad module to record the keystrokes.
+Analysis and Design of Algorithms Laboratory
+Lab Name / Code: Analysis and Design of Algorithms Laboratory / BCSL404 – IV SEMESTER – CSE
+Analysis & Design of Algorithms Laboratory VTU (BCSL404) covers different Algorithms such as Kruskals, Prims, All pairs shortest Path, Dijkstras Algorithm, Knapsack Problem, Selection sort, Quick Sort, Merge sort and N-Queen’s Problem.
+Taking this course students will be able to-
+• Design and implement various algorithms in C/C++
+• Employ various design strategies for problem-solving
+• Measure and compare the performance of different algorithms
+• To learn the methods for analyzing algorithms and evaluating their performance.
+C Programming Lab
+Lab Name / Code: C Programming Lab /1BPOPL107–IPCC – I SEMESTER (CSE)
+C Programming Laboratory covers the fundamentals of C programming, including data types, operators, control statements, functions, arrays, strings, pointers, structures, and file handling.
+Taking this course, students will be able to:
+• Design and implement C programs.
+• Apply structured programming techniques for problem-solving
+• Use functions, arrays, strings, and pointers effectively.
+• Implement structures and file handling concepts.
+• Debug, test, and analyze C programs efficiently.
+PYTHON PROGRAMMING Lab
+Lab Name / Code: PYTHON PROGRAMMING Lab/1BPLC205B–IPCC – II SEMESTER (CSE)
+Python Programming Laboratory covers the fundamentals of Python programming, including variables, control structures, functions, strings, lists, tuples, dictionaries, file handling, modules, exception handling, and basic object-oriented programming concepts.
+Taking this course, students will be able to:
+• Design and implement Python programs to solve computational problems.
+• Apply control structures, functions, and data structures effectively.
+• Use strings, lists, tuples, and dictionaries for data manipulation.
+• Perform file handling and exception handling operations.
+• Develop simple object-oriented Python applications.
+• Debug, test, and analyze Python programs efficiently.
+Computer Network Laboratory
+Lab Name / Code: Computer Network Laboratory / 21CSL52 –IPCC – IV SEMESTER (CSE)
+Computer networking focuses on explaining how the Internet works, ranging from how bits are modulated on wired and wireless in application-level protocols.
+• Acquire knowledge of using simulators for different connections.
+• Simulate and demonstrate the performance of GSM and CDMA
+• Able to detect the errors using CRC Technique.
+• Students are able to find the shortest path in the network using routing algorithms.
+• To make students to Implement data link layer and transport layer protocols.
+Machine Learning Laboratory
+Lab Name / Code:Machine Learning Laboratory BCSL606 VI SEMESTER (CSE)
+Machine Learning focuses on developing computer systems that can learn from data, identify patterns, and make predictions or decisions without being explicitly programmed. It covers fundamental concepts such as data preprocessing, classification, regression, clustering, and model evaluation.
+Data Structures Lab
+Lab Name / Code: Data Structures Lab /BCSL305 – III SEMESTER – CSE
+Data Structures is a technique of organizing, managing, and storing data for efficient usage and modification. It is a fast and cost-effective solution. This laboratory course enables students to get practical experience in design, development, implementation, analysis, and evaluation/testing of the following:
+• Linear data structures and their applications such as stacks, queues, and lists.
+• Non-linear data structures and their applications such as trees and graphs.
+• Sorting and searching algorithms.
+Data Visualization with Python
+Lab Name/Code: Data Visualization with Python- BCS358D – III SEMESTER – CSE
+• Data visualization is a critical step in the data science process, helping teams and individuals convey data more effectively to colleagues and decision makers. Tables, pie charts and stacked bar charts, line and area charts, histograms, scatter plots, heat maps, tree maps etc. are different data visualization techniques which students will learn and help to represent useful insights of data. Python is an important tool for data visualization which includes several libraries like matplotlib, seaborn etc.
+• Demonstrate the use of IDLE or PyCharm IDE to create Python Applications Using Python programming language to develop programs for solving real-world problems
+• Implementation of Matplotlib for drawing different Plots
+• Demonstrate working with Seaborn, Bokeh, Plotly for 3D, Time Series and Maps
+Database Management Systems Laboratory
+Lab Name / Code: Database Management Laboratory (IPCC)/ BCS403 – IV SEMESTER – CSE
+• DBMS Lab provide the student with strong foundation in database concepts, technology and provide with extensive practice to the students and groom them into well-informed database application developers. Working on existing database systems, designing of database, creating relational database, analysis of table design.
+• Students get practical knowledge on designing and creating relational and NoSQL database systems.
+• Understand various advanced queries execution such as relational constraints, joins, set operations, aggregate functions, trigger, views, embedded SQL and CRUD operations
+• Use of various software to design and build ER Diagrams, UML, Flow chart for related database systems
+Digital Design and Computer Organization Lab
+Lab Name / Code: Digital Design and Computer Organization / BCS302 – III SEMESTER (CSE)
+• Digital Electronics is one of the fundamental courses of Computer Science and other engineering streams. This laboratory course enables students to get practical experience in design, assembly, and evaluation/testing of the following:
+• Combinational logic circuits
+• Flip-flops and their operations
+Microcontroller and Embedded Systems Lab
+Lab Name / Code: Microcontroller Lab / BCS402/IPCC – IV SEMESTER – CSE
+The importance of Microcontroller and Embedded Systems is well known in various engineering fields, such as Computer Science, Information Science, Electronics, and Electrical engineering. A microcontroller is an independent system with a processor, memory, and General Purpose Input Output (GPIO) pins that can be used as an embedded system. Most of the microcontrollers in use today are embedded in other machinery, such as automobiles, smartphones, home appliances, and peripherals for computer systems.
+In this lab, students are exposed to:
+• ARM embedded systems
+• ARM processor fundamentals
+• Introduction of ARM instruction set
+• Develop and test programme using ARM7TDMI / LPC2148
+• Conduct experiments on an ARM7TDMI / LPC2148 evaluation board using the evaluation version of Embedded ‘C’ and Keil Uvision-4 tool/compiler
+Web Technology
+Web Technology Laboratory focuses on the design, development, and deployment of modern web applications using client-side and server-side technologies. It provides students with practical experience in creating interactive, responsive, and dynamic web solutions. This laboratory course enables students to gain hands-on experience in the design, development, implementation, testing, and deployment of the following:
+• Front-end web technologies and their applications, such as HTML, CSS, JavaScript, and responsive web design.
+• Server-side programming and database integration using web frameworks and database management systems.
+• Development of dynamic and interactive web applications using modern web technologies and APIs.
+• Website testing, validation, security practices, and deployment techniques for real-world web applications.
+• Full-stack web development concepts, including client-server architecture, session management, and web services integration.
+•
+
+--- DOCUMENTS ---
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

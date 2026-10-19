@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/library-2/
 TITLE: RVITM Digital Library | Learning Resources
+DESCRIPTION: Discover e-books, IEEE Xplore, ScienceDirect, plagiarism tools and academic resources at RVITM Library
 
 •
 RVITM Digital Library | Learning Resources
@@ -173,3 +174,6 @@ Know More
 
 --- DOCUMENTS ---
 Know More | https://rvitm.edu.in/wp-content/uploads/2026/05/Resume.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

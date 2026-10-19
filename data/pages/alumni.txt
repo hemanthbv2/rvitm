@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/alumni/
 TITLE: RVITM Alumni Network | Connect, Mentor & Grow
+DESCRIPTION: Join the RVITM Alumni Network to connect with graduates, access mentorship, career opportunities and professional networking.
 
 •
 RVITM Alumni Network | Connect, Mentor & Grow
@@ -46,4 +47,6 @@ Yes, the institute hosts alumni meets, networking sessions, and engagement progr
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

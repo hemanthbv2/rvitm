@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/department_of_physical_education/sports_achievements/
 TITLE: Sports Achievements at RVITM | Awards & Championships
+DESCRIPTION: Explore RVITM sports achievements, tournament victories, championship titles, student athlete awards and excellence in sports
 
 •
 Sports Achievements at RVITM | Awards & Championships
@@ -12,4 +13,6 @@ Sports Achievements at RVITM | Awards & Championships
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

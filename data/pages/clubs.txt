@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/clubs/
 TITLE: RVITM Clubs | Technical, Cultural & Sports Activities
+DESCRIPTION: Join RVITM clubs and participate in coding, robotics, cultural, entrepreneurship and adventure activities.
 
 •
 RVITM Clubs | Technical, Cultural & Sports Activities
@@ -62,4 +63,6 @@ Yes. Clubs frequently organize workshops, competitions, hackathons, and cultural
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

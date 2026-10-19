@@ -1,0 +1,68 @@
+URL: https://rvitm.edu.in/departments/department-of-master-of-computer-applications/facilities-of-mca/
+TITLE: RVITM MCA Labs & Infrastructure | Modern Facilities
+DESCRIPTION: Discover state-of-the-art MCA laboratories, computing infrastructure, software platforms and learning resources at RVITM
+
+•
+RVITM MCA Labs & Infrastructure | Modern Facilities
+•
+## Facilities of MCA
+## Master of Computer Applications
+Facilities
+Database Management System Laboratory / MMCL106 – I Semester
+The primary objective of the Database Management System Laboratory is to equip students with the knowledge, skills, and hands-on experience necessary to understand and implement database concepts using relational database systems. Through a combination of theory and practical exercises, students will learn database design, SQL programming, data manipulation, and database management techniques.
+At the end of the course, the student will be able to:
+• Demonstrate the fundamental concepts of databases, SQL queries, and relational models by developing executable database programs.
+• Illustrate database design principles using ER diagrams and relational schemas.
+• Develop efficient database applications using constraints, joins, views, triggers, and other SQL features.
+• Learn the concepts of database management systems and their implementation using database tools and SQL.
+Overall, the Database Management System Laboratory aims to empower students with the skills and confidence to design, develop, and manage database applications. By combining theoretical knowledge with practical experience, students will develop the expertise needed to work with modern database systems and data-driven applications.
+Programming and Problem-Solving in C Laboratory – MMC101 – I Semester- MCA - IPCC
+The primary objective of the Programming and Problem-Solving in C Laboratory is to provide students with basic programming knowledge and problem-solving skills using the C programming language. Through theory and practical exercises, students will learn programming fundamentals, logical thinking, and program development techniques.
+At the end of the course the student will be able to:
+• Demonstrate basic programming concepts using C language.
+• Develop simple programs for problem-solving and logical analysis.
+• Apply control structures, arrays, functions, and pointers in C programs.
+• Learn the implementation of structured programming concepts using C.
+Java Programming Laboratory/ MMCL206 – II SEMESTER (MCA)
+The primary objective of the Java Programming Laboratory is to equip students with the knowledge, skills, and hands-on experience necessary to become proficient Java programmers. Through a combination of theory and practical exercises, students will learn fundamental Java concepts, programming techniques and best practices.
+At the end of the course the student will be able to:
+• Demonstrate the fundamental data types and constructs of Java Programming by writing executable/interpretable programs.
+• Illustrate the object oriented principles with the help of java programs.
+• Develop reusable and efficient applications using inheritance concepts of java.
+• Learn the object oriented concepts and its implementation in Java.
+Overall, the Java Programming Laboratory aims to empower students with the skills and confidence to excel in Java programming and pursue careers in software development and related fields. By combining theoretical knowledge with practical experience, students will develop the expertise needed to thrive in the dynamic and rapidly evolving field of Java programming.
+Data Structures with Algorithms Laboratory / MMCL207 – II SEMESTER (MCA)
+Generative AI BAIL657C
+Laboratory Outcomes:At the end of the course the student will be able to:
+• Develop the ability to explore and analyze word embeddings, perform vector arithmetic to investigate word
+relationships, visualize embeddings using dimensionality reduction techniques
+• Apply prompt engineering skills to real-world scenarios, such as information retrieval, text generation.
+• Utilize pre-trained Hugging Face models for real-world applications, including sentiment analysis and text
+summarization.
+• Apply different architectures used in large language models, such as transformers, and understand their
+advantages and limitations.
+The students were able to:
+• Implement and demonstrate
+• Evaluate different algorithms.
+Machine Learning and Data Analytics with Python Laboratory / MMC201 (IPCC) – II Semester MCA
+The primary objective of the Machine Learning and Data Analytics with Python Laboratory is to provide students with basic knowledge and practical exposure to Python programming, data analytics, and machine learning concepts. Through simple theory and hands-on exercises, students will learn data handling, visualization, and basic predictive techniques using Python.
+At the end of the course the student will be able to:
+• Demonstrate basic Python programming and data analysis techniques.
+• Illustrate fundamental machine learning concepts using Python libraries.
+• Develop simple analytical and predictive applications using Python.
+• Learn the implementation of data analytics and machine learning concepts using Python.
+Overall, the Machine Learning and Data Analytics with Python Laboratory aims to help students gain practical skills in Python, data analytics, and machine learning for academic and career development.
+Web Application Development Laboratory / MMC205 – II Semester MCA
+The primary objective of the Web Application Development Laboratory is to provide students with the basic knowledge and practical exposure required to design and develop web applications. Through theory and hands-on exercises, students will learn web technologies, user interface design, client-side and server-side scripting concepts.
+At the end of the course the student will be able to:
+• Demonstrate the fundamentals of web technologies and web page design.
+• Illustrate client-side and server-side scripting concepts in web applications.
+• Develop simple and interactive web applications using modern web technologies.
+• Learn the implementation of web application development concepts and tools.
+Overall, the Web Application Development Laboratory aims to help students gain practical skills in designing and developing web applications for academic and career development.
+•
+
+--- DOCUMENTS ---
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

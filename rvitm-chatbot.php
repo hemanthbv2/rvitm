@@ -83,9 +83,10 @@ class RVITM_Chatbot_Plugin {
         wp_enqueue_style('rvitm-chatbot-css', $plugin_url . 'rvitm-chatbot.css', array(), $version);
 
         wp_enqueue_script('rvitm-kb-js', $plugin_url . 'rvitm-knowledge-base.js', array(), $version, true);
-        wp_enqueue_script('rvitm-engine-js', $plugin_url . 'rvitm-engine.js', array('rvitm-kb-js'), $version, true);
+        wp_enqueue_script('rvitm-pages-js', $plugin_url . 'rvitm-pages-index.js', array(), $version, true);
+        wp_enqueue_script('rvitm-engine-js', $plugin_url . 'rvitm-engine.js', array('rvitm-kb-js', 'rvitm-pages-js'), $version, true);
         wp_enqueue_script('rvitm-telemetry-js', $plugin_url . 'telemetry.js', array(), $version, true);
-        wp_enqueue_script('rvitm-chatbot-js', $plugin_url . 'rvitm-chatbot.js', array('rvitm-kb-js', 'rvitm-engine-js', 'rvitm-telemetry-js'), $version, true);
+        wp_enqueue_script('rvitm-chatbot-js', $plugin_url . 'rvitm-chatbot.js', array('rvitm-kb-js', 'rvitm-pages-js', 'rvitm-engine-js', 'rvitm-telemetry-js'), $version, true);
 
         // Localize settings for telemetry
         $vercel_url = get_option('rvitm_chatbot_vercel_url', '');

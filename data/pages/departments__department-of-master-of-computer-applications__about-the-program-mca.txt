@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/department-of-master-of-computer-applications/about-the-program-mca/
 TITLE: MCA Program at RVITM | Master of Computer Applications
+DESCRIPTION: Explore RVITM's MCA program with advanced software development, AI, data analytics, cloud computing and industry-focused learning
 
 •
 MCA Program at RVITM | Master of Computer Applications
@@ -40,3 +41,6 @@ Download Brochure
 Read More | https://rvitm.edu.in/wp-content/uploads/2026/05/PROGRAMME-OUTCOMES-POs-1.pdf
 MCA 2024 Syllabus 1st semester | https://rvitm.edu.in/wp-content/uploads/2026/05/MCA-2024-Syllabus-1st-semester.pdf
 MCA 2024 Syllabus 2nd semester | https://rvitm.edu.in/wp-content/uploads/2026/08/MCA-2nd-year-Syllabus.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

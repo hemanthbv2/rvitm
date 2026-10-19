@@ -1,0 +1,308 @@
+URL: https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/events_ece/
+TITLE: Events - ECE -
+DESCRIPTION: 
+
+•
+Events - ECE -
+•
+## Electronics and Communication Engineering
+## Events
+•
+2025-2026
+•
+2024-2025
+•
+2023-2024
+•
+2022-2023
+Event Name
+Gearing Up for Placement Season
+Date
+30/09/2024
+Venue
+6 th floor MCA Seminar hall
+Know More
+Event Name
+Hands-on Workshop on Python & Machine Learning
+Date
+27 th -29 th Oct 2025
+Venue
+L4 12, RVITM
+Know More
+Event Name
+ECx Club, Department of ECE
+Date
+26 th March 2026
+Venue
+L3 16, RVITM
+Know More
+Event Name
+Technical Talk on “Revolutionizing Automation with Instrument Transformers for Industry: Real World Use Cases and Challenges”
+Date
+18th December 2025
+Venue
+6th Floor UG Seminar Hall, RVITM
+Know More
+Event Name
+Expert Talk on Securing the Digital Frontier: Deep Dive into Cybersecurity
+Date
+24/03/2026
+Venue
+Seminar Hall 1 st floor
+Know More
+Event Name
+Expert Talk on Securing the Digital Frontier: Deep Dive into Cybersecurity
+Date
+24/03/2026
+Venue
+Seminar Hall 1 st floor
+Know More
+Event Name
+Guest Lecture on Cognitive Dissonance in Procrastination.
+Date
+26th September 2025
+Venue
+6th Floor MCA Seminar Hall, RVITM, Bengaluru.
+Know More
+Event Name
+Seminar on entrepreneurship Awareness
+Date
+03/09/2025
+Venue
+Auditorium, RVITM
+Know More
+Event Name
+Induction Program on ECX Club
+Date
+4/9/2025
+Venue
+Auditorium, RVITM
+Know More
+Event Name
+Start-up LaunchPad
+Date
+11/09/2025
+Venue
+L4 18
+Know More
+Event Name
+Verilog in Semiconductor Industry-Future Scope
+Date
+26-11-2024
+Programme Coordinator
+Prof. PRASHANT P PATAVARDHAN
+Know More
+Event Name
+Two Day workshop on PCB Design and Fabrication Hands on
+Date
+21 st and 22 nd October 2024
+Venue
+412 Lab
+Know More
+Event Name
+Inauguration of IETE-Student Forum (ISF)
+Date
+06/11/2024
+Venue
+6th-floor Auditorium
+Know More
+Event Name
+ECE PROJECT EXPO
+Date
+13/06/2025
+Venue
+L3-16
+Know More
+Event Name
+NDLI Club Event Report: Technical Talk on Advancements in Computer Networks and Protocols.
+Date
+28th April 2025
+Venue
+First Floor seminar Hall
+Know More
+Event Name
+Invited Talk Mr. Sarvendu Mishra, Lead Mentor at IMS, Bangalore – Profile Building
+Date
+29/04/2025
+Venue
+Room 311
+Know More
+Event Name
+Invited Talk by Mr. Avinash Pandey, Staff Engineer and Team Lead at Qualcomm, Bengaluru – Qualcomm Placements in VLSI Domain.
+Date
+25/04/2025
+Venue
+6th floor MCA Seminar hall
+Know More
+Event Name
+Report on Five-Day Faculty Development Programme SPARC-AI: Signal Processing, Automation, and Real-
+Time Communication using AI in Electronics Design
+Date
+10th – 14th February 2025
+Know More
+Event Name
+NDLI Club Event: Technical Talk on Advancements in Computer Networks and Protocols.
+Date
+28th April 2025
+Venue
+First Floor seminar Hall, RVITM, Bengaluru.
+Know More
+Event Name
+Workshop on Innovative Teaching and Learning Pedagogical Approaches
+Date
+07/03/2025
+Venue
+6th-floor Seminar Hall, RVITM
+Know More
+Event Name
+ElectroVerse-Innovate, Code, Compete” technical knowledge and innovation
+Date
+27/11/2024
+Venue
+6th-floor Seminar Hall, RVITM
+Know More
+Event Name
+VMWare GreenPlum for Large-Scale Analytics and Data Warehousing
+Date
+25th January 2024
+Venue
+4th Floor Seminar Hall
+Resource Person
+Mrs. Shwetha C Ravoor, Engineering Manager, VMware
+Faculty Coordinator:
+Prof. Sudheendra B S and Dr. Shashidhar V
+Know More
+Event Name
+Internship certificate distribution for RVITM Industry Connect project – VIVEKA
+Date
+4th January 2024
+Venue
+Seminar Hall
+Resource Person
+Mrs. Shwetha C Ravoor, Engineering Manager, VMware
+Know More
+Event Name
+Workshop on UI/UX and Usability Design
+Date
+28th June 2024
+Venue
+6th Floor MCA Seminar Hall
+Resource Person
+Supritha R and Basava Kumar M
+Faculty Coordinator:
+Dr. Malini M Patil, Mrs. Rachana M S
+Know More
+Event Name
+Workshop on IoT and its Applications
+Date
+19 th – 20 th April 2024
+Venue
+L315, RVITM
+Resource Person
+• Mr. Mahesh Deginal, Managing Director and CEO, Karunada Technologies Pvt Ltd.
+• Mr. Harish N, CTO and Co-Founder, Karunada Technologies Pvt Ltd.
+Faculty Coordinator:
+Dr. Anitha J and Prof. Sudheendra B S
+Know More
+Event Name
+CODE AND CLUSTER Workshop
+Date
+16th and 17th May 2024
+Venue
+MCA Seminar Hall 6th floor , RVITM
+Resource Person
+Mr. Sateesh Kumar Ambesange, Co-founder Pragyan AI LLP
+Know More
+Event Name
+Hands-on Workshop on Data Visualization
+Date
+13th July 2024
+Venue
+Seminar hall, RVITM
+Resource Person
+Ms. Prerana H, Sr. Data Analyst at Kipi.bi
+Faculty Coordinator:
+Dr Anitha J and Dr Roopashree S
+Know More
+Event Name
+Technical Talk on Cloud Computing
+Date
+30th January 2024
+Venue
+6th Floor Seminar hall
+Resource Person
+Dr. G S Mamatha , RVCE
+Know More
+Event Name
+Building Better Code: Transition from Student Projects to Corporate Standards
+Date
+16 th December 2024
+Venue
+Auditorium, 6 th floor, RVITM
+Resource Person
+Ms. Sirisha Arava, PayPal, Bengaluru
+Know More
+Event Name
+Alumni lecture series, entitled “ Unleashing Your Potential: Strategies for Success”
+Date
+30th September, 2024
+Venue
+Seminar hall, RVITM
+Resource Person
+Ms.Shresta Bekinal, software engineer at HPE RND
+Know More
+Event Name
+Technical Talk on Software Engineering and Project Management
+Date
+2nd July 2024
+Venue
+UG Seminar Hall, 6th Floor, RVITM
+Resource Person
+Prof. Rashmi R.,
+Assistant Professor, Department of Information Science & Engineering,
+R.V. College of Engineering, Bangalore
+Know More
+Event Name
+BEING INDUSTRY READY
+Date
+14/12/2022
+Venue
+Sixth Floor Seminar Hall, RVITM, Bengaluru.
+Know More
+•
+
+--- DOCUMENTS ---
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/placement-Talk-organised-Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/EVENT__DM_5th-sem-workshop_Report_ECE_27-29-oct-2025.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/ECE_Club-Activity_EVENT_Report_MP_DM_26_3_2026.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/ECE-talk-Dr.VBT_.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/CS-Event-organised-Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/AI-Event-organised-Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/2025-26-Events-Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/25-26-Events-Report-2.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/25-26-Events-Report-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/5th_Sem_IETE-startup-report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Verilog-in-Semiconductor-Industry-Future-Scope-Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/PCB_Design_Nagesh.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/New-IETE-Events-Report-Format.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/New-expo-Report-Format.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/ndli-club-event-2.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/invited-talk-29-04-25.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/invited-talk-25-04-25.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/FDP-SPARC-AI-Final-Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/2024-25Events-Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/24-25-Events-Report-2-Copy.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/24-25-Events-Report-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/VMWare-GreenPlum-TechTalk-Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/07/Viveka_Website_Report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/UIUX-and-Usability-Design_workshop.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/IoT_Workshop_Report.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/DV_WORKSHOP_REPORT-1.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/CODE-N-CLUSTER_Workshop_Report_format_CSE.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Cloud_Computing_technical_seminar_report.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/AlumniTalk_BuildingBetterCode_Report_9thDec2024.docx.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/2nd-July-2024-Technical-Talk-on-Software-Engineering-by-Prabhavathi-K.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/08/Final-Report.docx.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

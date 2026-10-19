@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/contact_us/
 TITLE: Contact RVITM | Admissions, Address & Enquiries
+DESCRIPTION: Reach RVITM Bengaluru for admission support, academic enquiries and campus information through phone, email or visit.
 
 •
 Contact RVITM | Admissions, Address & Enquiries
@@ -32,4 +33,6 @@ admissions.rvitm@rvei.edu.in
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

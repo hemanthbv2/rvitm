@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/
 TITLE: Bangalore | RVITM Engineering Departments
+DESCRIPTION: Explore RVITM departments in CSE, ECE, Mechanical, MCA and Applied Sciences with expert faculty, modern labs and industry-focused learning.
 
 •
 Bangalore | RVITM Engineering Departments
@@ -48,4 +49,6 @@ Explore Department
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

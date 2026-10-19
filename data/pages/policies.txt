@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/policies/
 TITLE: Policies -
+DESCRIPTION: 
 
 •
 Policies -
@@ -12,3 +13,6 @@ Grievance Cell
 --- DOCUMENTS ---
 Anti-Ragging | https://rvitm.edu.in/wp-content/uploads/2026/03/Anti-Ragging-web.pdf
 Grievance Cell | https://rvitm.edu.in/wp-content/uploads/2026/03/Institute-Online-Grievances-Cell-2025-26.docx.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/department_of_computer_science_and_engineering_aiml/about-the-program-aiml/
 TITLE: B.E. CSE (AI & ML) at RVITM Bengaluru
+DESCRIPTION: Build expertise in AI, deep learning, NLP, data science and intelligent systems with hands-on projects and internships
 
 •
 B.E. CSE (AI & ML) at RVITM Bengaluru
@@ -93,3 +94,6 @@ Read More | https://rvitm.edu.in/wp-content/uploads/2026/05/PROGRAMME-OUTCOMES-P
 2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/5_ecesch.pdf
 2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/6ecesch.pdf
 2023 – 2024- Scheme & Syllabus | https://rvitm.edu.in/wp-content/uploads/2026/03/7_8_ecesch.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

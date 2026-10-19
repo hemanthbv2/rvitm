@@ -58,7 +58,7 @@
       quickChips.addEventListener('click', (e) => {
         const chip = e.target.closest('.suggestion-chip');
         if (chip && chip.dataset.query) {
-          sendQuery(chip.dataset.query);
+          sendQuery(chip.dataset.query, chip.textContent.trim());
         }
       });
     }
@@ -69,7 +69,7 @@
         const btn = e.target.closest('.act-btn');
         if (btn) {
           if (btn.dataset.act) {
-            sendQuery(btn.dataset.act);
+            sendQuery(btn.dataset.act, btn.textContent.trim());
           }
         }
       });
@@ -145,14 +145,14 @@
     sendQuery(text);
   }
 
-  function sendQuery(queryText) {
-    addUser(queryText);
+  function sendQuery(queryText, displayLabel = null) {
+    addUser(displayLabel || queryText);
     showTyping();
 
     setTimeout(() => {
       hideTyping();
       processBotResponse(queryText);
-    }, 450);
+    }, 400);
   }
 
   function processBotResponse(queryText) {
@@ -178,8 +178,7 @@
 
       // If multi-intent includes greeting alongside another query
       if (match.ids && match.ids.length > 1 && match.ids.includes('greet') && match.id !== 'greet') {
-        const greetResp = window.RVITM_Engine.getResponse('greet');
-        combinedText += greetResp.text + '<br><br>';
+        combinedText += '👋 **Hello!**<br><br>';
       }
 
       const resp = window.RVITM_Engine.getResponse(match.id);
@@ -313,7 +312,8 @@
   function formatMd(t) {
     return String(t)
       .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-      .replace(/`([^`]+)`/g, '<code style="background:rgba(154,255,120,0.1);padding:1px 5px;border-radius:4px;">$1</code>');
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color:var(--rv-accent-teal, #5eead4);text-decoration:underline;word-break:break-all;overflow-wrap:anywhere;">$1 ↗</a>')
+      .replace(/`([^`]+)`/g, '<code style="background:rgba(154,255,120,0.1);padding:1px 5px;border-radius:4px;word-break:break-word;overflow-wrap:anywhere;">$1</code>');
   }
 
   function escapeHtml(t) {

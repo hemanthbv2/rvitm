@@ -1,0 +1,84 @@
+URL: https://rvitm.edu.in/departments/department_of_information_science_and_engineering/events_of_department_of_information_science_and_engineering/
+TITLE: ISE Events at RVITM | Workshops, Hackathons & Tech Talks
+DESCRIPTION: Explore ISE events at RVITM including hackathons, AI workshops, cybersecurity training, industry talks and technical seminars.
+
+•
+ISE Events at RVITM | Workshops, Hackathons & Tech Talks
+•
+## Information Science and Engineering
+## Events
+•
+2024
+•
+2023
+ESummit 2025 – The Entrepreneurship Cell (E-Cell) of RVITM fosters innovation, leadership, and entrepreneurial thinking.
+Its flagship event, E-Summit 2025, encourages students to ideate, innovate, and lead.
+The summit bridges academia and industry through real-world business challenges. The event included a series of activities to promote entrepreneurial thinking. This event was organised on 13th and 14th Nov 2025.
+Coordinator: Dr. Niharika P. Kumar
+PROTATVA 2025 — the State Level Intercollegiate Project Exhibition was organised by the Department of Information Science and Engineering, RV Institute of Technology and Management on 29th October, 2025.
+Coordinator: Dr. Shruthi P / Mrs. Nisha Wilvicta J
+IEEE Day 2025 on 24th Oct 2025, Resource Person: Dr. Venkatesha Muniswamy, Chair Elect, IEEE Photonics Society Chapter, Bangalore Section; Faculty Advisor, IEEE MTT & Photonics; and IIC Innovation Ambassador
+Coordinator: Dr. M Dhanalakshmi
+2 days workshop on "ZERO TO SUDO :: OS UNLOCKED" on December 10th & 11th 2025. Resource Person: Vijay Kumar Gowda K K, CEO, ClassVerse, Bengaluru.
+Coordinator: Dr. Shruthi P
+Know More
+3 days Workshop under Mobile Application and IoT club“Data to Devices: DDCO Techniques for IoT Systems.” on 15th-17th December 2025. Resource person-Mallela Praveen Kumar, Software Engineer, SST Technologies.
+Coordinator: Mrs. Namrata/Mrs. Arpitha
+3 days workshop on Advanced Data Structures and Applications on 15th – 17th December 2025. Resource person-Saran Kirthic S, AI Engineer 1, MathCo
+Coordinator: Mrs. Nisha Wilvicta J/Mrs. Pallavi
+Workshop-Infosys Springboard Technical Courses & LEARNING Pathways on December 1st, 2025. Resource person-Infosys Springboard Coordinators -Prof. Samatha R Swamy,Prof. Manjunath K M
+Coordinator: Prof. Samatha R Swamy
+Rust Programming Workshop on November 22nd, 2025. Resource person-KRONOS Club Student Coordinators
+Coordinator: Prof. Samatha R Swamy
+TECH-TALK on Effective Networking on 21st November 2025. Resource Person-Mr. ACHANANDHI M, Developer Advocate, Keploy
+Coordinator: Dr. M Dhanalakshmi
+Workshop-Agentic AI in Action: A Practical Approach to Intelligent Agents on November 19th, 2025. Resource Person- KRONOS Club Student
+Coordinator: Prof. Samatha R Swamy
+The 5-Day Cyber Security & Ethical Hacking Workshop was organised by the AEGIS Cyber Security & Ethical Hacking Club from 27th October 2025 to 31st October 2025. Resource Person-Mr Samarth Bhaskar Bhat, Technical Director,
+Reverse Engineering Infosec
+Coordinator: Dr. Niharika P. Kumar
+Data to Decisions: Tableau Workshop for Beginners on October 9th, 2025(3B Sec) and Nov 7th, 2025(3A Sec). Resource Person-KRONOS Club Student Coordinators
+Coordinator: Prof. Samatha R Swamy
+Alumni Talk-From Campus Life to Corporate: Lessons, Learning, and Placements on 10th September 2025. Resource Person-Miss. Mohini Saha
+Software Engineer @HPE
+Coordinator: Prof. Samatha R Swamy
+Technical Talk-Crack Create Conquer: Interviews and Entrepreneurship Mindset on 02.09.2025. Resource Person-Mr. Naman Sinha, Founder, SwipeGen
+Coordinator: Dr. Niharika P. Kumar
+Expert Talk on Placement opportunities and preparation on August 22, 2025. Resource Person- Ms. Veena Kumari, Deputy Manager, HCL Technologies, Bengaluru
+Coordinator: Mr.Girish Kumar B C
+Placement Training Workshop: Quantitative Aptitude, Logical & Puzzle Solving Interview Preparation, Verbal Ability on 28th April 2025. Resource Person-Mr. Chandrahasan
+Coordinator: Prof. D Krupesha
+Workshop-Empowering Innovation- Unlocking No-Code and Low-Code Development on 3rd and 4th April 2025. Resource Person- Vijaya Kumar Gowda K K, Founder and Head, Classverse
+Coordinator: Dr. Niharika P. Kumar/Dr. Shruthi P
+Machine Learning Workshop on 21st and 22nd March 2025. Resource Person- Vijay Kumar Gowda and Dhanushree MS, ClassVerse
+Coordinator:
+Dr. Niharika P. Kumar
+Mrs. Samatha
+Know More
+3-Day Workshop- DevOps Bootcamp: From Build Automation to Cloud-Based CI/CD Pipelines from 6th-8th March 2025. Resource Person-Ms. M. Vijayasanthi, Senior Associate, DevOps Engineer, Human Cloud Company
+Coordinator:
+Mr.Girish Kumar B C
+Know More
+The Toyota Hackathon 2025, organised by Toyota Kirloskar Motors in association with Bal Raksha Bharat, took place on February 13th and 14th, 2025, at RVITM in Bengaluru. The event aimed to engage students from grades 8 to 12, fostering innovation and problem-solving skills in young minds. The hackathon saw enthusiastic participation from schools across the region, with RVITM students mentoring the participants.
+Coordinator:
+Dr. Niharika P. Kumar
+A 5-Day Hands-On workshop on Cyber Security and Ethical Hacking, in association with Reverse Engineering Infosec, Bengaluru, and the IEEE Bangalore Section, was conducted from 17 th to 21 st September 2024, with 84 participants from various branches of RVITM. Mr. Samarth Bhaskar Bhat, Technical Director of Reverse Engineering Infosec, was the resource person for the workshop.
+Coordinator: Dr. Niharika P. Kumar
+The Toyota Hackathon 2024, organised by Toyota Kirloskar Motors, unfolded on February 3rd and 4th, 2024, at RVITM. Aimed at students in grades 9 to 12, the event saw enthusiastic participation from schools across Bangalore.
+The hackathon focused on key themes crucial to road safety and community engagement. Participants delved into topics such as School Zone Safety, Road Safety Awareness and Education, Community Engagement for Safety, IOT/ICT in Road Safety, Inclusivity on Roads, and Policy Improvement under the Motor Vehicles Act 1988.
+Coordinator: Dr. Niharika P. Kumar
+FDP: A 3-Day Faculty Development Programme on CYBER SECURITY ”(as per VTU 4 th Sem Syllabus BCY402 and BICL404) was conducted from 1st to 3rd April, 2024 in which 30 participants from various colleges participated.
+The objective of this FDP was designed to empower faculty members with the knowledge and skills necessary to navigate the complex landscape of cyber security and impart this critical knowledge to their students, in the issues, challenges of Cyber Security and provide the possible solutions for the same.
+Coordinator: Dr. Niharika P. Kumar
+Workshop on “Data Visualization using Tableau” – Hands-on Skill on Data Visualization Tool – Jan 16th & 17th, 2024
+Coordinator: Prof. Samatha R Swamy
+Workshop on “Machine Learning & Deep Learning using Python” – Hands-on Skill on Machine Learning & Deep Learning – Feb 28th & March 2nd, 2024
+Django-Powered Fullstack Development – June 11th to 13th, 2024
+•
+
+--- DOCUMENTS ---
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/03/REPORT_ZerotoSudo_OSUnlocked-workshop.doc.pdf
+Know More | https://rvitm.edu.in/wp-content/uploads/2026/03/ML-Workshop-Report.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

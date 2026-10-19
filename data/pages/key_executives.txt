@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/key_executives/
 TITLE: RVITM Leadership Team | Key Executives
+DESCRIPTION: Explore the profiles of RVITM's key executives leading innovation, academics and institutional success.
 
 •
 RVITM Leadership Team | Key Executives
@@ -41,4 +42,6 @@ IQAC, Chief Coordinator
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/circular_and_notifications/
 TITLE: RVITM Circulars & Notifications | Latest Updates
+DESCRIPTION: Stay updated with RVITM circulars, notifications, announcements, academic schedules and important student information
 
 •
 RVITM Circulars & Notifications | Latest Updates
@@ -21,4 +22,6 @@ Cut-off ranks, fee structures, management quota notices and step-by-step admissi
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

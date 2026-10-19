@@ -1,0 +1,61 @@
+URL: https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/facilities_of_electronics_and_communication_engineering/
+TITLE: ECE Facilities & Laboratories at RVITM | Advanced Labs
+DESCRIPTION: Explore RVITM ECE labs including VLSI, DSP, Microcontroller, Control Systems, Microwave and Antenna laboratories.
+
+•
+ECE Facilities & Laboratories at RVITM | Advanced Labs
+•
+## Electronics and Communication Engineering
+Facilities
+Control Systems Lab, Digital Signal Processing Laboratory
+Control System Toolbox™ provides algorithms and apps for systematically analysing, designing, and tuning linear control systems. The lab is well equipped with high-performance computers. Software packages such as MATLAB 2024 b with Simulink, which have a campus-wide license from Mathworks, and Code Composer Studio are installed on the systems. Students can specify the system as a transfer function, state-space, zero-pole-gain, or frequency-response model. Apps and functions, such as step response plot and Bode plot, let you analyse and visualise system behaviour in the time and frequency domains.
+Students can tune compensator parameters using interactive techniques such as Bode loop shaping and the root locus method. The toolbox automatically tunes both SISO and MIMO compensators, including PID controllers. Compensators can include multiple tunable blocks spanning several feedback loops. Students can tune gain-scheduled controllers and specify multiple tuning objectives, such as reference tracking, disturbance rejection, and stability margins. Students can validate their design by verifying rise time, overshoot, settling time, gain and phase margins and other requirements.
+Benefits to students:
+• Transfer-function, state-space, zero-pole-gain and frequency-response models of linear systems.
+• Step response, Nyquist plot and other time-domain and frequency-domain tools for analysing stability and performance.
+• Automatic tuning of PID, gain-scheduled, and arbitrary SISO and MIMO control systems.
+• Root locus, Bode diagrams, LQR, LQG, and other classical and state-space design techniques.
+• Model representation conversion, continuous-time model discretisation, and low-order approximation of high-order systems.
+Digital Signal Processing Laboratory
+The Digital Signal Processing Laboratory is used by UG Students to put theoretical content taught in lectures into practice and deepen their understanding through practical training. Digital Signal processing techniques improve signal quality or extract important information by removing unwanted parts of the signal or by processing it to understand its properties. Digital Signal Processing accounts for a substantial proportion of the world market for electronic devices; therefore, leading electronics manufacturers use DSP technology.
+The lab is well equipped with 20 number of high performance computers. Software packages such as MATLAB with Simulink, which have a campus-wide license from Mathworks, and Code Composer Studio are installed on the systems. The lab has a Texas Instruments TMS320C6748 DSP Starter Kit with an XDS100 Emulator, along with a Digital Storage Oscilloscope for conducting various advanced experiments.
+Analogue and Digital Electronics Lab
+The focus of the Analogue Circuits Laboratory in the ECE department is to expose students to electronic devices such as BJTs, FETs, and OP-AMPs. This laboratory has a DSO, a signal generator, a DC Power Supply, and Digital Meters as major equipment. The Digital Electronics Lab consists of major equipment such as a Digital IC Trainer Kit, a Digital Signal Generator (DSO), a Signal Generator, testing kits, and discrete components to test and verify logic gates and implement experiments such as comparators, flip-flops, shift registers, and adders. Open-source simulation tools are used to analyse serial adders and binary multipliers.
+Benefits to students:
+• Students will design analogue circuits using BJTs, FETs, and OP-AMPs to evaluate their performance characteristics. They will also simulate and analyse analogue circuits for different electronic applications.
+• Students will design digital circuits such as adders, flip-flops, and registers using different ICs.
+Communication Lab
+The Communication Lab provides the necessary hardware and software resources to undergraduate students of Electronics and Communication Engineering to enhance their skills in the field of communication. In this laboratory, UG students are trained to construct circuits for analogue and digital modulation. The concepts of all types of modulation and demodulation, understanding sampling theory, and designing circuits that enable the sampling and reconstruction of analogue signals. Designing electronic circuits to perform pulse amplitude modulation, pulse position modulation, and pulse width modulation, and demonstrating recent communication techniques using available hardware and software tools. Theory in the classroom is translated directly into practice. The lab is well equipped with AM/FM Modulation & Demodulation Trainer Kits, FSK/PSK Mod & Demodulation Trainer Kits, TDM Mod & Demodulation Trainer Kits, Sampling & Reconstruction Trainer Kits, and a Digital Storage Oscilloscope for advanced experiments.
+Benefits to students:
+• This course familiarises students with basic analogue communication systems through experiments, enabling them to appreciate the knowledge gained from the theory course and to develop a deeper understanding of the principles and techniques of modern communication systems. It includes knowledge in various methods of analogue communication, including Amplitude Modulation (AM) and Frequency Modulation (FM), with a detailed analysis of signal flow and its nature.
+• This lab also focuses on understanding the fundamental concepts of signal flow in a digital communication system. Detailed analysis of TDM, pulse modulation, digital modulation techniques, and sampling and reconstruction is performed.
+Microcontroller Laboratory
+This Lab consists of the Keil Microvision software. The laboratory also consists of a Programmable Evaluation Board, a Dual DAC Interface, an Elevator Interface, a Multiplexed Display and Key Pad, and Stepper Motor and DC Motor Interfaces as major equipment. The students will execute the assembly language program for the 8051 in Keil Microvision 4. Students will also interface various input and output devices for applications such as serial LCD Display, Stepper Motor Control, and serial data transfer.
+Benefits to students
+• Real-time Data Processing: Microcontrollers can process data in real time, enabling instantaneous analysis and decision-making.
+• User-friendly Interfaces: Microcontroller-based instruments often feature graphical displays, touchscreen controls, and straightforward software.
+• Automation and Efficiency: Laboratory tools automate several procedures, reducing the need for human labour and boosting productivity. Sample preparation, data collection, and analysis are only some of the time and energy savers made possible by these machines.
+VLSI Laboratory
+Cadence Software Suite: The VLSI lab at RVITM is furnished with the Cadence software suite, a leading platform in the semiconductor industry for Electronic Design Automation (EDA). This suite includes tools such as Cadence Virtuoso for schematic capture and layout, Spectre for circuit simulation and Encounter for physical implementation.
+Workstations: The lab is equipped with high-performance workstations loaded with powerful processors and ample RAM to handle resource-intensive design tasks efficiently.
+Benefits to Students:
+• Hands-on Learning: Students gain practical experience by working on real-world VLSI design projects using industry-standard tools.
+• Industry Relevance: Exposure to tools such as Cadence prepares students to meet the semiconductor industry's requirements and enhances their employability.
+• Research and Innovation: Access to advanced VLSI design tools encourages students and faculty to engage in research and innovation across areas such as low-power design, analogue/mixed-signal design, and emerging technologies, such as machine learning in hardware.
+Digital System Design Using Verilog
+Verilog is a Hardware Description Language, a textual format for describing electronic circuits and systems. In electronic design, Verilog is intended for verification through simulation, timing analysis, test analysis (testability analysis and fault grading), and logic synthesis. In this lab, simple circuits will be designed using a Field-Programmable Gate Array (FPGA). The lab is well equipped with 20 high-performance computers, Spartan FPGA Kits, a USB Dongle, and a Digital Storage Oscilloscope to carry out advanced experiments.
+Benefits to students:
+• Students will understand the design of digital circuits in Verilog programming.
+• Programming can be done using Xilinx ISE. Download the programs onto FPGA/CPLD boards, such as Spartan 6, and perform performance testing using a 32-channel pattern generator and a logic analyser, in addition to verification by simulation with tools such as Xilinx.
+Microwave Theory and Antennas Laboratory
+The Microwave Theory and Antennas Lab gives knowledge about antennas, RF, and microwave subsystems. Students are taught to characterise and verify microwave components using the klystron workbench. They are also trained to measure and analyse various antennas. This laboratory is dedicated to providing cutting-edge facilities that attract future RF engineers to develop next-generation products. It describes the use and advantages of microwave transmission. This Lab is well equipped with a Microwave Training Kit (Klystron-based), E-plane tee, H-plane tee, Magic Tee, Directional Couplers, Patch Antenna, Antenna Tripod Stand, Digital Storage Oscilloscopes, Microwave Signal Source X‑band and VSWR Meter (60 dB range).
+Benefits to students:
+• Students will analyse various parameters related to transmission lines. Identify microwave devices for several applications.
+• Students will analyse various antenna parameters and their significance in the design of the RF system. Identify various antenna configurations for suitable applications.
+• Students will analyse frequency-wavelength measurements, power and attenuation measurements in a microwave Test bench, impedance measurements using Smith’s chart, gain and radiation pattern measurements of the antenna, and the characteristics of E-plane, H-plane & Magic Tee using microwave test benches.
+•
+
+--- DOCUMENTS ---
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

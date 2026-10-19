@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/know_rvitm/
 TITLE: Know RVITM | Engineering Excellence in Bangalore
+DESCRIPTION: Discover RVITM's legacy, vision, mission, industry-focused education, research excellence and holistic student development.
 
 •
 Know RVITM | Engineering Excellence in Bangalore
@@ -50,5 +51,7 @@ Know More
 •
 
 --- DOCUMENTS ---
- | https://rvitm.edu.in/wp-content/uploads/2026/05/Mental-Health-Helpline.pdf
 Mental Health Support | https://rvitm.edu.in/wp-content/uploads/2026/05/Mental-Health-Helpline.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

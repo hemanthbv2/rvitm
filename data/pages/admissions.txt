@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/admissions/
 TITLE: Engineering Admissions at RVITM Bangalore
+DESCRIPTION: Explore RVITM admission pathways, engineering programs, MCA courses, eligibility criteria and application process.
 
 •
 Engineering Admissions at RVITM Bangalore
@@ -155,4 +156,6 @@ Yes, the institute offers placement training, internships, and recruitment oppor
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

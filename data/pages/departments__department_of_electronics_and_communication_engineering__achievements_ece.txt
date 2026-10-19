@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/
 TITLE: ECE Achievements at RVITM | Awards, Research & Rankings
+DESCRIPTION: Explore ECE achievements at RVITM including VTU ranks, student awards, research publications, innovation projects and academic excellence.
 
 •
 ECE Achievements at RVITM | Awards, Research & Rankings
@@ -100,4 +101,6 @@ Department Milestones
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

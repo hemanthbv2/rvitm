@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/departments/department_of_computer_science_and_engineering/about_the_program/
 TITLE: B.E. Computer Science Engineering | RVITM Bengaluru
+DESCRIPTION: Build expertise in programming, AI, data structures, cloud technologies and software development through RVITM's CSE program.
 
 •
 B.E. Computer Science Engineering | RVITM Bengaluru
@@ -54,3 +55,6 @@ Download Brochure
 --- DOCUMENTS ---
 Read More | https://rvitm.edu.in/wp-content/uploads/2026/05/PROGRAMME-OUTCOMES-POs.pdf
 Download Brochure | https://rvitm.edu.in/wp-content/uploads/2026/04/E-Brochure-1.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

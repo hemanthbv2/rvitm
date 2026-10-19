@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/achievements/
 TITLE: RVITM Achievements | Awards, Rankings & Success
+DESCRIPTION: Discover RVITM's academic achievements, student awards, research contributions and institutional recognitions
 
 •
 RVITM Achievements | Awards, Rankings & Success
@@ -69,4 +70,6 @@ The institute promotes innovation through student projects, technical workshops,
 •
 
 --- DOCUMENTS ---
-
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf

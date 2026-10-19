@@ -1,5 +1,6 @@
 URL: https://rvitm.edu.in/placement/
 TITLE: RVITM Placements | Top Recruiters & Career Opportunities
+DESCRIPTION: Explore RVITM placement statistics, top recruiters, internships, training programs and career opportunities with leading global companies
 
 •
 RVITM Placements | Top Recruiters & Career Opportunities
@@ -142,3 +143,6 @@ Placement Milestones | https://rvitm.edu.in/wp-content/uploads/2026/07/RVITM-Pla
 Placement Details · 2022–2026 Batch | https://rvitm.edu.in/wp-content/uploads/2026/09/RVITM_SelectionList_2026-Batch_15thSept_2026_202_Candidates.pdf
 Placement Details · 2021–2025 Batch | https://rvitm.edu.in/wp-content/uploads/2026/03/RVITM_SelectionList_2025-Batch_23rdAugust2025_172_Candidates_Updated.pdf
 Placement Details · 2020–2024 Batch | https://rvitm.edu.in/wp-content/uploads/2026/03/RVITM_SelectionList_2024-Batch_19th_Sep2024_181_Candidates-2.pdf
+Mandatory Disclosure | http://rvitm.edu.in/wp-content/uploads/2026/03/RVITM-Final-Mandatory_Disclosure.pdf
+Terms & Conditions | http://rvitm.edu.in/wp-content/uploads/2026/03/Terms-conditions.pdf
+Privacy Policy | http://rvitm.edu.in/wp-content/uploads/2026/03/Privacy-Policy.pdf
