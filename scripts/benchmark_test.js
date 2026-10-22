@@ -95,7 +95,19 @@ const TEST_CASES = [
 
   // 14. Faculty Detective
   { query: 'Deepika D', expectedIntent: 'fac_deepika-d', category: 'Faculty Detective' },
-  { query: 'Dr. Annie Sujith', expectedIntent: 'fac_dr_annie_sujith', category: 'Faculty Detective' }
+  { query: 'Dr. Annie Sujith', expectedIntent: 'fac_dr_annie_sujith', category: 'Faculty Detective' },
+
+  // 15. Enhanced RVITM Website Knowledge Domains
+  { query: 'inventx platform and startup innovation', expectedIntent: 'inventx', category: 'Innovation', verifyText: 'InventX' },
+  { query: 'sambhram 2026 annual cultural fest', expectedIntent: 'events', category: 'Events', verifyText: 'Sambhram' },
+  { query: 'scholarships and financial aid schemes', expectedIntent: 'scholarships', category: 'Scholarships', verifyText: 'SSP' },
+  { query: 'industry mous and technical collaborations', expectedIntent: 'mous', category: 'Industry Connect', verifyText: 'RV Skills' },
+  { query: 'mandatory vtu industry internships', expectedIntent: 'internships', category: 'Placements', verifyText: 'Nataraj' },
+  { query: '100 aicte activity points requirement', expectedIntent: 'aicte_points', category: 'Academic Rules', verifyText: '100' },
+  { query: 'institute innovation council and patents', expectedIntent: 'iic', category: 'Innovation', verifyText: 'Innovation Council' },
+  { query: 'internal quality assurance cell iqac', expectedIntent: 'iqac', category: 'Governance', verifyText: 'Latha' },
+  { query: 'vtu 1st rank 11 gold medals', expectedIntent: 'vtu_ranks', category: 'Achievements', verifyText: 'Navyashree' },
+  { query: 'cie semester end exams and attendance rule', expectedIntent: 'exams', category: 'Curriculum', verifyText: '85%' }
 ];
 
 console.log(`=======================================================`);

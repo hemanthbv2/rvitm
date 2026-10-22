@@ -264,7 +264,6 @@
           authority: "KEA PGCET Board"
         }
       ],
-      onlineFeePayment: "https://wds-prd.rvei.edu.in:4430/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html",
       enquiryLink: "https://rvitm.edu.in/admissions/",
       contactHelpline: "080-35095100 / info.rvitm@rvei.edu.in"
     },
@@ -464,6 +463,127 @@
       docUrl: "https://rvitm.edu.in/wp-content/uploads/2026/03/Research-Centre-Basic-Science-Dept.pdf",
       url: "https://rvitm.edu.in/achievements/"
     },
+
+    innovation: {
+      inventx: {
+        name: "InventX Innovation & Entrepreneurship Platform",
+        tagline: "Turn Ideas into Innovation with InventX",
+        description: "Collaborative platform uniting students, faculty, alumni, mentors, researchers, and investors to foster entrepreneurship, technology innovation, and interdisciplinary collaboration.",
+        pillars: [
+          "Showcase innovative engineering projects and prototypes",
+          "Connect with industry experts, alumni founders, and angel investors",
+          "Explore startup ideation, product incubation, and venture pitch decks",
+          "Collaborate across AI, IoT, Robotics, VLSI, and Green Technologies"
+        ],
+        url: "https://rvitm.edu.in/inventx/"
+      },
+      iic: {
+        name: "Institute Innovation Council (IIC)",
+        mandate: "Established under the Ministry of Education (MoE) Innovation Cell guidelines to promote campus innovation, hackathons, and patent filings.",
+        convener: "Dr. C. Solaimuthu (Associate Professor & I/C Head, ME Dept)",
+        coConvener: "Mrs. Namrata B (Assistant Professor, ISE Department)",
+        startupCell: "Dr. Surabhi Agrawal (Associate Professor & Head, AI&ML Dept)",
+        achievements: "Secured 17th All-India Rank at IIT Bombay E-Summit National Entrepreneurship Challenge (NEC) among 1500+ colleges nationwide."
+      }
+    },
+
+    events: {
+      sambhram: {
+        name: "Sambhram 2026",
+        edition: "Annual Inter-College Cultural Extravaganza",
+        theme: "Roots and Rhythms (Celebrating art & cultural expression across ages)",
+        dates: "23rd and 24th April 2026",
+        features: "Over 26 diverse events (performing arts, literary, fine arts, digital showcases), 300+ registrations, and a musical concert by SWAR.",
+        celebrityGuest: "Mr. Dharma Keerthiraj (Actor & Bigg Boss Kannada star)",
+        newsletter: "Kalaamayaa (Annual cultural newsletter highlighting Cultural Club achievements)",
+        url: "https://rvitm.edu.in/events/institutional-events-2026/"
+      },
+      advaya: {
+        name: "Advaya",
+        edition: "Intercollegiate Tech Showdown",
+        organizer: "Department of Master of Computer Applications (MCA)",
+        events: "Hackathons, Web Design Unleashed, coding showdowns, and Google Cloud skills workshops."
+      }
+    },
+
+    scholarships: {
+      overview: "Comprehensive support for deserving and meritorious students via government portals, institutional concessions, and global scholarship programs.",
+      governmentPortals: [
+        "State Scholarship Portal (SSP Karnataka) for Post-Matric SC/ST/OBC/Minority students",
+        "National Scholarship Portal (NSP) for Central Sector and Minorities schemes",
+        "Vidyasiri (ePASS) Fee Concession and Hostel Assistance",
+        "Prime Minister's Special Scholarship Scheme (PMSSS)"
+      ],
+      committee: {
+        name: "SC/ST/OBC and Minorities Committee",
+        chairman: "Dr. Nagashettappa Biradar (Principal)",
+        convener: "Dr. Gangadharaiah Y. H. (Professor & Head, ASH Department)",
+        support: "Guidance on documentation, income/caste certificate verification, and fee concessions."
+      },
+      prestigiousWins: "Generation Google Scholarship (APAC region recipient Chavi Gupta).",
+      url: "https://rvitm.edu.in/admissions/"
+    },
+
+    mous: {
+      partners: [
+        { name: "RV Skills", focus: "VLSI Design & Embedded Systems Training Initiatives" },
+        { name: "MEVI Technologies", focus: "Advanced Technical Training, Hardware Hackathons & Prototyping" },
+        { name: "Shri Dharmasthala Manjunatheshwara University (SDM)", focus: "Academic Exchange, Research & Faculty Collaboration" }
+      ],
+      industryCertifications: [
+        "Cisco Networking Academy (CCNA, CyberOps)",
+        "AWS Cloud Skills Academy",
+        "IBM SkillsBuild (Prompt Engineering, LLMs & AI)",
+        "Infosys Springboard (Full-Stack & C Programming 101)"
+      ],
+      url: "https://rvitm.edu.in/achievements/"
+    },
+
+    internships: {
+      overview: "Mandatory VTU industry internships designed to provide immersive real-world problem solving prior to graduation.",
+      committee: {
+        name: "Internship Committee",
+        convener: "Dr. Nataraj V. (Department of ECE)",
+        coordinators: "Department coordinators across CSE, AI&ML, ISE, ECE, ME, and MCA."
+      },
+      duration: "Minimum 4 to 8 weeks in 7th/8th semesters carrying VTU academic credits.",
+      stipends: "Student stipends range up to ₹30,000 per month across software, semiconductor, and core engineering firms.",
+      recruiters: ["Cisco", "Deutsche Bank", "Flipkart", "Oracle", "Walmart", "IoT/AI Tech Startups"],
+      url: "https://rvitm.edu.in/placement/"
+    },
+
+    aicteActivityPoints: {
+      requirement: "100 AICTE Activity Points for regular 4-year B.E. degree (75 points for lateral entry).",
+      oversight: "NSS Cell & AICTE Activity Points Committee",
+      officers: "Dr. Lokesh P. (NSSO-I) and Mr. Abhaykumar S. Inchal (NSSO-II)",
+      activities: "Rural social outreach, tree planting drives, blood donation camps, Swachh Bharat campaigns, and digital literacy drives.",
+      url: "https://rvitm.edu.in/nss/"
+    },
+
+    vtuRanks: {
+      rankHolder: "Navyashree Ganpisetty",
+      department: "Electronics and Communication Engineering (ECE)",
+      achievement: "VTU 1st Rank across all engineering colleges in Karnataka with 9.78 CGPA.",
+      medals: "11 Gold Medals, including the prestigious Sri S. Nagappa Memorial Gold Medal for highest scorer across all VTU UG engineering disciplines.",
+      url: "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/"
+    },
+
+    iqacDetails: {
+      name: "Internal Quality Assurance Cell (IQAC)",
+      chiefCoordinator: "Dr. Latha C. A. (Professor, ISE Department)",
+      focus: "Outcome-Based Education (OBE), pedagogical innovations, continuous academic audits, and NAAC/NBA benchmark alignment.",
+      url: "https://rvitm.edu.in/committee/"
+    },
+
+    examAndEvaluationRules: {
+      system: "Affiliated to VTU Belagavi under the Choice Based Credit System (CBCS).",
+      cie: "Continuous Internal Evaluation (50 marks): 3 Internal Assessments (best 2 considered or averaged per scheme), quizzes, course seminars, and project assignments.",
+      see: "Semester End Examination (50 marks): Centralized university theory and practical exams conducted by VTU.",
+      attendanceRule: "Mandatory minimum 85% attendance in each registered theory and laboratory course to be eligible for VTU semester end examinations.",
+      grading: "10-point scale Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA).",
+      url: "https://rvitm.edu.in/circular_and_notifications/"
+    },
+
 faculty: {
   "cse": [
     {

@@ -133,7 +133,12 @@
     'cult': 'clubs', 'club': 'clubs',
     'soc': 'clubs',
     'fee': 'fees', 'fees': 'fees',
-    'exam': 'circulars', 'place': 'placements',
+    'place': 'placements',
+    'invent': 'inventx', 'fest': 'events', 'fests': 'events',
+    'scholarship': 'scholarships', 'scholarships': 'scholarships',
+    'intern': 'internships', 'internship': 'internships', 'internships': 'internships',
+    'rank': 'vtu_ranks', 'ranks': 'vtu_ranks',
+    'exam': 'exams', 'exams': 'exams', 'cie': 'exams', 'see': 'exams',
     'cse': 'dept_cs', 'cs': 'dept_cs',
     'aiml': 'dept_aiml', 'ai': 'dept_aiml',
     'ise': 'dept_is', 'is': 'dept_is',
@@ -237,7 +242,19 @@
     { k: ['anti ragging', 'ragging', 'ragging complaint', 'anti ragging squad', 'ragging helpline', 'anti ragging committee', 'arc', 'ars', 'zero tolerance anti ragging committee', 'zero tolerance'], id: 'antiragging', p: 0.7 },
     { k: ['grievance', 'grievance cell', 'grievance redressal', 'complaint', 'student grievance', 'posh', 'icc', 'women cell', 'harassment', 'online grievance redressal', 'aicte clause 1', 'online grievance redressal aicte clause 1'], id: 'grievance', p: 0.7 },
     { k: ['nss', 'national service scheme', 'nss unit', 'nss recruitment', 'nss unit recruitment', 'social service', 'lokesh p', 'abhaykumar inchal', 'nss unit recruitment august'], id: 'nss', p: 0.45 },
-    { k: ['alumni', 'alumni network', 'alumni association', 'graduates', 'alumni portal'], id: 'alumni', p: 0.8 }
+    { k: ['alumni', 'alumni network', 'alumni association', 'graduates', 'alumni portal'], id: 'alumni', p: 0.8 },
+
+    // Enhanced RVITM Website Knowledge Domains
+    { k: ['inventx', 'invent x', 'innovation platform', 'startup ecosystem', 'entrepreneurship platform', 'rvitm inventx', 'startup incubation', 'project showcase', 'inventx platform and startup innovation'], id: 'inventx', p: 0.5 },
+    { k: ['sambhram', 'sambhram 2026', 'sambhram 2026 annual cultural fest', 'cultural fest', 'annual fest', 'college fest', 'roots and rhythms', 'advaya', 'kalaamayaa', 'swar', 'tech fest', 'college events', 'institutional events'], id: 'events', p: 0.5 },
+    { k: ['scholarship', 'scholarships', 'scholarships and financial aid schemes', 'ssp', 'ssp scholarship', 'nsp', 'nsp scholarship', 'vidyasiri', 'epass', 'financial aid', 'fee concession', 'sc st scholarship', 'obc scholarship', 'minority scholarship', 'pmsss', 'google scholarship', 'generation google'], id: 'scholarships', p: 0.5 },
+    { k: ['mou', 'mous', 'industry mous and technical collaborations', 'collaborations', 'industry partners', 'industry tie ups', 'rv skills', 'mevi', 'mevi technologies', 'sdm university', 'industry collaboration', 'academic mou', 'cisco academy', 'ibm skillsbuild', 'infosys springboard'], id: 'mous', p: 0.5 },
+    { k: ['internship', 'internships', 'mandatory vtu industry internships', 'summer internship', 'mandatory internship', 'internship committee', 'stipend', 'vtu internship', 'internship guidelines', 'nataraj v'], id: 'internships', p: 0.5 },
+    { k: ['aicte activity points', '100 aicte activity points requirement', 'activity points', '100 points', 'aicte points', 'activity points committee', 'activity points requirement', '100 activity points', '75 activity points'], id: 'aicte_points', p: 0.5 },
+    { k: ['iic', 'institute innovation council', 'institute innovation council and patents', 'innovation council', 'solaimuthu iic', 'patents', 'patent filings', 'student patents', 'national entrepreneurship challenge', 'iit bombay nec'], id: 'iic', p: 0.5 },
+    { k: ['iqac', 'internal quality assurance cell iqac', 'internal quality assurance', 'quality assurance cell', 'outcome based education', 'obe', 'naac', 'accreditation cell', 'iqac coordinator'], id: 'iqac', p: 0.5 },
+    { k: ['vtu rank', 'vtu ranks', 'vtu 1st rank 11 gold medals', 'gold medal', 'gold medals', 'university rank', 'highest cgpa', 'navyashree', 'navyashree ganpisetty', '11 gold medals', 'nagappa memorial'], id: 'vtu_ranks', p: 0.5 },
+    { k: ['cie', 'cie semester end exams and attendance rule', 'internal assessment', 'internal test', 'see', 'vtu exam', 'grading', 'attendance rule', '85 attendance', 'minimum attendance', 'exam scheme', 'sgpa', 'cgpa', 'cbcs scheme'], id: 'exams', p: 0.5 }
   ];
 
   /* Dynamically inject Branch Specific Intents */
@@ -366,7 +383,17 @@
     'club_adventure': '🧗 Adventure Activities Club',
     'club_science': '🔬 Science Club',
     'club_magazine': '📰 Magazine Club',
-    'page_search_result': '📄 Website Page Result'
+    'page_search_result': '📄 Website Page Result',
+    'inventx': '💡 InventX Innovation Platform',
+    'events': '🎪 Campus Events & Sambhram 2026',
+    'scholarships': '🎓 Scholarships & Financial Aid',
+    'mous': '🤝 Industry MoUs & Partnerships',
+    'internships': '💼 Mandatory VTU Internships',
+    'aicte_points': '🎖️ AICTE Activity Points (100 Pts)',
+    'iic': '🔬 Institute Innovation Council (IIC)',
+    'iqac': '📊 IQAC & Quality Assurance',
+    'vtu_ranks': '🥇 VTU 1st Rank & 11 Gold Medals',
+    'exams': '📝 VTU Exam Scheme & Attendance (85%)'
   };
 
   allBranches.forEach(b => {
@@ -835,7 +862,17 @@
     'nss': 'https://rvitm.edu.in/nss/',
     'alumni': 'https://rvitm.edu.in/alumni/',
     'hods_list': 'https://rvitm.edu.in/departments/',
-    'faculty_list': 'https://rvitm.edu.in/departments/'
+    'faculty_list': 'https://rvitm.edu.in/departments/',
+    'inventx': 'https://rvitm.edu.in/inventx/',
+    'events': 'https://rvitm.edu.in/events/institutional-events-2026/',
+    'scholarships': 'https://rvitm.edu.in/admissions/',
+    'mous': 'https://rvitm.edu.in/achievements/',
+    'internships': 'https://rvitm.edu.in/placement/',
+    'aicte_points': 'https://rvitm.edu.in/nss/',
+    'iic': 'https://rvitm.edu.in/achievements/',
+    'iqac': 'https://rvitm.edu.in/committee/',
+    'vtu_ranks': 'https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/',
+    'exams': 'https://rvitm.edu.in/circular_and_notifications/'
   };
 
   function getResponse(id) {
@@ -1678,6 +1715,147 @@
             { text: "🌐 Alumni Portal", url: "https://rvitm.edu.in/alumni/" },
             { text: "💼 Placements", act: "placements" },
             { text: "🏛️ About RVITM", act: "about" }
+          ]
+        };
+
+      case 'inventx':
+        return {
+          text: "💡 **InventX Innovation & Entrepreneurship Platform — RVITM**<br><br>" +
+                "• **Ecosystem:** Collaborative hub connecting students, faculty, alumni, and investors to turn ideas into startups.<br>" +
+                "• **Offerings:** Prototype funding, project showcases, mentor masterclasses, and venture pitch decks.<br>" +
+                "• **Incubation:** Direct access to Bengaluru's leading technology and startup ecosystem.",
+          url: "https://rvitm.edu.in/inventx/",
+          buttons: [
+            { text: "💡 E-Cell (Startups)", act: "club_ecell" },
+            { text: "🔬 Innovation Council (IIC)", act: "iic" },
+            { text: "🌐 InventX Webpage", url: "https://rvitm.edu.in/inventx/" }
+          ]
+        };
+
+      case 'events':
+        return {
+          text: "🎪 **Campus Events & Sambhram 2026 — RVITM**<br><br>" +
+                "• 🎭 **Sambhram 2026:** Flagship annual inter-college cultural fest themed *'Roots and Rhythms'* with 26+ events and concert by SWAR.<br>" +
+                "• 💻 **Advaya:** Intercollegiate tech showdown & hackathons hosted by the MCA Department.<br>" +
+                "• 📰 **Kalaamayaa:** Annual campus cultural newsletter released by the Cultural Club.",
+          url: "https://rvitm.edu.in/events/institutional-events-2026/",
+          buttons: [
+            { text: "🎭 Cultural Club", act: "club_cultural" },
+            { text: "🚀 All Student Clubs", act: "clubs" },
+            { text: "🌐 Events Page", url: "https://rvitm.edu.in/events/institutional-events-2026/" }
+          ]
+        };
+
+      case 'scholarships':
+        return {
+          text: "🎓 **Scholarships & Financial Assistance — RVITM**<br><br>" +
+                "• 🏛️ **Government Schemes:** State Scholarship Portal (SSP Karnataka), National Scholarship Portal (NSP), Vidyasiri (ePASS), and PMSSS.<br>" +
+                "• 🛡️ **Committee Support:** SC/ST/OBC and Minorities Committee (Convener: Dr. Gangadharaiah Y H) assists with documentation & fee concessions.<br>" +
+                "• 🌐 **Global Honors:** Generation Google Scholarship (APAC region won by Chavi Gupta).",
+          url: "https://rvitm.edu.in/admissions/",
+          buttons: [
+            { text: "💳 Fee Structure", act: "fees" },
+            { text: "🎓 Admissions 2026", act: "admissions" },
+            { text: "📞 Contact Desk", act: "contact" }
+          ]
+        };
+
+      case 'mous':
+        return {
+          text: "🤝 **Industry MoUs & Technical Partnerships — RVITM**<br><br>" +
+                "• ⚡ **RV Skills:** Formal MoU for hands-on VLSI design & embedded systems training.<br>" +
+                "• 🛠️ **MEVI Technologies:** MoU for advanced technical training, hackathons, and hardware prototyping.<br>" +
+                "• 🎓 **SDM University:** Academic collaboration with Shri Dharmasthala Manjunatheshwara University, Dharwad.<br>" +
+                "• 💻 **Global Academies:** Active certifications with Cisco Academy, AWS Cloud, IBM SkillsBuild, and Infosys Springboard.",
+          url: "https://rvitm.edu.in/achievements/",
+          buttons: [
+            { text: "💼 Placements", act: "placements" },
+            { text: "🔬 Research & Innovation", act: "research" },
+            { text: "🌐 Achievements Webpage", url: "https://rvitm.edu.in/achievements/" }
+          ]
+        };
+
+      case 'internships':
+        return {
+          text: "💼 **Mandatory VTU Internships & Credits — RVITM**<br><br>" +
+                "• 📋 **VTU Requirement:** Mandatory industry internship (4 to 8 weeks) carrying academic credits in the 7th/8th semesters.<br>" +
+                "• 👥 **Internship Committee:** Chaired by Dr. Nataraj V. (ECE) with faculty coordinators across all departments.<br>" +
+                "• 💰 **Stipends & Recruiters:** Stipends up to ₹30,000/month at Cisco, Deutsche Bank, Flipkart, and leading tech startups.",
+          url: "https://rvitm.edu.in/placement/",
+          buttons: [
+            { text: "💼 Placements", act: "placements" },
+            { text: "📑 Placement Reports", act: "placement_reports" },
+            { text: "👥 Placement Team", act: "placement_team" }
+          ]
+        };
+
+      case 'aicte_points':
+        return {
+          text: "🎖️ **AICTE Activity Points Requirement — RVITM**<br><br>" +
+                "• 📜 **Degree Prerequisite:** VTU mandates **100 AICTE Activity Points** for regular 4-year B.E. (75 points for lateral entry).<br>" +
+                "• 🤝 **NSS Cell Oversight:** Coordinated by Programme Officers Dr. Lokesh P. (ME) and Mr. Abhaykumar S. Inchal (ISE).<br>" +
+                "• 🌿 **Activities:** Community outreach, blood donation camps, environmental initiatives, and digital literacy drives.",
+          url: "https://rvitm.edu.in/nss/",
+          buttons: [
+            { text: "🤝 NSS Unit", act: "nss" },
+            { text: "🚀 Student Clubs", act: "clubs" },
+            { text: "🌐 NSS Webpage", url: "https://rvitm.edu.in/nss/" }
+          ]
+        };
+
+      case 'iic':
+        return {
+          text: "🔬 **Institute Innovation Council (IIC) & Patents — RVITM**<br><br>" +
+                "• 🏛️ **MoE Innovation Cell:** Established per Ministry of Education guidelines; Convener: Dr. C. Solaimuthu.<br>" +
+                "• 🏆 **National Recognition:** Secured **17th All-India Rank** at IIT Bombay E-Summit National Entrepreneurship Challenge.<br>" +
+                "• 📄 **Patents & Research:** Student and faculty patents filed in IoT health mirrors, smart wheelchairs, and battery monitoring.",
+          url: "https://rvitm.edu.in/achievements/",
+          buttons: [
+            { text: "💡 InventX Platform", act: "inventx" },
+            { text: "🔬 Research at RVITM", act: "research" },
+            { text: "🌐 Achievements Webpage", url: "https://rvitm.edu.in/achievements/" }
+          ]
+        };
+
+      case 'iqac':
+        return {
+          text: "📊 **Internal Quality Assurance Cell (IQAC) — RVITM**<br><br>" +
+                "• 🎯 **Leadership:** Chief Coordinator — Dr. Latha C. A. (Professor, ISE Department).<br>" +
+                "• 🏛️ **Composition:** Academic heads, industry leaders (HCL Technologies), police nominee Sri Babu KV, and student reps.<br>" +
+                "• 📈 **Focus:** Outcome-Based Education (OBE), pedagogical innovations, and NAAC/NBA benchmark alignment.",
+          url: "https://rvitm.edu.in/committee/",
+          buttons: [
+            { text: "⚖️ Statutory Committees", act: "committees" },
+            { text: "👨‍💼 Deans & Leadership", act: "deans_list" },
+            { text: "🌐 Committees Webpage", url: "https://rvitm.edu.in/committee/" }
+          ]
+        };
+
+      case 'vtu_ranks':
+        return {
+          text: "🥇 **VTU 1st Rank & University Gold Medals — RVITM**<br><br>" +
+                "• 🏆 **VTU 1st Rank (9.78 CGPA):** **Navyashree Ganpisetty** (ECE Department) achieved VTU 1st Rank across all engineering colleges.<br>" +
+                "• 🥇 **11 Gold Medals:** Awarded 11 Gold Medals including the prestigious **Sri S. Nagappa Memorial Gold Medal** for highest scorer across all VTU UG engineering streams.<br>" +
+                "• 🏅 **Academic Rigour:** Demonstrates RVITM's experiential learning and faculty mentoring excellence.",
+          url: "https://rvitm.edu.in/departments/department_of_electronics_and_communication_engineering/achievements_ece/",
+          buttons: [
+            { text: "⚡ ECE Department", act: "dept_ec" },
+            { text: "🏆 Research & Awards", act: "research_awards" },
+            { text: "💼 Placements", act: "placements" }
+          ]
+        };
+
+      case 'exams':
+        return {
+          text: "📝 **VTU Exam Scheme & Attendance Rules — RVITM**<br><br>" +
+                "• 📊 **CIE & SEE Scheme:** Continuous Internal Evaluation (CIE, 50 marks: 3 internal tests + assignments) + Semester End Exams (SEE, 50 marks).<br>" +
+                "• ⏰ **Mandatory Attendance:** Minimum **85% attendance** required in each course to be eligible for VTU semester end exams.<br>" +
+                "• 🎓 **Grading System:** 10-point SGPA and CGPA grading scale prescribed under VTU CBCS regulations.",
+          url: "https://rvitm.edu.in/circular_and_notifications/",
+          buttons: [
+            { text: "📢 Circulars & Notices", act: "circulars" },
+            { text: "📜 Scheme & Syllabus", act: "syllabus" },
+            { text: "📚 All Courses", act: "departments" }
           ]
         };
 
